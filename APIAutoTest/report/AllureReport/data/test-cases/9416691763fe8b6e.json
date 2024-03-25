@@ -1,0 +1,192 @@
+{
+  "uid" : "9416691763fe8b6e",
+  "name" : "验证【用户管理】添加用户，userName重复，但是字母大小写不一致，其他数据正常，添加失败",
+  "fullName" : "test_case.test_ryvue.TestRyvue#test_ryvue",
+  "historyId" : "fddc0cb5ec61ea18d235dd7772757568",
+  "time" : {
+    "start" : 1711276132787,
+    "stop" : 1711276132799,
+    "duration" : 12
+  },
+  "description" : "actual_data:{'msg': \"新增用户'RY'失败，登录账号已存在\", 'code': 500}",
+  "descriptionHtml" : "<p>actual_data:{'msg': &quot;新增用户'RY'失败，登录账号已存在&quot;, 'code': 500}</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "db_fixture",
+    "time" : {
+      "start" : 1711276131333,
+      "stop" : 1711276131335,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "request_fixture",
+    "time" : {
+      "start" : 1711276131335,
+      "stop" : 1711276131498,
+      "duration" : 163
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "actual_data:{'msg': \"新增用户'RY'失败，登录账号已存在\", 'code': 500}",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "83107d38c25a6394",
+      "name" : "log",
+      "source" : "83107d38c25a6394.txt",
+      "type" : "text/plain",
+      "size" : 95
+    }, {
+      "uid" : "2761686e59ea97f6",
+      "name" : "stdout",
+      "source" : "2761686e59ea97f6.txt",
+      "type" : "text/plain",
+      "size" : 13
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "db_fixture::0",
+    "time" : {
+      "start" : 1711276145542,
+      "stop" : 1711276145543,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "request_fixture::0",
+    "time" : {
+      "start" : 1711276145541,
+      "stop" : 1711276145541,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "系统管理"
+  }, {
+    "name" : "story",
+    "value" : "用户管理"
+  }, {
+    "name" : "severity",
+    "value" : "中"
+  }, {
+    "name" : "epic",
+    "value" : "若依接口自动化测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_ryvue"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRyvue"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-P49BVBS"
+  }, {
+    "name" : "thread",
+    "value" : "3236-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_ryvue"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "api_name",
+    "value" : "'用户管理'"
+  }, {
+    "name" : "case_level",
+    "value" : "'中'"
+  }, {
+    "name" : "case_number",
+    "value" : "'userManagement_007'"
+  }, {
+    "name" : "case_title",
+    "value" : "'验证【用户管理】添加用户，userName重复，但是字母大小写不一致，其他数据正常，添加失败'"
+  }, {
+    "name" : "module_name",
+    "value" : "'系统管理'"
+  }, {
+    "name" : "request_data",
+    "value" : "{'userName': 'RY', 'nickName': 'userManagement_007', 'password': '123456', 'status': '0', 'postIds': [], 'roleIds': []}"
+  }, {
+    "name" : "request_expect",
+    "value" : "{'msg': \"新增用户'RY'失败，登录账号已存在\", 'code': 500}"
+  }, {
+    "name" : "request_method",
+    "value" : "'POST'"
+  }, {
+    "name" : "request_mime",
+    "value" : "'application/json'"
+  }, {
+    "name" : "request_url",
+    "value" : "'http://192.168.109.134:81/prod-api/system/user'"
+  }, {
+    "name" : "sql_sentence",
+    "value" : "'SELECT EXISTS(SELECT * FROM sys_user WHERE user_name = 'ry');'"
+  }, {
+    "name" : "sql_type",
+    "value" : "'DELETE'"
+  }, {
+    "name" : "update_key",
+    "value" : "None"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9416691763fe8b6e.json",
+  "parameterValues" : [ "'用户管理'", "'中'", "'userManagement_007'", "'验证【用户管理】添加用户，userName重复，但是字母大小写不一致，其他数据正常，添加失败'", "'系统管理'", "{'userName': 'RY', 'nickName': 'userManagement_007', 'password': '123456', 'status': '0', 'postIds': [], 'roleIds': []}", "{'msg': \"新增用户'RY'失败，登录账号已存在\", 'code': 500}", "'POST'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'SELECT EXISTS(SELECT * FROM sys_user WHERE user_name = 'ry');'", "'DELETE'", "None" ]
+}

@@ -1,0 +1,1088 @@
+{
+  "认证接口": {
+    "登录系统": {
+      "login_001": {
+        "username": "admin",
+        "password": "admin123"
+      },
+      "login_002": {
+        "username": "admin",
+        "password": "321admin"
+      },
+      "login_003": {
+        "username": "admin",
+        "password": "admin123admin123admin123admin123"
+      },
+      "login_004": {
+        "username": "admin",
+        "password": "12345"
+      },
+      "login_005": {
+        "username": "admin",
+        "password": "Admin123"
+      },
+      "login_006": {
+        "username": "admin",
+        "password": "~@#$^&*()_+{}|"
+      },
+      "login_007": {
+        "username": "xiuzhi123123",
+        "password": "admin123"
+      },
+      "login_008": {
+        "username": "adminadminadminadminadmin",
+        "password": "admin123"
+      },
+      "login_009": {
+        "username": "a",
+        "password": "admin123"
+      },
+      "login_010": {
+        "username": "ADMIN",
+        "password": "admin123"
+      },
+      "login_011": {
+        "username": "~@#$^&*()_+{}|",
+        "password": "admin123"
+      },
+      "login_012": {
+        "username": "admin123",
+        "password": "admin1"
+      }
+    }
+  },
+  "系统管理": {
+    "用户管理": {
+      "userManagement_001": {
+        "userName": "xiuzhi233",
+        "nickName": "xiuzhi233",
+        "password": "123456",
+        "status": "0",
+        "postIds": [],
+        "roleIds": []
+      },
+      "userManagement_002": {
+        "userName": "",
+        "nickName": "userManagement_002",
+        "password": "123456",
+        "status": "0",
+        "postIds": [],
+        "roleIds": []
+      },
+      "userManagement_003": {
+        "userName": "userManagement_003userManageme",
+        "nickName": "userManagement_003",
+        "password": "123456",
+        "status": "0",
+        "postIds": [],
+        "roleIds": []
+      },
+      "userManagement_004": {
+        "userName": "userManagement_004userManagemen",
+        "nickName": "userManagement_004",
+        "password": "123456",
+        "status": "0",
+        "postIds": [],
+        "roleIds": []
+      },
+      "userManagement_005": {
+        "userName": "u",
+        "nickName": "userManagement_005",
+        "password": "123456",
+        "status": "0",
+        "postIds": [],
+        "roleIds": []
+      },
+      "userManagement_006": {
+        "userName": "ry",
+        "nickName": "userManagement_006",
+        "password": "123456",
+        "status": "0",
+        "postIds": [],
+        "roleIds": []
+      },
+      "userManagement_007": {
+        "userName": "RY",
+        "nickName": "userManagement_007",
+        "password": "123456",
+        "status": "0",
+        "postIds": [],
+        "roleIds": []
+      },
+      "userManagement_008": {
+        "userName": "~@#$^&*()_+{}|",
+        "nickName": "userManagement_008",
+        "password": "123456",
+        "status": "0",
+        "postIds": [],
+        "roleIds": []
+      },
+      "userManagement_009": {
+        "userName": "毛泽东",
+        "nickName": "userManagement_009",
+        "password": "123456",
+        "status": "0",
+        "postIds": [],
+        "roleIds": []
+      },
+      "userManagement_010": {
+        "userName": "userManagement_010",
+        "nickName": "userManagement_010",
+        "password": "123456",
+        "status": "0",
+        "postIds": [],
+        "roleIds": [],
+        "deptId": ""
+      },
+      "userManagement_011": {
+        "userName": "userManagement_011",
+        "nickName": "userManagement_011",
+        "password": "123456",
+        "status": "0",
+        "postIds": [],
+        "roleIds": [],
+        "deptId": "100"
+      },
+      "userManagement_012": {
+        "userName": "userManagement_012",
+        "nickName": "userManagement_012",
+        "password": "123456",
+        "status": "0",
+        "postIds": [],
+        "roleIds": [],
+        "deptId": "101"
+      },
+      "userManagement_013": {
+        "userName": "userManagement_013",
+        "nickName": "userManagement_013",
+        "password": "123456",
+        "status": "0",
+        "postIds": [],
+        "roleIds": [],
+        "deptId": "102"
+      },
+      "userManagement_014": {
+        "userName": "userManagement_014",
+        "nickName": "userManagement_014",
+        "password": "123456",
+        "status": "0",
+        "postIds": [],
+        "roleIds": [],
+        "deptId": "103"
+      },
+      "userManagement_015": {
+        "userName": "userManagement_015",
+        "nickName": "userManagement_015",
+        "password": "123456",
+        "status": "0",
+        "postIds": [],
+        "roleIds": [],
+        "deptId": "104"
+      },
+      "userManagement_016": {
+        "userName": "userManagement_016",
+        "nickName": "userManagement_016",
+        "password": "123456",
+        "status": "0",
+        "postIds": [],
+        "roleIds": [],
+        "deptId": "105"
+      },
+      "userManagement_017": {
+        "userName": "userManagement_017",
+        "nickName": "userManagement_017",
+        "password": "123456",
+        "status": "0",
+        "postIds": [],
+        "roleIds": [],
+        "deptId": "106"
+      },
+      "userManagement_018": {
+        "userName": "userManagement_018",
+        "nickName": "userManagement_018",
+        "password": "123456",
+        "status": "0",
+        "postIds": [],
+        "roleIds": [],
+        "deptId": "107"
+      },
+      "userManagement_019": {
+        "userName": "userManagement_019",
+        "nickName": "userManagement_019",
+        "password": "123456",
+        "status": "0",
+        "postIds": [],
+        "roleIds": [],
+        "deptId": "108"
+      },
+      "userManagement_020": {
+        "userName": "userManagement_020",
+        "nickName": "userManagement_020",
+        "password": "123456",
+        "status": "0",
+        "postIds": [],
+        "roleIds": [],
+        "deptId": "109"
+      },
+      "userManagement_021": {
+        "userName": "userManagement_021",
+        "nickName": "userManagement_021",
+        "password": "123456",
+        "status": "0",
+        "postIds": [],
+        "roleIds": [],
+        "deptId": "99"
+      },
+      "userManagement_022": {
+        "userName": "userManagement_022",
+        "nickName": "userManagement_022",
+        "password": "123456",
+        "status": "0",
+        "postIds": [],
+        "roleIds": [],
+        "deptId": "110"
+      },
+      "userManagement_023": {
+        "userName": "userManagement_023",
+        "nickName": "userManagement_023",
+        "password": "123456",
+        "status": "0",
+        "postIds": [],
+        "roleIds": [],
+        "email": "a@b.c"
+      },
+      "userManagement_024": {
+        "userName": "userManagement_024",
+        "nickName": "userManagement_024",
+        "password": "123456",
+        "status": "0",
+        "postIds": [],
+        "roleIds": [],
+        "email": ""
+      },
+      "userManagement_025": {
+        "userName": "userManagement_025",
+        "nickName": "userManagement_025",
+        "password": "123456",
+        "status": "0",
+        "postIds": [],
+        "roleIds": [],
+        "email": "abc"
+      },
+      "userManagement_026": {
+        "userName": "userManagement_026",
+        "nickName": "userManagement_026",
+        "password": "123456",
+        "status": "0",
+        "postIds": [],
+        "roleIds": [],
+        "email": "a@bc"
+      },
+      "userManagement_027": {
+        "userName": "userManagement_027",
+        "nickName": "userManagement_027",
+        "password": "123456",
+        "status": "0",
+        "postIds": [],
+        "roleIds": [],
+        "email": "ab.c"
+      },
+      "userManagement_028": {
+        "userName": "userManagement_028",
+        "nickName": "userManagement_028",
+        "password": "123456",
+        "status": "0",
+        "postIds": [],
+        "roleIds": [],
+        "email": "@b.c"
+      },
+      "userManagement_029": {
+        "userName": "userManagement_029",
+        "nickName": "userManagement_029",
+        "password": "123456",
+        "status": "0",
+        "postIds": [],
+        "roleIds": [],
+        "email": "a@.c"
+      },
+      "userManagement_030": {
+        "userName": "userManagement_030",
+        "nickName": "userManagement_030",
+        "password": "123456",
+        "status": "0",
+        "postIds": [],
+        "roleIds": [],
+        "email": "a@b."
+      },
+      "userManagement_031": {
+        "userName": "userManagement_031",
+        "nickName": "userManagement_031",
+        "password": "123456",
+        "status": "0",
+        "postIds": [],
+        "roleIds": [],
+        "email": "a@b@c.d"
+      },
+      "userManagement_032": {
+        "userName": "userManagement_032",
+        "nickName": "userManagement_032",
+        "password": "123456",
+        "status": "0",
+        "postIds": [],
+        "roleIds": [],
+        "email": "a.b@c.d/a@b.c.d"
+      },
+      "userManagement_033": {
+        "userName": "userManagement_033",
+        "nickName": "userManagement_033",
+        "password": "123456",
+        "status": "0",
+        "postIds": [],
+        "roleIds": [],
+        "email": "a#$%^&*@b.c"
+      },
+      "userManagement_034": {
+        "userName": "userManagement_034",
+        "nickName": "userManagement_034",
+        "password": "123456",
+        "status": "0",
+        "postIds": [],
+        "roleIds": [],
+        "email": "中a@b.c"
+      },
+      "userManagement_035": {
+        "userName": "userManagement_035",
+        "nickName": "userManagement_035",
+        "password": "123456",
+        "status": "0",
+        "postIds": [],
+        "roleIds": [],
+        "email": "1@"
+      },
+      "userManagement_036": {
+        "userName": "userManagement_036",
+        "nickName": "userManagement_036",
+        "password": "123456",
+        "status": "0",
+        "postIds": [],
+        "roleIds": [],
+        "email": "a@a"
+      },
+      "userManagement_037": {
+        "userName": "userManagement_037",
+        "nickName": "userManagement_037",
+        "password": "123456",
+        "status": "0",
+        "postIds": [],
+        "roleIds": [],
+        "email": "1234567890123456789012345678901234567890123@qq.com"
+      },
+      "userManagement_038": {
+        "userName": "userManagement_038",
+        "nickName": "userManagement_038",
+        "password": "123456",
+        "status": "0",
+        "postIds": [],
+        "roleIds": [],
+        "email": "12345678901234567890123456789012345678901234@qq.com"
+      },
+      "userManagement_039": {
+        "userName": "userManagement_039",
+        "nickName": "userManagement_039",
+        "password": "",
+        "status": "0",
+        "postIds": [],
+        "roleIds": []
+      },
+      "userManagement_040": {
+        "userName": "userManagement_040",
+        "nickName": "userManagement_040",
+        "password": "1234123412341234",
+        "status": "0",
+        "postIds": [],
+        "roleIds": []
+      },
+      "userManagement_041": {
+        "userName": "userManagement_041",
+        "nickName": "userManagement_041",
+        "password": "12341234123412341",
+        "status": "0",
+        "postIds": [],
+        "roleIds": []
+      },
+      "userManagement_042": {
+        "userName": "userManagement_042",
+        "nickName": "userManagement_042",
+        "password": "123456",
+        "status": "0",
+        "postIds": [],
+        "roleIds": []
+      },
+      "userManagement_043": {
+        "userName": "userManagement_043",
+        "nickName": "userManagement_043",
+        "password": "12345",
+        "status": "0",
+        "postIds": [],
+        "roleIds": []
+      },
+      "userManagement_044": {
+        "userName": "userManagement_044",
+        "nickName": "userManagement_044",
+        "password": "~@#$^&*()_+{}|",
+        "status": "0",
+        "postIds": [],
+        "roleIds": []
+      },
+      "userManagement_045": {
+        "userName": "userManagement_045",
+        "nickName": "userManagement_045",
+        "password": "123456",
+        "status": "0",
+        "postIds": [],
+        "roleIds": [],
+        "phonenumber": "13502502921"
+      },
+      "userManagement_046": {
+        "userName": "userManagement_046",
+        "nickName": "userManagement_046",
+        "password": "123456",
+        "status": "0",
+        "postIds": [],
+        "roleIds": [],
+        "phonenumber": "14502502921"
+      },
+      "userManagement_047": {
+        "userName": "userManagement_047",
+        "nickName": "userManagement_047",
+        "password": "123456",
+        "status": "0",
+        "postIds": [],
+        "roleIds": [],
+        "phonenumber": "15502502921"
+      },
+      "userManagement_048": {
+        "userName": "userManagement_048",
+        "nickName": "userManagement_048",
+        "password": "123456",
+        "status": "0",
+        "postIds": [],
+        "roleIds": [],
+        "phonenumber": "17502502921"
+      },
+      "userManagement_049": {
+        "userName": "userManagement_049",
+        "nickName": "userManagement_049",
+        "password": "123456",
+        "status": "0",
+        "postIds": [],
+        "roleIds": [],
+        "phonenumber": "18502502921"
+      },
+      "userManagement_050": {
+        "userName": "userManagement_050",
+        "nickName": "userManagement_050",
+        "password": "123456",
+        "status": "0",
+        "postIds": [],
+        "roleIds": [],
+        "phonenumber": "185025029211"
+      },
+      "userManagement_051": {
+        "userName": "userManagement_051",
+        "nickName": "userManagement_051",
+        "password": "123456",
+        "status": "0",
+        "postIds": [],
+        "roleIds": [],
+        "phonenumber": "1850r502921"
+      },
+      "userManagement_052": {
+        "userName": "userManagement_052",
+        "nickName": "userManagement_052",
+        "password": "123456",
+        "status": "0",
+        "postIds": [],
+        "roleIds": [],
+        "phonenumber": "185025 2921"
+      },
+      "userManagement_053": {
+        "userName": "userManagement_053",
+        "nickName": "userManagement_053",
+        "password": "123456",
+        "status": "0",
+        "postIds": [],
+        "roleIds": [],
+        "phonenumber": "21502502921"
+      },
+      "userManagement_054": {
+        "userName": "userManagement_054",
+        "nickName": "userManagement_054",
+        "password": "123456",
+        "status": "0",
+        "postIds": [],
+        "roleIds": []
+      },
+      "userManagement_055": {
+        "userName": "userManagement_055",
+        "nickName": "userManagement_055",
+        "password": "123456",
+        "status": "0",
+        "postIds": [
+          1
+        ],
+        "roleIds": []
+      },
+      "userManagement_056": {
+        "userName": "userManagement_056",
+        "nickName": "userManagement_056",
+        "password": "123456",
+        "status": "0",
+        "postIds": [
+          2
+        ],
+        "roleIds": []
+      },
+      "userManagement_057": {
+        "userName": "userManagement_057",
+        "nickName": "userManagement_057",
+        "password": "123456",
+        "status": "0",
+        "postIds": [
+          3
+        ],
+        "roleIds": []
+      },
+      "userManagement_058": {
+        "userName": "userManagement_058",
+        "nickName": "userManagement_058",
+        "password": "123456",
+        "status": "0",
+        "postIds": [
+          4
+        ],
+        "roleIds": []
+      },
+      "userManagement_059": {
+        "userName": "userManagement_059",
+        "nickName": "userManagement_059",
+        "password": "123456",
+        "status": "0",
+        "postIds": [
+          5
+        ],
+        "roleIds": []
+      },
+      "userManagement_060": {
+        "userName": "userManagement_060",
+        "nickName": "userManagement_060",
+        "password": "123456",
+        "status": "0",
+        "postIds": [],
+        "roleIds": [],
+        "remark": ""
+      },
+      "userManagement_061": {
+        "userName": "userManagement_061",
+        "nickName": "userManagement_061",
+        "password": "123456",
+        "status": "0",
+        "postIds": [],
+        "roleIds": [],
+        "remark": "~@#$^&*()_+{}|"
+      },
+      "userManagement_062": {
+        "userName": "userManagement_062",
+        "nickName": "userManagement_062",
+        "password": "123456",
+        "status": "0",
+        "postIds": [],
+        "roleIds": [],
+        "remark": "毛泽东"
+      },
+      "userManagement_063": {
+        "userName": "userManagement_063",
+        "nickName": "userManagement_063",
+        "password": "123456",
+        "status": "0",
+        "postIds": [],
+        "roleIds": [
+          1
+        ]
+      },
+      "userManagement_064": {
+        "userName": "userManagement_064",
+        "nickName": "userManagement_064",
+        "password": "123456",
+        "status": "0",
+        "postIds": [],
+        "roleIds": [
+          2
+        ]
+      },
+      "userManagement_065": {
+        "userName": "userManagement_065",
+        "nickName": "userManagement_065",
+        "password": "123456",
+        "status": "0",
+        "postIds": [],
+        "roleIds": [
+          3
+        ]
+      },
+      "userManagement_066": {
+        "userName": "userManagement_066",
+        "nickName": "userManagement_066",
+        "password": "123456",
+        "status": "0",
+        "postIds": [],
+        "roleIds": []
+      },
+      "userManagement_067": {
+        "userName": "userManagement_067",
+        "nickName": "userManagement_067",
+        "password": "123456",
+        "status": "0",
+        "postIds": [
+          1
+        ],
+        "roleIds": []
+      },
+      "userManagement_068": {
+        "userName": "userManagement_068",
+        "nickName": "userManagement_068",
+        "password": "123456",
+        "status": "0",
+        "postIds": [
+          2
+        ],
+        "roleIds": []
+      },
+      "userManagement_069": {
+        "userName": "userManagement_069",
+        "nickName": "userManagement_069",
+        "password": "123456",
+        "status": "0",
+        "postIds": [
+          3
+        ],
+        "roleIds": []
+      },
+      "userManagement_070": {
+        "userName": "userManagement_070",
+        "nickName": "userManagement_070",
+        "password": "123456",
+        "status": "0",
+        "postIds": [
+          4
+        ],
+        "roleIds": []
+      },
+      "userManagement_071": {
+        "userName": "userManagement_071",
+        "nickName": "userManagement_071",
+        "password": "123456",
+        "status": "0",
+        "postIds": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "roleIds": []
+      },
+      "userManagement_072": {
+        "userName": "userManagement_072",
+        "nickName": "userManagement_072",
+        "password": "123456",
+        "status": "0",
+        "postIds": [
+          0
+        ],
+        "roleIds": []
+      },
+      "userManagement_073": {
+        "userName": "userManagement_073",
+        "nickName": "userManagement_073",
+        "password": "123456",
+        "status": "0",
+        "postIds": [
+          5
+        ],
+        "roleIds": []
+      },
+      "userManagement_074": {
+        "userName": "userManagement_074",
+        "nickName": "userManagement_074",
+        "password": "123456",
+        "status": "0",
+        "postIds": [],
+        "roleIds": []
+      },
+      "userManagement_075": {
+        "userName": "userManagement_075",
+        "nickName": "userManagement_075",
+        "password": "123456",
+        "status": "0",
+        "postIds": [],
+        "roleIds": [],
+        "sex": "0"
+      },
+      "userManagement_076": {
+        "userName": "userManagement_076",
+        "nickName": "userManagement_076",
+        "password": "123456",
+        "status": "0",
+        "postIds": [],
+        "roleIds": [],
+        "sex": "1"
+      },
+      "userManagement_077": {
+        "userName": "userManagement_077",
+        "nickName": "userManagement_077",
+        "password": "123456",
+        "status": "0",
+        "postIds": [],
+        "roleIds": [],
+        "sex": "2"
+      },
+      "userManagement_078": {
+        "userName": "userManagement_078",
+        "nickName": "userManagement_078",
+        "password": "123456",
+        "status": "0",
+        "postIds": [],
+        "roleIds": [],
+        "sex": ""
+      },
+      "userManagement_079": {
+        "userName": "userManagement_079",
+        "nickName": "userManagement_079",
+        "password": "123456",
+        "status": "0",
+        "postIds": [],
+        "roleIds": [],
+        "sex": "-1"
+      },
+      "userManagement_080": {
+        "userName": "userManagement_080",
+        "nickName": "userManagement_080",
+        "password": "123456",
+        "status": "0",
+        "postIds": [],
+        "roleIds": []
+      },
+      "userManagement_081": {
+        "userName": "userManagement_081",
+        "nickName": "userManagement_081",
+        "password": "123456",
+        "status": "1",
+        "postIds": [],
+        "roleIds": []
+      },
+      "userManagement_082": {
+        "userName": "userManagement_082",
+        "nickName": "userManagement_082",
+        "password": "123456",
+        "status": "2",
+        "postIds": [],
+        "roleIds": []
+      },
+      "userManagement_083": {
+        "userName": "userManagement_083",
+        "nickName": "userManagement_083",
+        "password": "123456",
+        "status": "3",
+        "postIds": [],
+        "roleIds": []
+      },
+      "userManagement_084": {
+        "userName": "userManagement_084",
+        "nickName": "",
+        "password": "123456",
+        "status": "0",
+        "postIds": [],
+        "roleIds": []
+      },
+      "userManagement_085": {
+        "userName": "userManagement_085",
+        "nickName": "u",
+        "password": "123456",
+        "status": "0",
+        "postIds": [],
+        "roleIds": []
+      },
+      "userManagement_086": {
+        "userName": "userManagement_086",
+        "nickName": "us",
+        "password": "123456",
+        "status": "0",
+        "postIds": [],
+        "roleIds": []
+      },
+      "userManagement_087": {
+        "userName": "userManagement_087",
+        "nickName": "userManagement_087userManagem",
+        "password": "123456",
+        "status": "0",
+        "postIds": [],
+        "roleIds": []
+      },
+      "userManagement_088": {
+        "userName": "userManagement_088",
+        "nickName": "userManagement_087userManageme",
+        "password": "123456",
+        "status": "0",
+        "postIds": [],
+        "roleIds": []
+      },
+      "userManagement_089": {
+        "userName": "userManagement_089",
+        "nickName": "userManagement_087userManagemen",
+        "password": "123456",
+        "status": "0",
+        "postIds": [],
+        "roleIds": []
+      },
+      "userManagement_090": {
+        "userName": "userManagement_090",
+        "nickName": "若依",
+        "password": "123456",
+        "status": "0",
+        "postIds": [],
+        "roleIds": []
+      },
+      "userManagement_091": {
+        "userName": "userManagement_091",
+        "nickName": "RY",
+        "password": "123456",
+        "status": "0",
+        "postIds": [],
+        "roleIds": []
+      },
+      "userManagement_092": {
+        "userName": "userManagement_092",
+        "nickName": "~@#$^&*()_+{}|",
+        "password": "123456",
+        "status": "0",
+        "postIds": [],
+        "roleIds": []
+      },
+      "userManagement_093": {
+        "userName": "userManagement_093",
+        "nickName": "毛泽东",
+        "password": "123456",
+        "status": "0",
+        "postIds": [],
+        "roleIds": []
+      },
+      "userManagement_096": {"userId": 4, "userName": "", "nickName": "test"},
+      "userManagement_097": {"userId": 4, "userName": "testtesttesttesttesttesttestte", "nickName": "test"},
+      "userManagement_098": {"userId": 4, "userName": "testtesttesttesttesttesttesttes", "nickName": "test"},
+      "userManagement_099": {"userId": 4, "userName": "t", "nickName": "test"},
+      "userManagement_100": {"userId": 4, "userName": "test", "nickName": "test"},
+      "userManagement_101": {"userId": 4, "userName": "TEST", "nickName": "test"},
+      "userManagement_102": {"userId": 4, "userName": "~@#$^&*()_+{}|", "nickName": "test"},
+      "userManagement_103": {"userId": 4, "userName": "毛泽东", "nickName": "test"},
+      "userManagement_104": {"userId": 4, "userName": "test", "nickName": "test", "deptId": ""},
+      "userManagement_105": {"userId": 4, "userName": "test", "nickName": "test", "deptId": "100"},
+      "userManagement_106": {"userId": 4, "userName": "test", "nickName": "test", "deptId": "101"},
+      "userManagement_107": {"userId": 4, "userName": "test", "nickName": "test", "deptId": "102"},
+      "userManagement_108": {"userId": 4, "userName": "test", "nickName": "test", "deptId": "103"},
+      "userManagement_109": {"userId": 4, "userName": "test", "nickName": "test", "deptId": "104"},
+      "userManagement_110": {"userId": 4, "userName": "test", "nickName": "test", "deptId": "105"},
+      "userManagement_111": {"userId": 4, "userName": "test", "nickName": "test", "deptId": "106"},
+      "userManagement_112": {"userId": 4, "userName": "test", "nickName": "test", "deptId": "107"},
+      "userManagement_113": {"userId": 4, "userName": "test", "nickName": "test", "deptId": "108"},
+      "userManagement_114": {"userId": 4, "userName": "test", "nickName": "test", "deptId": "109"},
+      "userManagement_115": {"userId": 4, "userName": "test", "nickName": "test", "deptId": "99"},
+      "userManagement_116": {"userId": 4, "userName": "test", "nickName": "test", "deptId": "110"},
+      "userManagement_117": {"userId": 4, "userName": "test", "nickName": "test", "email": "a@b.c"},
+      "userManagement_118": {"userId": 4, "userName": "test", "nickName": "test", "email": ""},
+      "userManagement_119": {"userId": 4, "userName": "test", "nickName": "test", "email": "abc"},
+      "userManagement_120": {"userId": 4, "userName": "test", "nickName": "test", "email": "a@bc"},
+      "userManagement_121": {"userId": 4, "userName": "test", "nickName": "test", "email": "ab.c"},
+      "userManagement_122": {"userId": 4, "userName": "test", "nickName": "test", "email": "@b.c"},
+      "userManagement_123": {"userId": 4, "userName": "test", "nickName": "test", "email": "a@.c"},
+      "userManagement_124": {"userId": 4, "userName": "test", "nickName": "test", "email": "a@b."},
+      "userManagement_125": {"userId": 4, "userName": "test", "nickName": "test", "email": "a@b@c.d"},
+      "userManagement_126": {"userId": 4, "userName": "test", "nickName": "test", "email": "a.b@c.d/a@b.c.d"},
+      "userManagement_127": {"userId": 4, "userName": "test", "nickName": "test", "email": "a#$%^&*@b.c"},
+      "userManagement_128": {"userId": 4, "userName": "test", "nickName": "test", "email": "中a@b.c"},
+      "userManagement_129": {"userId": 4, "userName": "test", "nickName": "test", "email": "1@"},
+      "userManagement_130": {"userId": 4, "userName": "test", "nickName": "test", "email": "a@a"},
+      "userManagement_131": {"userId": 4, "userName": "test", "nickName": "test", "email": "1234567890123456789012345678901234567890123@qq.com"},
+      "userManagement_132": {"userId": 4, "userName": "test", "nickName": "test", "email": "12345678901234567890123456789012345678901234@qq.com"},
+      "userManagement_133": {"userId": 4, "userName": "test", "nickName": "test", "password": ""},
+      "userManagement_134": {"userId": 4, "userName": "test", "nickName": "test", "password": "1234123412341234"},
+      "userManagement_135": {"userId": 4, "userName": "test", "nickName": "test", "password": "12341234123412341"},
+      "userManagement_136": {"userId": 4, "userName": "test", "nickName": "test", "password": "123456"},
+      "userManagement_137": {"userId": 4, "userName": "test", "nickName": "test", "password": "12345"},
+      "userManagement_138": {"userId": 4, "userName": "test", "nickName": "test", "password": "~@#$^&*()_+{}|"},
+      "userManagement_139": {"userId": 4, "userName": "test", "nickName": "test", "phonenumber": "13502502921"},
+      "userManagement_140": {"userId": 4, "userName": "test", "nickName": "test", "phonenumber": "14502502921"},
+      "userManagement_141": {"userId": 4, "userName": "test", "nickName": "test", "phonenumber": "15502502921"},
+      "userManagement_142": {"userId": 4, "userName": "test", "nickName": "test", "phonenumber": "17502502921"},
+      "userManagement_143": {"userId": 4, "userName": "test", "nickName": "test", "phonenumber": "18502502921"},
+      "userManagement_144": {"userId": 4, "userName": "test", "nickName": "test", "phonenumber": "185025029211"},
+      "userManagement_145": {"userId": 4, "userName": "test", "nickName": "test", "phonenumber": "1850r502921"},
+      "userManagement_146": {"userId": 4, "userName": "test", "nickName": "test", "phonenumber": "185025 2921"},
+      "userManagement_147": {"userId": 4, "userName": "test", "nickName": "test", "phonenumber": "21502502921"},
+      "userManagement_148": {"userId": 4, "userName": "test", "nickName": "test", "postIds": []},
+      "userManagement_149": {"userId": 4, "userName": "test", "nickName": "test", "postIds": [1]},
+      "userManagement_150": {"userId": 4, "userName": "test", "nickName": "test", "postIds": [2]},
+      "userManagement_151": {"userId": 4, "userName": "test", "nickName": "test", "postIds": [3]},
+      "userManagement_152": {"userId": 4, "userName": "test", "nickName": "test", "postIds": [4]},
+      "userManagement_153": {"userId": 4, "userName": "test", "nickName": "test", "postIds": [5]},
+      "userManagement_154": {"userId": 4, "userName": "test", "nickName": "test", "remark": ""},
+      "userManagement_155": {"userId": 4, "userName": "test", "nickName": "test", "remark": "~@#$^&*()_+{}|"},
+      "userManagement_156": {"userId": 4, "userName": "test", "nickName": "test", "remark": "毛泽东"},
+      "userManagement_157": {"userId": 4, "userName": "test", "nickName": "test", "roleIds": [1]},
+      "userManagement_158": {"userId": 4, "userName": "test", "nickName": "test", "roleIds": [2]},
+      "userManagement_159": {"userId": 4, "userName": "test", "nickName": "test", "roleIds": [3]},
+      "userManagement_160": {"userId": 4, "userName": "test", "nickName": "test", "roleIds": []},
+      "userManagement_161": {"userId": 4, "userName": "test", "nickName": "test", "postIds": [1]},
+      "userManagement_162": {"userId": 4, "userName": "test", "nickName": "test", "postIds": [2]},
+      "userManagement_163": {"userId": 4, "userName": "test", "nickName": "test", "postIds": [3]},
+      "userManagement_164": {"userId": 4, "userName": "test", "nickName": "test", "postIds": [4]},
+      "userManagement_165": {"userId": 4, "userName": "test", "nickName": "test", "postIds": [1, 2, 3, 4]},
+      "userManagement_166": {"userId": 4, "userName": "test", "nickName": "test", "postIds": [0]},
+      "userManagement_167": {"userId": 4, "userName": "test", "nickName": "test", "postIds": [5]},
+      "userManagement_168": {"userId": 4, "userName": "test", "nickName": "test", "postIds": []},
+      "userManagement_169": {"userId": 4, "userName": "test", "nickName": "test", "sex": "0"},
+      "userManagement_170": {"userId": 4, "userName": "test", "nickName": "test", "sex": "1"},
+      "userManagement_171": {"userId": 4, "userName": "test", "nickName": "test", "sex": "2"},
+      "userManagement_172": {"userId": 4, "userName": "test", "nickName": "test", "sex": ""},
+      "userManagement_173": {"userId": 4, "userName": "test", "nickName": "test", "sex": "-1"},
+      "userManagement_174": {"userId": 4, "userName": "test", "nickName": "test", "status": "0"},
+      "userManagement_175": {"userId": 4, "userName": "test", "nickName": "test", "status": "1"},
+      "userManagement_176": {"userId": 4, "userName": "test", "nickName": "test", "status": "2"},
+      "userManagement_177": {"userId": 4, "userName": "test", "nickName": "test", "status": "3"},
+      "userManagement_178": {"userId": 4, "userName": "test", "nickName": ""},
+      "userManagement_179": {"userId": 4, "userName": "test", "nickName": "u"},
+      "userManagement_180": {"userId": 4, "userName": "test", "nickName": "us"},
+      "userManagement_181": {"userId": 4, "userName": "test", "nickName": "userManagement_181userManagem"},
+      "userManagement_182": {"userId": 4, "userName": "test", "nickName": "userManagement_182userManageme"},
+      "userManagement_183": {"userId": 4, "userName": "test", "nickName": "userManagement_183userManagemen"},
+      "userManagement_184": {"userId": 4, "userName": "test", "nickName": "若依"},
+      "userManagement_185": {"userId": 4, "userName": "test", "nickName": "RY"},
+      "userManagement_186": {"userId": 4, "userName": "test", "nickName": "~@#$^&*()_+{}|"},
+      "userManagement_187": {"userId": 4, "userName": "test", "nickName": "毛泽东"},
+      "userManagement_188": {"pageNum": 1, "pageSize": 10,"userName": "ry"},
+      "userManagement_189": {"pageNum": 0, "pageSize": 10,"userName": "ry"},
+      "userManagement_190": {"pageNum": 999, "pageSize": 10,"userName": "ry"},
+      "userManagement_191": {"pageNum": 1000, "pageSize": 10,"userName": "ry"},
+      "userManagement_192": {"pageNum": -1, "pageSize": 10,"userName": "ry"},
+      "userManagement_193": {"pageNum": null, "pageSize": 10,"userName": "ry"},
+      "userManagement_194": {"pageNum": "@", "pageSize": 10,"userName": "ry"},
+      "userManagement_195": {"pageNum": "", "pageSize": 10,"userName": "ry"},
+      "userManagement_196": {"pageNum": 1, "pageSize": 10,"userName": "ry"},
+      "userManagement_197": {"pageNum": 1, "pageSize": 20,"userName": "ry"},
+      "userManagement_198": {"pageNum": 1, "pageSize": 30,"userName": "ry"},
+      "userManagement_199": {"pageNum": 1, "pageSize": 40,"userName": "ry"},
+      "userManagement_200": {"pageNum": 1, "pageSize": 50,"userName": "ry"},
+      "userManagement_201": {"pageNum": 1, "pageSize": "","userName": "ry"},
+      "userManagement_202": {"pageNum": 1, "pageSize": 0,"userName": "ry"},
+      "userManagement_203": {"pageNum": 1, "pageSize": 60,"userName": "ry"},
+      "userManagement_204": {"pageNum": 1, "pageSize": "@","userName": "ry"},
+      "userManagement_205": {"pageNum": 1, "pageSize": null,"userName": "ry"},
+      "userManagement_206": {"pageNum": 1, "pageSize": null,"userName": ""},
+      "userManagement_207": {"pageNum": 1, "pageSize": null,"userName": "testtesttesttesttesttesttestte"},
+      "userManagement_208": {"pageNum": 1, "pageSize": null,"userName": "testtesttesttesttesttesttesttes"},
+      "userManagement_209": {"pageNum": 1, "pageSize": null,"userName": "t"},
+      "userManagement_210": {"pageNum": 1, "pageSize": null,"userName": "test"},
+      "userManagement_211": {"pageNum": 1, "pageSize": null,"userName": "TEST"},
+      "userManagement_212": {"pageNum": 1, "pageSize": null,"userName": "~@#$^&*()_+{}|"},
+      "userManagement_213": {"pageNum": 1, "pageSize": null,"userName": "毛泽东"},
+      "userManagement_214": {"pageNum": 1, "pageSize": null,"phonenumber": "13502502921"},
+      "userManagement_215": {"pageNum": 1, "pageSize": null,"phonenumber": "14502502921"},
+      "userManagement_216": {"pageNum": 1, "pageSize": null,"phonenumber": "15502502921"},
+      "userManagement_217": {"pageNum": 1, "pageSize": null,"phonenumber": "17502502921"},
+      "userManagement_218": {"pageNum": 1, "pageSize": null,"phonenumber": "18502502921"},
+      "userManagement_219": {"pageNum": 1, "pageSize": null,"phonenumber": "185025029211"},
+      "userManagement_220": {"pageNum": 1, "pageSize": null,"phonenumber": "1850r502921"},
+      "userManagement_221": {"pageNum": 1, "pageSize": null,"phonenumber": "185025 2921"},
+      "userManagement_222": {"pageNum": 1, "pageSize": null,"phonenumber": "21502502921"},
+      "userManagement_223": {"pageNum": 1, "pageSize": null,"status": 0},
+      "userManagement_224": {"pageNum": 1, "pageSize": null,"status": 1},
+      "userManagement_225": {"pageNum": 1, "pageSize": null,"status": 2},
+      "userManagement_226": {"pageNum": 1, "pageSize": null,"status": 3},
+      "userManagement_227": {"pageNum": 1, "pageSize": null,"postIds": [1]},
+      "userManagement_228": {"pageNum": 1, "pageSize": null,"postIds": [2]},
+      "userManagement_229": {"pageNum": 1, "pageSize": null,"postIds": [3]},
+      "userManagement_230": {"pageNum": 1, "pageSize": null,"postIds": [4]},
+      "userManagement_231": {"pageNum": 1, "pageSize": null,"postIds": [1,2,3,4]},
+      "userManagement_232": {"pageNum": 1, "pageSize": null,"postIds": [0]},
+      "userManagement_233": {"pageNum": 1, "pageSize": null,"postIds": [5]},
+      "userManagement_234": {"pageNum": 1, "pageSize": null,"postIds": []},
+      "userManagement_235": {"pageNum": 1, "pageSize": null,"params[beginTime]": "2024-03-01","params[endTime]": "2024-04-01"},
+      "userManagement_236": {"pageNum": 1, "pageSize": null,"params[beginTime]": "2024-04-01","params[endTime]": "2024-04-01"},
+      "userManagement_237": {"pageNum": 1, "pageSize": null,"params[beginTime]": "2024-05-01","params[endTime]": "2024-04-01"},
+      "userManagement_238": {"pageNum": 1, "pageSize": null,"params[beginTime]": "2024-05-01"},
+      "userManagement_239": {"pageNum": 1, "pageSize": null,"params[endTime]": "2024-05-01"},
+      "userManagement_240": {"pageNum": 1, "pageSize": null,"params[beginTime]": ""},
+      "userManagement_241": {"pageNum": 1, "pageSize": null,"params[beginTime]": "2024,5,01"},
+      "userManagement_242": {"pageNum": 1, "pageSize": null,"params[beginTime]": "2024-03-01","params[endTime]": "2024-04-01"},
+      "userManagement_243": {"pageNum": 1, "pageSize": null,"params[beginTime]": "2024-04-01","params[endTime]": "2024-04-01"},
+      "userManagement_244": {"pageNum": 1, "pageSize": null,"params[beginTime]": "2024-05-01","params[endTime]": "2024-04-01"},
+      "userManagement_245": {"pageNum": 1, "pageSize": null,"params[beginTime]": "2024-05-01"},
+      "userManagement_246": {"pageNum": 1, "pageSize": null,"params[endTime]": "2024-05-01"},
+      "userManagement_247": {"pageNum": 1, "pageSize": null,"params[endTime]": ""},
+      "userManagement_248": {"pageNum": 1, "pageSize": null,"params[endTime]": "2024,5,01"},
+      "userManagement_250": {"file": "open(r'../data_config/user_template.xlsx', 'rb')"}
+    },
+    "角色管理": {
+      "roleManagement_001":{"roleName":"roleManagement_001","roleKey":"roleManagement_001","roleSort":3,"status":"1","menuIds":[],"deptIds":[],"menuCheckStrictly":true,"deptCheckStrictly":true,"remark":"remark"},
+      "roleManagement_002":{"roleName":"","roleKey":"roleManagement_002","roleSort":3,"status":"1","menuIds":[],"deptIds":[],"menuCheckStrictly":true,"deptCheckStrictly":true,"remark":"remark"},
+      "roleManagement_003":{"roleName":"roleManagement_003roleManagemen","roleKey":"roleManagement_003","roleSort":3,"status":"1","menuIds":[],"deptIds":[],"menuCheckStrictly":true,"deptCheckStrictly":true,"remark":"remark"},
+      "roleManagement_004":{"roleName":"r","roleKey":"roleManagement_004","roleSort":3,"status":"1","menuIds":[],"deptIds":[],"menuCheckStrictly":true,"deptCheckStrictly":true,"remark":"remark"},
+      "roleManagement_005":{"roleName":"roleManagement_005","roleKey":"roleManagement_005","roleSort":3,"status":"1","menuIds":[],"deptIds":[],"menuCheckStrictly":true,"deptCheckStrictly":true,"remark":"remark"},
+      "roleManagement_006":{"roleName":"ROLEManagement_005","roleKey":"roleManagement_006","roleSort":3,"status":"1","menuIds":[],"deptIds":[],"menuCheckStrictly":true,"deptCheckStrictly":true,"remark":"remark"},
+      "roleManagement_007":{"roleName":"~@#$^&*()_+{}|","roleKey":"roleManagement_007","roleSort":3,"status":"1","menuIds":[],"deptIds":[],"menuCheckStrictly":true,"deptCheckStrictly":true,"remark":"remark"},
+      "roleManagement_008":{"roleName":"毛泽东","roleKey":"roleManagement_008","roleSort":3,"status":"1","menuIds":[],"deptIds":[],"menuCheckStrictly":true,"deptCheckStrictly":true,"remark":"remark"},
+      "roleManagement_009":{"roleName":"roleManagement_009","roleKey":"","roleSort":3,"status":"1","menuIds":[],"deptIds":[],"menuCheckStrictly":true,"deptCheckStrictly":true,"remark":"remark"},
+      "roleManagement_010":{"roleName":"roleManagement_010","roleKey":"admin","roleSort":3,"status":"1","menuIds":[],"deptIds":[],"menuCheckStrictly":true,"deptCheckStrictly":true,"remark":"remark"},
+      "roleManagement_011":{"roleName":"roleManagement_011","roleKey":"common","roleSort":3,"status":"1","menuIds":[],"deptIds":[],"menuCheckStrictly":true,"deptCheckStrictly":true,"remark":"remark"},
+      "roleManagement_012":{"roleName":"roleManagement_012","roleKey":"roleManagement_012","roleSort":"","status":"1","menuIds":[],"deptIds":[],"menuCheckStrictly":true,"deptCheckStrictly":true,"remark":"remark"},
+      "roleManagement_013":{"roleName":"roleManagement_013","roleKey":"roleManagement_013","roleSort":0,"status":"1","menuIds":[],"deptIds":[],"menuCheckStrictly":true,"deptCheckStrictly":true,"remark":"remark"},
+      "roleManagement_014":{"roleName":"roleManagement_014","roleKey":"roleManagement_014","roleSort":1,"status":"1","menuIds":[],"deptIds":[],"menuCheckStrictly":true,"deptCheckStrictly":true,"remark":"remark"},
+      "roleManagement_015":{"roleName":"roleManagement_015","roleKey":"roleManagement_015","roleSort":2,"status":"1","menuIds":[],"deptIds":[],"menuCheckStrictly":true,"deptCheckStrictly":true,"remark":"remark"},
+      "roleManagement_016":{"roleName":"roleManagement_016","roleKey":"roleManagement_016","roleSort":999,"status":"1","menuIds":[],"deptIds":[],"menuCheckStrictly":true,"deptCheckStrictly":true,"remark":"remark"},
+      "roleManagement_017":{"roleName":"roleManagement_017","roleKey":"roleManagement_017","roleSort":1000,"status":"1","menuIds":[],"deptIds":[],"menuCheckStrictly":true,"deptCheckStrictly":true,"remark":"remark"},
+      "roleManagement_018":{"roleName":"roleManagement_018","roleKey":"roleManagement_018","roleSort":1001,"status":"1","menuIds":[],"deptIds":[],"menuCheckStrictly":true,"deptCheckStrictly":true,"remark":"remark"},
+      "roleManagement_019":{"roleName":"roleManagement_019","roleKey":"roleManagement_019","roleSort":3,"status":"","menuIds":[],"deptIds":[],"menuCheckStrictly":true,"deptCheckStrictly":true,"remark":"remark"},
+      "roleManagement_020":{"roleName":"roleManagement_020","roleKey":"roleManagement_020","roleSort":3,"status":"0","menuIds":[],"deptIds":[],"menuCheckStrictly":true,"deptCheckStrictly":true,"remark":"remark"},
+      "roleManagement_021":{"roleName":"roleManagement_021","roleKey":"roleManagement_021","roleSort":3,"status":"1","menuIds":[],"deptIds":[],"menuCheckStrictly":true,"deptCheckStrictly":true,"remark":"remark"},
+      "roleManagement_022":{"roleName":"roleManagement_022","roleKey":"roleManagement_022","roleSort":3,"status":"2","menuIds":[],"deptIds":[],"menuCheckStrictly":true,"deptCheckStrictly":true,"remark":"remark"},
+      "roleManagement_023":{"roleName":"roleManagement_023","roleKey":"roleManagement_023","roleSort":3,"status":"2","menuIds":[101],"deptIds":[],"menuCheckStrictly":true,"deptCheckStrictly":true,"remark":"remark"},
+      "roleManagement_024":{"roleName":"roleManagement_024","roleKey":"roleManagement_024","roleSort":3,"status":"2","menuIds":[],"deptIds":[],"menuCheckStrictly":true,"deptCheckStrictly":true,"remark":"remark"},
+      "roleManagement_025":{"roleName":"roleManagement_025","roleKey":"roleManagement_025","roleSort":3,"status":"2","menuIds":[],"deptIds":[],"menuCheckStrictly":true,"deptCheckStrictly":true,"remark":""},
+      "roleManagement_026":{"roleName":"roleManagement_026","roleKey":"roleManagement_026","roleSort":3,"status":"2","menuIds":[],"deptIds":[],"menuCheckStrictly":true,"deptCheckStrictly":true,"remark":"~@#$^&*()_+{}|"},
+      "roleManagement_027":{"roleName":"roleManagement_027","roleKey":"roleManagement_027","roleSort":3,"status":"2","menuIds":[],"deptIds":[],"menuCheckStrictly":true,"deptCheckStrictly":true,"remark":"毛泽东"}
+    },
+    "菜单管理": {
+      "menuManagement_001": {"parentId":0,"menuName":"menuManagement_001","icon":"","menuType":"M","orderNum":1,"isFrame":"1","isCache":"0","visible":"0","status":"0","path":"menuManagement_001.com"},
+      "menuManagement_002": {"parentId":0,"menuName":"","icon":"","menuType":"M","orderNum":1,"isFrame":"1","isCache":"0","visible":"0","status":"0","path":"menuManagement_001.com"},
+      "menuManagement_003": {"parentId":0,"menuName":"menuManagement_001menuManagement_001menuManagement_001","icon":"","menuType":"M","orderNum":1,"isFrame":"1","isCache":"0","visible":"0","status":"0","path":"menuManagement_001.com"},
+      "menuManagement_004": {"parentId":0,"menuName":"m","icon":"","menuType":"M","orderNum":1,"isFrame":"1","isCache":"0","visible":"0","status":"0","path":"menuManagement_001.com"},
+      "menuManagement_005": {"parentId":0,"menuName":"menuManagement_005","icon":"","menuType":"M","orderNum":1,"isFrame":"1","isCache":"0","visible":"0","status":"0","path":"menuManagement_001.com"},
+      "menuManagement_006": {"parentId":0,"menuName":"MENUMANAGEMENT_001","icon":"","menuType":"M","orderNum":1,"isFrame":"1","isCache":"0","visible":"0","status":"0","path":"menuManagement_001.com"},
+      "menuManagement_007": {"parentId":0,"menuName":"毛泽东","icon":"","menuType":"M","orderNum":1,"isFrame":"1","isCache":"0","visible":"0","status":"0","path":"menuManagement_001.com"},
+      "menuManagement_008": {"parentId":0,"menuName":"~@#$^&*()_+{}|","icon":"","menuType":"M","orderNum":1,"isFrame":"1","isCache":"0","visible":"0","status":"0","path":"menuManagement_001.com"},
+      "menuManagement_009": {"parentId":0,"menuName":"menuManagement_009","icon":"","menuType":"M","orderNum":"","isFrame":"1","isCache":"0","visible":"0","status":"0","path":"menuManagement_001.com"},
+      "menuManagement_010": {"parentId":0,"menuName":"menuManagement_010","icon":"","menuType":"M","orderNum":1,"isFrame":"1","isCache":"0","visible":"0","status":"0","path":"menuManagement_001.com"},
+      "menuManagement_011": {"parentId":0,"menuName":"menuManagement_011","icon":"","menuType":"M","orderNum":2,"isFrame":"1","isCache":"0","visible":"0","status":"0","path":"menuManagement_001.com"},
+      "menuManagement_012": {"parentId":0,"menuName":"menuManagement_012","icon":"","menuType":"M","orderNum":3,"isFrame":"1","isCache":"0","visible":"0","status":"0","path":"menuManagement_001.com"},
+      "menuManagement_013": {"parentId":0,"menuName":"menuManagement_013","icon":"","menuType":"M","orderNum":4,"isFrame":"1","isCache":"0","visible":"0","status":"0","path":"menuManagement_001.com"},
+      "menuManagement_014": {"parentId":0,"menuName":"menuManagement_014","icon":"","menuType":"M","orderNum":5,"isFrame":"1","isCache":"0","visible":"0","status":"0","path":"menuManagement_001.com"},
+      "menuManagement_015": {"parentId":0,"menuName":"menuManagement_015","icon":"","menuType":"M","orderNum":5,"isFrame":"1","isCache":"0","visible":"0","status":"0","path":"menuManagement_015.com"},
+      "menuManagement_016": {"parentId":0,"menuName":"menuManagement_016","icon":"","menuType":"M","orderNum":5,"isFrame":"1","isCache":"0","visible":"0","status":"0","path":"menuManagement_016.com"},
+      "menuManagement_017": {"parentId":0,"menuName":"menuManagement_017","icon":"","menuType":"M","orderNum":5,"isFrame":"1","isCache":"0","visible":"0","status":"0","path":"menuManagement_017.com"},
+      "menuManagement_018": {"parentId":0,"menuName":"menuManagement_018","icon":"","menuType":"M","orderNum":5,"isFrame":"1","isCache":"0","visible":"0","status":"0","path":"menuManagement_018com"},
+      "menuManagement_019": {"parentId":0,"menuName":"menuManagement_019","icon":"","menuType":"M","orderNum":5,"isFrame":"1","isCache":"0","visible":"0","status":"0","path":"~@#$^&*()_+{}|"},
+      "menuManagement_020": {"parentId":0,"menuName":"menuManagement_020","icon":"","menuType":"M","orderNum":5,"isFrame":"1","isCache":"0","visible":"0","status":"0","path":""},
+      "menuManagement_021": {"parentId":0,"menuName":"menuManagement_021","icon":"","menuType":"M","orderNum":5,"isFrame":"1","isCache":"0","visible":"0","status":"0","path":"menuManagement_001menuManagement_001menuManagement_001menuManagement_001.com"},
+      "menuManagement_022": {"parentId":0,"menuName":"menuManagement_022","icon":"","menuType":"M","orderNum":5,"isFrame":"1","isCache":"0","visible":"0","status":"0","path":"m.com"}
+    }
+  }
+}

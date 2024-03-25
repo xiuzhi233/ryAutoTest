@@ -1,0 +1,192 @@
+{
+  "uid" : "7a225f8aa314ef31",
+  "name" : "验证【菜单管理】添加菜单，显示排序orderNum为4，其他数据正常，添加成功",
+  "fullName" : "test_case.test_ryvue.TestRyvue#test_ryvue",
+  "historyId" : "9b41ef1cc6ecfbf3ed1ab070f4f181ba",
+  "time" : {
+    "start" : 1711276145295,
+    "stop" : 1711276145306,
+    "duration" : 11
+  },
+  "description" : "actual_data:{'msg': '操作成功', 'code': 200}",
+  "descriptionHtml" : "<p>actual_data:{'msg': '操作成功', 'code': 200}</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "db_fixture",
+    "time" : {
+      "start" : 1711276131333,
+      "stop" : 1711276131335,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "request_fixture",
+    "time" : {
+      "start" : 1711276131335,
+      "stop" : 1711276131498,
+      "duration" : 163
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "actual_data:{'msg': '操作成功', 'code': 200}",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ab4caa0e380db4c3",
+      "name" : "log",
+      "source" : "ab4caa0e380db4c3.txt",
+      "type" : "text/plain",
+      "size" : 95
+    }, {
+      "uid" : "4ac5e3083da0ad35",
+      "name" : "stdout",
+      "source" : "4ac5e3083da0ad35.txt",
+      "type" : "text/plain",
+      "size" : 13
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "db_fixture::0",
+    "time" : {
+      "start" : 1711276145542,
+      "stop" : 1711276145543,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "request_fixture::0",
+    "time" : {
+      "start" : 1711276145541,
+      "stop" : 1711276145541,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "系统管理"
+  }, {
+    "name" : "story",
+    "value" : "菜单管理"
+  }, {
+    "name" : "severity",
+    "value" : "中"
+  }, {
+    "name" : "epic",
+    "value" : "若依接口自动化测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_ryvue"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRyvue"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-P49BVBS"
+  }, {
+    "name" : "thread",
+    "value" : "3236-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_ryvue"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "api_name",
+    "value" : "'菜单管理'"
+  }, {
+    "name" : "case_level",
+    "value" : "'中'"
+  }, {
+    "name" : "case_number",
+    "value" : "'menuManagement_013'"
+  }, {
+    "name" : "case_title",
+    "value" : "'验证【菜单管理】添加菜单，显示排序orderNum为4，其他数据正常，添加成功'"
+  }, {
+    "name" : "module_name",
+    "value" : "'系统管理'"
+  }, {
+    "name" : "request_data",
+    "value" : "{'parentId': 0, 'menuName': 'menuManagement_013', 'icon': '', 'menuType': 'M', 'orderNum': 4, 'isFrame': '1', 'isCache': '0', 'visible': '0', 'status': '0', 'path': 'menuManagement_001.com'}"
+  }, {
+    "name" : "request_expect",
+    "value" : "{'msg': '操作成功', 'code': 200}"
+  }, {
+    "name" : "request_method",
+    "value" : "'POST'"
+  }, {
+    "name" : "request_mime",
+    "value" : "'application/json'"
+  }, {
+    "name" : "request_url",
+    "value" : "'http://192.168.109.134:81/prod-api/system/menu'"
+  }, {
+    "name" : "sql_sentence",
+    "value" : "'DELETE FROM sys_menu WHERE menu_name = 'menuManagement_013';'"
+  }, {
+    "name" : "sql_type",
+    "value" : "'DELETE'"
+  }, {
+    "name" : "update_key",
+    "value" : "None"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7a225f8aa314ef31.json",
+  "parameterValues" : [ "'菜单管理'", "'中'", "'menuManagement_013'", "'验证【菜单管理】添加菜单，显示排序orderNum为4，其他数据正常，添加成功'", "'系统管理'", "{'parentId': 0, 'menuName': 'menuManagement_013', 'icon': '', 'menuType': 'M', 'orderNum': 4, 'isFrame': '1', 'isCache': '0', 'visible': '0', 'status': '0', 'path': 'menuManagement_001.com'}", "{'msg': '操作成功', 'code': 200}", "'POST'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/menu'", "'DELETE FROM sys_menu WHERE menu_name = 'menuManagement_013';'", "'DELETE'", "None" ]
+}

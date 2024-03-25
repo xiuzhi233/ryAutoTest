@@ -1,0 +1,192 @@
+{
+  "uid" : "6ad4d3cdf67af85f",
+  "name" : "验证【用户管理】修改用户，email@和点之间无字符，其他数据正常，修改失败",
+  "fullName" : "test_case.test_ryvue.TestRyvue#test_ryvue",
+  "historyId" : "968c6850b5ae0574c85cb73d6cd7d0c8",
+  "time" : {
+    "start" : 1711276140963,
+    "stop" : 1711276140970,
+    "duration" : 7
+  },
+  "description" : "actual_data:{'msg': '邮箱格式不正确', 'code': 500}",
+  "descriptionHtml" : "<p>actual_data:{'msg': '邮箱格式不正确', 'code': 500}</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "db_fixture",
+    "time" : {
+      "start" : 1711276131333,
+      "stop" : 1711276131335,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "request_fixture",
+    "time" : {
+      "start" : 1711276131335,
+      "stop" : 1711276131498,
+      "duration" : 163
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "actual_data:{'msg': '邮箱格式不正确', 'code': 500}",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "dccde4c0bc6f27e5",
+      "name" : "log",
+      "source" : "dccde4c0bc6f27e5.txt",
+      "type" : "text/plain",
+      "size" : 95
+    }, {
+      "uid" : "56867a77f22b8254",
+      "name" : "stdout",
+      "source" : "56867a77f22b8254.txt",
+      "type" : "text/plain",
+      "size" : 13
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "db_fixture::0",
+    "time" : {
+      "start" : 1711276145542,
+      "stop" : 1711276145543,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "request_fixture::0",
+    "time" : {
+      "start" : 1711276145541,
+      "stop" : 1711276145541,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "系统管理"
+  }, {
+    "name" : "story",
+    "value" : "用户管理"
+  }, {
+    "name" : "severity",
+    "value" : "中"
+  }, {
+    "name" : "epic",
+    "value" : "若依接口自动化测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_ryvue"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRyvue"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-P49BVBS"
+  }, {
+    "name" : "thread",
+    "value" : "3236-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_ryvue"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "api_name",
+    "value" : "'用户管理'"
+  }, {
+    "name" : "case_level",
+    "value" : "'中'"
+  }, {
+    "name" : "case_number",
+    "value" : "'userManagement_123'"
+  }, {
+    "name" : "case_title",
+    "value" : "'验证【用户管理】修改用户，email@和点之间无字符，其他数据正常，修改失败'"
+  }, {
+    "name" : "module_name",
+    "value" : "'系统管理'"
+  }, {
+    "name" : "request_data",
+    "value" : "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'email': 'a@.c'}"
+  }, {
+    "name" : "request_expect",
+    "value" : "{'msg': '邮箱格式不正确', 'code': 500}"
+  }, {
+    "name" : "request_method",
+    "value" : "'PUT'"
+  }, {
+    "name" : "request_mime",
+    "value" : "'application/json'"
+  }, {
+    "name" : "request_url",
+    "value" : "'http://192.168.109.134:81/prod-api/system/user'"
+  }, {
+    "name" : "sql_sentence",
+    "value" : "'SELECT user_id FROM sys_user WHERE user_name = 'test';'"
+  }, {
+    "name" : "sql_type",
+    "value" : "'SELECT'"
+  }, {
+    "name" : "update_key",
+    "value" : "'user_id'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6ad4d3cdf67af85f.json",
+  "parameterValues" : [ "'用户管理'", "'中'", "'userManagement_123'", "'验证【用户管理】修改用户，email@和点之间无字符，其他数据正常，修改失败'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'email': 'a@.c'}", "{'msg': '邮箱格式不正确', 'code': 500}", "'PUT'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
+}

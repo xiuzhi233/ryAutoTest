@@ -1,0 +1,41 @@
+{
+  "系统认证": {
+    "登录系统":{
+      "login_001": "http://192.168.109.134:81/index",
+      "login_002": "http://192.168.109.134:81/login?redirect=%2Findex",
+      "login_003": "http://192.168.109.134:81/login?redirect=%2Findex",
+      "login_004": "http://192.168.109.134:81/login?redirect=%2Findex",
+      "login_005": "http://192.168.109.134:81/login?redirect=%2Findex",
+      "login_006": "http://192.168.109.134:81/login?redirect=%2Findex",
+      "login_007": "http://192.168.109.134:81/login?redirect=%2Findex",
+      "login_008": "http://192.168.109.134:81/login?redirect=%2Findex",
+      "login_009": "http://192.168.109.134:81/login?redirect=%2Findex",
+      "login_010": "http://192.168.109.134:81/login?redirect=%2Findex",
+      "login_011": "http://192.168.109.134:81/login?redirect=%2Findex",
+      "login_012": "http://192.168.109.134:81/login?redirect=%2Findex"
+    }
+  },
+  "用户管理": {
+    "添加用户": {
+      "add_user_001": "新增成功",
+      "add_user_002": "用户昵称不能为空",
+      "add_user_003": "失败",
+      "add_user_004": "新增成功",
+      "add_user_005": "新增成功",
+      "add_user_006": "新增成功",
+      "add_user_007": "用户昵称长度必须介于 2 和 20 之间",
+      "add_user_008": "新增成功",
+      "add_user_009": "新增成功",
+      "add_user_010": "新增成功",
+      "add_user_011": "新增成功",
+      "add_user_012": "用户名称不能为空",
+      "add_user_013": "新增成功",
+      "add_user_014": "用户名称长度必须介于 2 和 20 之间\n",
+      "add_user_015": "失败",
+      "add_user_016": "失败",
+      "add_user_017": "失败",
+      "add_user_018": "新增成功",
+      "add_user_019": "新增成功"
+    }
+  }
+}

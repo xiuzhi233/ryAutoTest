@@ -1,0 +1,25 @@
+{
+  "用户管理": {
+    "添加用户": {
+      "add_user_001": "DELETE FROM sys_user WHERE user_name = 'add_user_001';",
+      "add_user_002": "DELETE FROM sys_user WHERE user_name = 'add_user_002';",
+      "add_user_003": "DELETE FROM sys_user WHERE user_name = 'add_user_003';",
+      "add_user_004": "DELETE FROM sys_user WHERE user_name = 'add_user_004';",
+      "add_user_005": "DELETE FROM sys_user WHERE user_name = 'add_user_005';",
+      "add_user_006": "DELETE FROM sys_user WHERE user_name = 'add_user_006';",
+      "add_user_007": "DELETE FROM sys_user WHERE user_name = 'add_user_007';",
+      "add_user_008": "DELETE FROM sys_user WHERE user_name = 'add_user_008';",
+      "add_user_009": "DELETE FROM sys_user WHERE user_name = 'add_user_009';",
+      "add_user_010": "DELETE FROM sys_user WHERE user_name = 'add_user_010';",
+      "add_user_011": "DELETE FROM sys_user WHERE user_name = 'add_user_011';",
+      "add_user_012": "DELETE FROM sys_user WHERE user_name = '';",
+      "add_user_013": "DELETE FROM sys_user WHERE user_name = 'add_user_001add_user_001add_us';",
+      "add_user_014": "DELETE FROM sys_user WHERE user_name = 'add_user_001add_user_001add_use';",
+      "add_user_015": "DELETE FROM sys_user WHERE user_name = 'u';",
+      "add_user_016": "DELETE FROM sys_user WHERE user_name = 'test';",
+      "add_user_017": "DELETE FROM sys_user WHERE user_name = 'TEST';",
+      "add_user_018": "DELETE FROM sys_user WHERE user_name = '~@#$^&*()_+{}|';",
+      "add_user_019": "DELETE FROM sys_user WHERE user_name = '毛泽东';"
+    }
+  }
+}

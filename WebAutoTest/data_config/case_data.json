@@ -1,0 +1,41 @@
+{
+  "系统认证": {
+    "登录系统":{
+      "login_001": ["admin", "admin123"],
+      "login_002": ["admin", "321admin"],
+      "login_003": ["admin", "admin123admin123admin123admin123"],
+      "login_004": ["admin", "12345"],
+      "login_005": ["admin", "Admin123"],
+      "login_006": ["admin", "~@#$^&*()_+{}|"],
+      "login_007": ["xiuzhi123123", "admin123"],
+      "login_008": ["adminadminadminadminadmin", "admin123"],
+      "login_009": ["a", "admin123"],
+      "login_010": ["ADMIN", "admin123"],
+      "login_011": ["~@#$^&*()_+{}|", "admin123"],
+      "login_012": ["admin123", "admin1"]
+    }
+  },
+  "用户管理": {
+    "添加用户": {
+      "add_user_001": ["add_user_001", "add_user_001"],
+      "add_user_002": ["", "add_user_002"],
+      "add_user_003": ["a", "add_user_003"],
+      "add_user_004": ["ad", "add_user_004"],
+      "add_user_005": ["add_user_005add_user_005add_u", "add_user_005"],
+      "add_user_006": ["add_user_006add_user_006add_us", "add_user_006"],
+      "add_user_007": ["add_user_007add_user_007add_use", "add_user_007"],
+      "add_user_008": ["test", "add_user_008"],
+      "add_user_009": ["TEST", "add_user_009"],
+      "add_user_010": ["~@#$^&*()_+{}|", "add_user_010"],
+      "add_user_011": ["毛泽东", "add_user_011"],
+      "add_user_012": ["add_user_012", ""],
+      "add_user_013": ["add_user_013", "add_user_001add_user_001add_us"],
+      "add_user_014": ["add_user_014", "add_user_001add_user_001add_use"],
+      "add_user_015": ["add_user_015", "u"],
+      "add_user_016": ["add_user_016", "test"],
+      "add_user_017": ["add_user_017", "TEST"],
+      "add_user_018": ["add_user_018", "~@#$^&*()_+{}|"],
+      "add_user_019": ["add_user_019", "毛泽东"]
+    }
+  }
+}

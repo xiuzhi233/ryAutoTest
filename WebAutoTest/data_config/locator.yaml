@@ -1,0 +1,45 @@
+login:
+  loginPage:
+    # 用户名
+    username: XPATH, //*[@id="app"]/div[1]/form/div[1]/div/div/input
+    # 密码
+    password: XPATH, //*[@id="app"]/div[1]/form/div[2]/div/div/input
+    # 登录按钮
+    login_button: XPATH, //*[@id="app"]/div[1]/form/div[3]/div/button/span/span
+    # 退出按钮
+    corner: CSS_SELECTOR, [class="el-icon-caret-bottom"]
+    quit_button: XPATH, //span[text()="退出登录"]
+    confirm: CSS_SELECTOR, [class="el-button el-button--default el-button--small el-button--primary "]
+
+
+manage:
+  userManage:
+    # 系统管理
+    sysManage: XPATH, /html/body/div/div[1]/div[1]/div[2]/div[1]/div/ul/div[2]/li/div/span
+    # 用户管理
+    userManage: XPATH, /html/body/div/div[1]/div[1]/div[2]/div[1]/div/ul/div[2]/li/ul/div[1]/a/li
+    # 新增
+    addUser: XPATH, /html/body/div/div[1]/div[2]/section/div/div[1]/div[2]/div[1]/div[1]/button
+    # 用户昵称
+    nick_name: CSS_SELECTOR, [placeholder="请输入用户昵称"]
+    # 用户名称
+    user_name: CSS_SELECTOR, [placeholder="请输入用户名称"][maxlength="30"]
+    # 归属部门
+    deptId: CSS_SELECTOR, [class="vue-treeselect__menu-container"]
+    # 手机号
+    # 邮箱
+    # 用户密码
+    # 用户性别
+    # 状态
+    # 岗位
+    # 角色
+    # 备注
+    # 确认
+    confirm: CSS_SELECTOR, [aria-label="添加用户"] [class="el-button el-button--primary el-button--medium"]
+    # 响应数据
+    response_text: CSS_SELECTOR, [class="el-message__content"]
+    # 取消
+    cancel: CSS_SELECTOR, [aria-label="添加用户"] [class="el-button el-button--default el-button--medium"]
+
+
+
