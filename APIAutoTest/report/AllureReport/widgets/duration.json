@@ -1,3110 +1,3110 @@
 [ {
-  "uid" : "87712cfa2c01b036",
-  "name" : "验证【角色管理】添加角色，角色名称roleName过短，其他数据正常，添加失败",
-  "time" : {
-    "start" : 1711276144374,
-    "stop" : 1711276144388,
-    "duration" : 14
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "7afdc8c4d4b20192",
-  "name" : "验证输入错误的用户名错误的密码，登录失败，并提示账号或密码错误",
-  "time" : {
-    "start" : 1711276132389,
-    "stop" : 1711276132398,
-    "duration" : 9
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "12900d6ba66c0c22",
-  "name" : "验证【用户管理】查询用户，params[beginTime]为空，其他数据正常，查询成功",
-  "time" : {
-    "start" : 1711276144027,
-    "stop" : 1711276144038,
-    "duration" : 11
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "56a8515e8c30d712",
-  "name" : "验证【用户管理】添加用户，postlds为空，其他数据正常，添加成功",
-  "time" : {
-    "start" : 1711276136696,
-    "stop" : 1711276136772,
-    "duration" : 76
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "28acad07fcc7da5c",
-  "name" : "验证【用户管理】查询用户，pageNum为数字1000，其他数据正常，查询失败",
-  "time" : {
-    "start" : 1711276142824,
-    "stop" : 1711276142834,
-    "duration" : 10
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "dfc1db56495951ee",
-  "name" : "验证【用户管理】修改用户，postlds为0，其他数据正常，修改失败",
-  "time" : {
-    "start" : 1711276142156,
-    "stop" : 1711276142164,
-    "duration" : 8
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "a597e2843bcbe5c1",
-  "name" : "验证【角色管理】添加角色，状态status为空，其他数据正常，添加失败",
-  "time" : {
-    "start" : 1711276144772,
-    "stop" : 1711276144785,
-    "duration" : 13
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "7bb27f3a4e2e356e",
-  "name" : "验证【用户管理】添加用户，sex为空，其他数据正常，添加成功",
-  "time" : {
-    "start" : 1711276138823,
-    "stop" : 1711276138897,
-    "duration" : 74
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "87aef4968dfe6ee",
-  "name" : "验证【用户管理】修改用户，password为5位字符，其他数据正常，修改成功",
-  "time" : {
-    "start" : 1711276141309,
-    "stop" : 1711276141317,
-    "duration" : 8
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "c91da2d28406281d",
-  "name" : "验证【用户管理】添加用户，userName为空，其他数据正常，添加失败",
-  "time" : {
-    "start" : 1711276132493,
-    "stop" : 1711276132499,
-    "duration" : 6
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "38a9c68699758f0c",
-  "name" : "验证【用户管理】修改用户，nickName重复，但是字母大小写不一致，其他数据正常，修改成功",
-  "time" : {
-    "start" : 1711276142668,
-    "stop" : 1711276142676,
-    "duration" : 8
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "60970ef345153ed2",
-  "name" : "验证【用户管理】查询用户，pageSize数值为0，其他数据正常，查询失败",
-  "time" : {
-    "start" : 1711276143094,
-    "stop" : 1711276143103,
-    "duration" : 9
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "26dfa65b06731038",
-  "name" : "验证【用户管理】查询用户，pageNum为数字999，其他数据正常，查询成功",
-  "time" : {
-    "start" : 1711276142802,
-    "stop" : 1711276142811,
-    "duration" : 9
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "58dd7c7564a10b1c",
-  "name" : "验证【用户管理】添加用户，deptld为108，其他数据正常，添加成功",
-  "time" : {
-    "start" : 1711276134035,
-    "stop" : 1711276134129,
-    "duration" : 94
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b9d4ae1d5cd79670",
-  "name" : "验证【用户管理】添加用户，phonenumber以13开头的11位纯数字，其他数据正常，添加成功",
-  "time" : {
-    "start" : 1711276136007,
-    "stop" : 1711276136084,
-    "duration" : 77
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "92ffb8558adc5c5",
-  "name" : "验证【用户管理】修改用户，email长度2，其他数据正常，修改失败",
-  "time" : {
-    "start" : 1711276141090,
-    "stop" : 1711276141098,
-    "duration" : 8
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "cf1a790c3043a120",
-  "name" : "验证【用户管理】查询用户，pageSize数值为null，其他数据正常，查询失败",
-  "time" : {
-    "start" : 1711276143163,
-    "stop" : 1711276143174,
-    "duration" : 11
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "759e45750088da13",
-  "name" : "验证【用户管理】修改用户，remark含有特殊字符，其他数据正常，修改成功",
-  "time" : {
-    "start" : 1711276141835,
-    "stop" : 1711276141843,
-    "duration" : 8
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "218f4b4d977afb33",
-  "name" : "验证【用户管理】删除用户，输入不存在的用户id不能删除",
-  "time" : {
-    "start" : 1711276140184,
-    "stop" : 1711276140193,
-    "duration" : 9
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "38464e822004bb84",
-  "name" : "验证【用户管理】修改用户，remark有敏感词，其他数据正常，修改成功",
-  "time" : {
-    "start" : 1711276141865,
-    "stop" : 1711276141873,
-    "duration" : 8
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "d5c5a0698d9c6120",
-  "name" : "验证【用户管理】修改用户，deptld为99，其他数据正常，修改成功",
-  "time" : {
-    "start" : 1711276140763,
-    "stop" : 1711276140771,
-    "duration" : 8
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "66ee866d9bd4c754",
-  "name" : "验证【用户管理】修改用户，postlds为4，其他数据正常，修改成功",
-  "time" : {
-    "start" : 1711276142101,
-    "stop" : 1711276142109,
-    "duration" : 8
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "296923c2c2bec114",
-  "name" : "验证【角色管理】添加角色，角色名称roleName为空，其他数据正常，添加失败",
-  "time" : {
-    "start" : 1711276144339,
-    "stop" : 1711276144346,
-    "duration" : 7
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "75167bd68919ebf9",
-  "name" : "验证输入正确的用户名过短的密码，登录失败，并提示账号或密码错误",
-  "time" : {
-    "start" : 1711276131744,
-    "stop" : 1711276131817,
-    "duration" : 73
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5182784f05528a3",
-  "name" : "验证【用户管理】修改用户，nickName过30个字符，其他数据正常，修改成功",
-  "time" : {
-    "start" : 1711276142595,
-    "stop" : 1711276142602,
-    "duration" : 7
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "a77ec52a165ff928",
-  "name" : "验证【用户管理】添加用户，email长度2，其他数据正常，添加失败",
-  "time" : {
-    "start" : 1711276135177,
-    "stop" : 1711276135183,
-    "duration" : 6
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c268cbed59edf1b7",
-  "name" : "验证【用户管理】修改用户，nickName有敏感词，其他数据正常，修改成功",
-  "time" : {
-    "start" : 1711276142728,
-    "stop" : 1711276142736,
-    "duration" : 8
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "52ee4f3e4c64bb11",
-  "name" : "验证【用户管理】添加用户，postlds为4，其他数据正常，添加成功",
-  "time" : {
-    "start" : 1711276138121,
-    "stop" : 1711276138198,
-    "duration" : 77
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b891f2330c32bc2e",
-  "name" : "验证【用户管理】查询用户，params[endTime]为空，其他数据正常，查询成功",
-  "time" : {
-    "start" : 1711276144175,
-    "stop" : 1711276144185,
-    "duration" : 10
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "95a56bd11e6f4b76",
-  "name" : "验证【用户管理】查询用户，phonenumber以17开头的11位纯数字，其他数据正常，查询成功",
-  "time" : {
-    "start" : 1711276143479,
-    "stop" : 1711276143490,
-    "duration" : 11
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2b0a42bc475bbc39",
-  "name" : "验证【用户管理】添加用户，status为1，其他数据正常，添加成功",
-  "time" : {
-    "start" : 1711276139086,
-    "stop" : 1711276139163,
-    "duration" : 77
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "cb76d39bdc532c7f",
-  "name" : "验证【用户管理】查询用户，pageNum为数字1，其他数据正常，查询成功",
-  "time" : {
-    "start" : 1711276142757,
-    "stop" : 1711276142768,
-    "duration" : 11
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "112aee640b307f53",
-  "name" : "验证【用户管理】添加用户，postlds为3，其他数据正常，添加成功",
-  "time" : {
-    "start" : 1711276136958,
-    "stop" : 1711276137036,
-    "duration" : 78
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d84a651bf5423ddf",
-  "name" : "验证【角色管理】添加角色，角色顺序roleSort为1001，其他数据正常，添加失败",
-  "time" : {
-    "start" : 1711276144732,
-    "stop" : 1711276144745,
-    "duration" : 13
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "cf4346b246f63d2f",
-  "name" : "验证【菜单管理】添加菜单，路由地址path过长，其他数据正常，添加失败",
-  "time" : {
-    "start" : 1711276145514,
-    "stop" : 1711276145524,
-    "duration" : 10
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "3325ad07a9842a37",
-  "name" : "验证【角色管理】添加角色，remark为空，其他数据正常，添加失败",
-  "time" : {
-    "start" : 1711276144933,
-    "stop" : 1711276144946,
-    "duration" : 13
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "ab59cffe4733acea",
-  "name" : "验证【用户管理】添加用户，password含有特殊字符，其他数据正常，添加失败",
-  "time" : {
-    "start" : 1711276135911,
-    "stop" : 1711276135989,
-    "duration" : 78
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "4346f6998316d7d5",
-  "name" : "验证【角色管理】添加角色，角色顺序roleSort为空，其他数据正常，添加失败",
-  "time" : {
-    "start" : 1711276144591,
-    "stop" : 1711276144597,
-    "duration" : 6
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "faba5c8079b0051b",
-  "name" : "验证【用户管理】添加用户，sex为2，其他数据正常，添加成功",
-  "time" : {
-    "start" : 1711276138738,
-    "stop" : 1711276138814,
-    "duration" : 76
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ef62b952346a40d",
-  "name" : "验证【菜单管理】添加菜单，菜单名称menuName有敏感词，其他数据正常，添加成功",
-  "time" : {
-    "start" : 1711276145176,
-    "stop" : 1711276145187,
-    "duration" : 11
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "741e9801a7880de4",
-  "name" : "验证【用户管理】添加用户，phonenumber不为纯数字，其他数据正常，添加失败",
-  "time" : {
-    "start" : 1711276136403,
-    "stop" : 1711276136483,
-    "duration" : 80
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "f8a7a0554b029058",
-  "name" : "验证【用户管理】修改用户，postlds为3，其他数据正常，修改成功",
-  "time" : {
-    "start" : 1711276141717,
-    "stop" : 1711276141724,
-    "duration" : 7
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "fe531abc6b17d18c",
-  "name" : "验证【用户管理】查询用户，params[beginTime]符合时间格式且只有起始时间无结束时间，其他数据正常，查询成功",
-  "time" : {
-    "start" : 1711276143985,
-    "stop" : 1711276143993,
-    "duration" : 8
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "fbc6700c0dcee708",
-  "name" : "验证【用户管理】修改用户，sex为0，其他数据正常，修改成功",
-  "time" : {
-    "start" : 1711276142239,
-    "stop" : 1711276142247,
-    "duration" : 8
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "5eb92904507869c8",
-  "name" : "验证【用户管理】添加用户，deptld为空，其他数据正常，添加成功",
-  "time" : {
-    "start" : 1711276133021,
-    "stop" : 1711276133113,
-    "duration" : 92
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "94b85d831a08713d",
-  "name" : "验证【用户管理】添加用户，postlds为5，其他数据正常，添加失败",
-  "time" : {
-    "start" : 1711276138389,
-    "stop" : 1711276138465,
-    "duration" : 76
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "8ed4a3ea4ade5717",
-  "name" : "验证【角色管理】添加角色，权限字符roleKey为common，其他数据正常，添加成功",
-  "time" : {
-    "start" : 1711276144571,
-    "stop" : 1711276144580,
-    "duration" : 9
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "20f81b9749c28a06",
-  "name" : "验证【用户管理】添加用户，email无@无点，其他数据正常，添加失败",
-  "time" : {
-    "start" : 1711276134709,
-    "stop" : 1711276134717,
-    "duration" : 8
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8cd17b00425f02bd",
-  "name" : "验证【角色管理】添加角色，角色名称roleName重复，其他数据正常，添加失败",
-  "time" : {
-    "start" : 1711276144410,
-    "stop" : 1711276144422,
-    "duration" : 12
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "c07aa775fcf1f7f4",
-  "name" : "验证【用户管理】添加用户，postlds为0，其他数据正常，添加失败",
-  "time" : {
-    "start" : 1711276138295,
-    "stop" : 1711276138372,
-    "duration" : 77
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "3c2353776a98c479",
-  "name" : "验证【角色管理】添加角色，角色名称roleName有敏感词，其他数据正常，添加成功",
-  "time" : {
-    "start" : 1711276144510,
-    "stop" : 1711276144523,
-    "duration" : 13
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "261fce6845e03418",
-  "name" : "验证【用户管理】查询用户，params[beginTime]符合时间格式且起始时间小于结束时间，其他数据正常，查询成功",
-  "time" : {
-    "start" : 1711276143919,
-    "stop" : 1711276143933,
-    "duration" : 14
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "16de89f004837b1f",
-  "name" : "验证【用户管理】添加用户，postlds不为1234且不为空，其他数据正常，添加失败",
-  "time" : {
-    "start" : 1711276137133,
-    "stop" : 1711276137210,
-    "duration" : 77
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "ccf07bbbfafbeed8",
-  "name" : "验证【用户管理】修改用户，email符合邮箱规则，其他数据正常，修改成功",
-  "time" : {
-    "start" : 1711276140822,
-    "stop" : 1711276140830,
-    "duration" : 8
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "b0ad51e8b6209096",
-  "name" : "验证【菜单管理】添加菜单，显示排序orderNum为5，其他数据正常，添加失败",
-  "time" : {
-    "start" : 1711276145317,
-    "stop" : 1711276145326,
-    "duration" : 9
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "1df8d2c6f7e72c0d",
-  "name" : "验证【用户管理】查询用户，pageSize为特殊符号，其他数据正常，查询失败",
-  "time" : {
-    "start" : 1711276143138,
-    "stop" : 1711276143150,
-    "duration" : 12
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "be293e5453ceb7ac",
-  "name" : "验证【用户管理】添加用户，rolelds为2，其他数据正常，添加成功",
-  "time" : {
-    "start" : 1711276137590,
-    "stop" : 1711276137668,
-    "duration" : 78
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c790f9af011e976a",
-  "name" : "验证【菜单管理】添加菜单，菜单名称menuName重复，其他数据正常，添加失败",
-  "time" : {
-    "start" : 1711276145097,
-    "stop" : 1711276145106,
-    "duration" : 9
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "91e6a65da522cb86",
-  "name" : "验证【用户管理】修改用户，email长度3，其他数据正常，修改成功",
-  "time" : {
-    "start" : 1711276141110,
-    "stop" : 1711276141119,
-    "duration" : 9
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "fd8b71aba6fba47f",
-  "name" : "验证【用户管理】查询用户，status为0，其他数据正常，查询成功",
-  "time" : {
-    "start" : 1711276143635,
-    "stop" : 1711276143647,
-    "duration" : 12
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6668fb92e2dc6bfe",
-  "name" : "验证【用户管理】添加用户，email符合邮箱规则，其他数据正常，添加成功",
-  "time" : {
-    "start" : 1711276134484,
-    "stop" : 1711276134597,
-    "duration" : 113
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3532d9c47d84ec8e",
-  "name" : "验证【用户管理】添加用户，password为16位字符，其他数据正常，添加成功",
-  "time" : {
-    "start" : 1711276135515,
-    "stop" : 1711276135597,
-    "duration" : 82
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "262cb6ff5d54021b",
-  "name" : "验证【用户管理】查询用户，pageSize数值为30，其他数据正常，查询成功",
-  "time" : {
-    "start" : 1711276142992,
-    "stop" : 1711276143002,
-    "duration" : 10
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "bd703cf8fa70bcd7",
-  "name" : "验证【用户管理】添加用户，email特殊字符，其他数据正常，添加失败",
-  "time" : {
-    "start" : 1711276134952,
-    "stop" : 1711276135044,
-    "duration" : 92
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "29dd2f65b5a4c53b",
-  "name" : "验证【用户管理】查询用户，postlds为空，其他数据正常，查询成功",
-  "time" : {
-    "start" : 1711276143896,
-    "stop" : 1711276143906,
-    "duration" : 10
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "defba6b51288c2bc",
-  "name" : "验证【用户管理】修改用户，email长度为51个字符，其他数据正常，修改失败",
-  "time" : {
-    "start" : 1711276141172,
-    "stop" : 1711276141179,
-    "duration" : 7
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "13417dbaa7d1d7d2",
-  "name" : "验证【用户管理】修改用户，email点结尾，其他数据正常，修改失败",
-  "time" : {
-    "start" : 1711276140981,
-    "stop" : 1711276140989,
-    "duration" : 8
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ba83dda7d8667446",
-  "name" : "验证【用户管理】添加用户，nickName过29个字符，其他数据正常，添加成功",
-  "time" : {
-    "start" : 1711276139634,
-    "stop" : 1711276139709,
-    "duration" : 75
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c3bab9544ff4cdf1",
-  "name" : "验证【用户管理】修改用户，userName含有特殊字符，其他数据正常，修改成功",
-  "time" : {
-    "start" : 1711276140358,
-    "stop" : 1711276140365,
-    "duration" : 7
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "8a86c44abbc30a20",
-  "name" : "验证【用户管理】修改用户，userName长度为1个字符，其他数据正常，修改失败",
-  "time" : {
-    "start" : 1711276140272,
-    "stop" : 1711276140286,
-    "duration" : 14
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "3e26949ddccb8af1",
-  "name" : "验证【用户管理】查询用户，params[endTime]符合时间格式且起始时间等于结束时间，其他数据正常，查询失败",
-  "time" : {
-    "start" : 1711276144092,
-    "stop" : 1711276144103,
-    "duration" : 11
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6f7d20048e627a1d",
-  "name" : "验证【用户管理】添加用户，userName有敏感词，其他数据正常，添加成功",
-  "time" : {
-    "start" : 1711276132921,
-    "stop" : 1711276133008,
-    "duration" : 87
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e000cd75332acb21",
-  "name" : "验证【用户管理】修改用户，rolelds为空，其他数据正常，修改成功",
-  "time" : {
-    "start" : 1711276141985,
-    "stop" : 1711276141993,
-    "duration" : 8
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "a8bbd03be5ffdd30",
-  "name" : "验证【用户管理】添加用户，email为空，其他数据正常，添加成功",
-  "time" : {
-    "start" : 1711276134609,
-    "stop" : 1711276134698,
-    "duration" : 89
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "53dbfac8013fb61d",
-  "name" : "验证【用户管理】添加用户，nickName重复，其他数据正常，添加成功",
-  "time" : {
-    "start" : 1711276139819,
-    "stop" : 1711276139897,
-    "duration" : 78
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ca7120d7a01736e5",
-  "name" : "验证【用户管理】修改用户，sex不为012且不为空，其他数据正常，修改失败",
-  "time" : {
-    "start" : 1711276142348,
-    "stop" : 1711276142355,
-    "duration" : 7
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "f0de9ad9768a0a57",
-  "name" : "验证【用户管理】查询用户，userName重复，其他数据正常，查询失败",
-  "time" : {
-    "start" : 1711276143285,
-    "stop" : 1711276143299,
-    "duration" : 14
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "79e8d76af36ef1f",
-  "name" : "验证【用户管理】修改用户，sex为1，其他数据正常，修改成功",
-  "time" : {
-    "start" : 1711276142266,
-    "stop" : 1711276142273,
-    "duration" : 7
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "508bdf5d563770d6",
-  "name" : "验证【用户管理】查询用户，pageNum为null，其他数据正常，查询失败",
-  "time" : {
-    "start" : 1711276142873,
-    "stop" : 1711276142883,
-    "duration" : 10
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e5f91c57b4f5d0b5",
-  "name" : "验证【用户管理】修改用户，userName重复，其他数据正常，修改失败",
-  "time" : {
-    "start" : 1711276140306,
-    "stop" : 1711276140313,
-    "duration" : 7
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "684121aed208950d",
-  "name" : "验证【菜单管理】添加菜单，菜单名称menuName含有特殊字符，其他数据正常，添加失败",
-  "time" : {
-    "start" : 1711276145146,
-    "stop" : 1711276145156,
-    "duration" : 10
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "1fb34b8a5e70aa1",
-  "name" : "验证【用户管理】添加用户，phonenumber不以13\\14\\15\\17\\18开头，其他数据正常，添加失败",
-  "time" : {
-    "start" : 1711276136599,
-    "stop" : 1711276136677,
-    "duration" : 78
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "d72abcbbb3cf58d6",
-  "name" : "验证【用户管理】修改用户，postlds为空，其他数据正常，修改成功",
-  "time" : {
-    "start" : 1711276142211,
-    "stop" : 1711276142219,
-    "duration" : 8
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "d6c510024dd588be",
-  "name" : "验证【用户管理】修改用户，deptld为105，其他数据正常，修改成功",
-  "time" : {
-    "start" : 1711276140582,
-    "stop" : 1711276140590,
-    "duration" : 8
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "eec425d42b115f51",
-  "name" : "验证【用户管理】修改用户，postlds为[1, 2, 3, 4]，其他数据正常，修改成功",
-  "time" : {
-    "start" : 1711276142129,
-    "stop" : 1711276142136,
-    "duration" : 7
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "4910bc100cb4e25a",
-  "name" : "验证【用户管理】添加用户，deptld为102，其他数据正常，添加成功",
-  "time" : {
-    "start" : 1711276133346,
-    "stop" : 1711276133440,
-    "duration" : 94
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8fcf12102b958df7",
-  "name" : "验证输入正确的用户名错误的密码，登录失败，并提示账号或密码错误",
-  "time" : {
-    "start" : 1711276131644,
-    "stop" : 1711276131714,
-    "duration" : 70
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b9895125e2a833d9",
-  "name" : "验证【菜单管理】添加菜单，路由地址path为正确的地址格式，其他数据正常，添加成功",
-  "time" : {
-    "start" : 1711276145346,
-    "stop" : 1711276145356,
-    "duration" : 10
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6a6ae1e48e3970f4",
-  "name" : "验证【用户管理】查询用户，userName长度为30个字符，其他数据正常，查询成功",
-  "time" : {
-    "start" : 1711276143214,
-    "stop" : 1711276143223,
-    "duration" : 9
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "bd45de85a0349458",
-  "name" : "验证【用户管理】查询用户，phonenumber包含空格，其他数据正常，查询失败",
-  "time" : {
-    "start" : 1711276143583,
-    "stop" : 1711276143593,
-    "duration" : 10
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "cbdbacfb21db0026",
-  "name" : "验证【用户管理】查询用户，params[endTime]符合时间格式且只有起始时间无结束时间，其他数据正常，查询成功",
-  "time" : {
-    "start" : 1711276144134,
-    "stop" : 1711276144142,
-    "duration" : 8
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1f0f41ab439e1f6f",
-  "name" : "验证【用户管理】修改用户，email汉字，其他数据正常，修改失败",
-  "time" : {
-    "start" : 1711276141063,
-    "stop" : 1711276141070,
-    "duration" : 7
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "e8837b4dcec0465e",
-  "name" : "验证【用户管理】修改用户，email多个@，其他数据正常，修改失败",
-  "time" : {
-    "start" : 1711276141000,
-    "stop" : 1711276141007,
-    "duration" : 7
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "43badf4431e81ca9",
-  "name" : "验证【用户管理】添加用户，phonenumber以18开头的11位纯数字，其他数据正常，添加成功",
-  "time" : {
-    "start" : 1711276136296,
-    "stop" : 1711276136377,
-    "duration" : 81
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8f1b3d7e17dda405",
-  "name" : "验证【用户管理】修改用户，deptld为104，其他数据正常，修改成功",
-  "time" : {
-    "start" : 1711276140553,
-    "stop" : 1711276140561,
-    "duration" : 8
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "2f2318f231dfbf35",
-  "name" : "验证【角色管理】添加角色，填写有效数据能够添加用户成功",
-  "time" : {
-    "start" : 1711276144314,
-    "stop" : 1711276144326,
-    "duration" : 12
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6ad4d3cdf67af85f",
-  "name" : "验证【用户管理】修改用户，email@和点之间无字符，其他数据正常，修改失败",
-  "time" : {
-    "start" : 1711276140963,
-    "stop" : 1711276140970,
-    "duration" : 7
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "efa2da6a6ade5e9b",
-  "name" : "验证【用户管理】查询用户，phonenumber以15开头的11位纯数字，其他数据正常，查询成功",
-  "time" : {
-    "start" : 1711276143452,
-    "stop" : 1711276143465,
-    "duration" : 13
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "487ad6f971e47602",
-  "name" : "验证【用户管理】修改用户，phonenumber不为纯数字，其他数据正常，修改失败",
-  "time" : {
-    "start" : 1711276141536,
-    "stop" : 1711276141544,
-    "duration" : 8
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "401c0eb4cefd3d01",
-  "name" : "验证【用户管理】查询用户，pageSize数值为50，其他数据正常，查询成功",
-  "time" : {
-    "start" : 1711276143044,
-    "stop" : 1711276143055,
-    "duration" : 11
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c53f66ebc1822e45",
-  "name" : "验证【角色管理】添加角色，菜单权限menuIds为空，其他数据正常，添加成功",
-  "time" : {
-    "start" : 1711276144887,
-    "stop" : 1711276144900,
-    "duration" : 13
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4b09a0625446acc9",
-  "name" : "验证【菜单管理】添加菜单，路由地址path为没有www，其他数据正常，添加失败",
-  "time" : {
-    "start" : 1711276145368,
-    "stop" : 1711276145378,
-    "duration" : 10
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "b05e3323e8f79739",
-  "name" : "验证【菜单管理】添加菜单，菜单名称menuName重复，但是字母大小写不一致，其他数据正常，添加失败",
-  "time" : {
-    "start" : 1711276145118,
-    "stop" : 1711276145127,
-    "duration" : 9
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "92c1679e79d9223b",
-  "name" : "验证【用户管理】添加用户，email长度为51个字符，其他数据正常，添加失败",
-  "time" : {
-    "start" : 1711276135393,
-    "stop" : 1711276135400,
-    "duration" : 7
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4ba7b4a4d91024d5",
-  "name" : "验证【用户管理】添加用户，status为2，其他数据正常，添加成功",
-  "time" : {
-    "start" : 1711276139172,
-    "stop" : 1711276139249,
-    "duration" : 77
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "aadf034955077853",
-  "name" : "验证【用户管理】添加用户，postlds为2，其他数据正常，添加成功",
-  "time" : {
-    "start" : 1711276137945,
-    "stop" : 1711276138023,
-    "duration" : 78
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e290e522020d3729",
-  "name" : "验证输入正确的用户名正确的密码，登录成功",
-  "time" : {
-    "start" : 1711276131499,
-    "stop" : 1711276131632,
-    "duration" : 133
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "da41852d13579cd2",
-  "name" : "验证【用户管理】添加用户，userName长度为30个字符，其他数据正常，添加成功",
-  "time" : {
-    "start" : 1711276132510,
-    "stop" : 1711276132582,
-    "duration" : 72
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2c87b31b0b04270e",
-  "name" : "验证【用户管理】查询用户，userName长度31个字符，其他数据正常，查询失败",
-  "time" : {
-    "start" : 1711276143236,
-    "stop" : 1711276143244,
-    "duration" : 8
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "876a05df66487d55",
-  "name" : "验证【用户管理】添加用户，remark有敏感词，其他数据正常，添加成功",
-  "time" : {
-    "start" : 1711276137401,
-    "stop" : 1711276137477,
-    "duration" : 76
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f1b97be634fbc668",
-  "name" : "验证【角色管理】添加角色，权限字符roleKey为admin，其他数据正常，添加成功",
-  "time" : {
-    "start" : 1711276144551,
-    "stop" : 1711276144560,
-    "duration" : 9
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d5101b2bdb8e6d85",
-  "name" : "验证【用户管理】修改用户，email特殊字符，其他数据正常，修改失败",
-  "time" : {
-    "start" : 1711276141035,
-    "stop" : 1711276141043,
-    "duration" : 8
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "36252cbc51c453f7",
-  "name" : "验证【用户管理】添加用户，nickName有敏感词，其他数据正常，添加成功",
-  "time" : {
-    "start" : 1711276140079,
-    "stop" : 1711276140156,
-    "duration" : 77
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "84ba26c2603d48a0",
-  "name" : "验证【菜单管理】添加菜单，填写有效数据能够添加用户成功",
-  "time" : {
-    "start" : 1711276145019,
-    "stop" : 1711276145030,
-    "duration" : 11
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "cef1c6a9918d6fc5",
-  "name" : "验证【用户管理】查询用户，phonenumber以18开头的11位纯数字，其他数据正常，查询成功",
-  "time" : {
-    "start" : 1711276143504,
-    "stop" : 1711276143517,
-    "duration" : 13
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ce3fa108d9f1bbf4",
-  "name" : "验证【用户管理】查询用户，params[endTime]符合时间格式且起始时间小于结束时间，其他数据正常，查询成功",
-  "time" : {
-    "start" : 1711276144068,
-    "stop" : 1711276144080,
-    "duration" : 12
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "dd8cc251b747085e",
-  "name" : "验证【菜单管理】添加菜单，菜单名称menuName为空，其他数据正常，添加失败",
-  "time" : {
-    "start" : 1711276145041,
-    "stop" : 1711276145048,
-    "duration" : 7
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "fa210ad91854fcf6",
-  "name" : "验证【用户管理】添加用户，password为5位字符，其他数据正常，添加成功",
-  "time" : {
-    "start" : 1711276135812,
-    "stop" : 1711276135892,
-    "duration" : 80
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "c319aacd0819f574",
-  "name" : "验证【菜单管理】添加菜单，显示排序orderNum为2，其他数据正常，添加成功",
-  "time" : {
-    "start" : 1711276145245,
-    "stop" : 1711276145256,
-    "duration" : 11
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a8c83ae877611468",
-  "name" : "验证【用户管理】修改用户，deptld为102，其他数据正常，修改成功",
-  "time" : {
-    "start" : 1711276140495,
-    "stop" : 1711276140503,
-    "duration" : 8
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "f5f4185470fd7b3f",
-  "name" : "验证【角色管理】添加角色，角色顺序roleSort为1，其他数据正常，添加成功",
-  "time" : {
-    "start" : 1711276144640,
-    "stop" : 1711276144653,
-    "duration" : 13
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c991f36cee5d278a",
-  "name" : "验证【用户管理】添加用户，deptld为103，其他数据正常，添加成功",
-  "time" : {
-    "start" : 1711276133451,
-    "stop" : 1711276133541,
-    "duration" : 90
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4a1c022b58bc06a8",
-  "name" : "验证【用户管理】查询用户，userName长度为1个字符，其他数据正常，查询失败",
-  "time" : {
-    "start" : 1711276143257,
-    "stop" : 1711276143269,
-    "duration" : 12
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f1928e79fb6fd6a8",
-  "name" : "验证【用户管理】查询用户，phonenumber以14开头的11位纯数字，其他数据正常，查询成功",
-  "time" : {
-    "start" : 1711276143424,
-    "stop" : 1711276143435,
-    "duration" : 11
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "80bb7fe388db903b",
-  "name" : "验证【角色管理】添加角色，菜单权限menuIds为存在的id其他数据正常，添加成功",
-  "time" : {
-    "start" : 1711276144910,
-    "stop" : 1711276144922,
-    "duration" : 12
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "72b4ed0499e77d21",
-  "name" : "验证【用户管理】修改用户，userName为空，其他数据正常，修改失败",
-  "time" : {
-    "start" : 1711276140203,
-    "stop" : 1711276140209,
-    "duration" : 6
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "58e075240e648da1",
-  "name" : "验证【用户管理】添加用户，phonenumber以17开头的11位纯数字，其他数据正常，添加成功",
-  "time" : {
-    "start" : 1711276136268,
-    "stop" : 1711276136277,
-    "duration" : 9
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "70f14913d09fc9ea",
-  "name" : "验证【用户管理】修改用户，email无@无点，其他数据正常，修改失败",
-  "time" : {
-    "start" : 1711276140881,
-    "stop" : 1711276140888,
-    "duration" : 7
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "801b558ebab8a88d",
-  "name" : "验证【用户管理】上传空文件，上传失败",
-  "time" : {
-    "start" : 1711276144295,
-    "stop" : 1711276144302,
-    "duration" : 7
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "25a32a275f41a9e5",
-  "name" : "验证【用户管理】修改用户，phonenumber以17开头的11位纯数字，其他数据正常，修改成功",
-  "time" : {
-    "start" : 1711276141458,
-    "stop" : 1711276141466,
-    "duration" : 8
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "4b4bac8ddbf1958e",
-  "name" : "验证【角色管理】添加角色，remark有敏感词，其他数据正常，添加成功",
-  "time" : {
-    "start" : 1711276144997,
-    "stop" : 1711276145009,
-    "duration" : 12
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "22e5d2638253a54b",
-  "name" : "验证【用户管理】添加用户，email@开头，其他数据正常，添加失败",
-  "time" : {
-    "start" : 1711276134856,
-    "stop" : 1711276134864,
-    "duration" : 8
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5aa1417733bcd77",
-  "name" : "验证【用户管理】查询用户，params[beginTime]符合时间格式且起始时间等于结束时间，其他数据正常，查询失败",
-  "time" : {
-    "start" : 1711276143944,
-    "stop" : 1711276143953,
-    "duration" : 9
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "983e37da8f533fc3",
-  "name" : "验证【用户管理】添加用户，sex为1，其他数据正常，添加成功",
-  "time" : {
-    "start" : 1711276138652,
-    "stop" : 1711276138728,
-    "duration" : 76
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "efc1deee8c9b2d6d",
-  "name" : "验证输入过短的用户名正确的密码，登录失败，并提示账号或密码错误",
-  "time" : {
-    "start" : 1711276132025,
-    "stop" : 1711276132030,
-    "duration" : 5
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "11ee89a0555f2587",
-  "name" : "验证【用户管理】添加用户，phonenumber位数不为11位，其他数据正常，添加失败",
-  "time" : {
-    "start" : 1711276136388,
-    "stop" : 1711276136393,
-    "duration" : 5
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3ce4fe734443f899",
-  "name" : "验证【用户管理】修改用户，nickName为空，其他数据正常，修改失败",
-  "time" : {
-    "start" : 1711276142486,
-    "stop" : 1711276142494,
-    "duration" : 8
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "68b3be7953bd77c4",
-  "name" : "验证【用户管理】添加用户，email点结尾，其他数据正常，添加失败",
-  "time" : {
-    "start" : 1711276134893,
-    "stop" : 1711276134900,
-    "duration" : 7
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a15d3828662b09d8",
-  "name" : "验证【用户管理】查询用户，params[endTime]符合时间格式且起始时间大于结束时间，其他数据正常，查询失败",
-  "time" : {
-    "start" : 1711276144113,
-    "stop" : 1711276144122,
-    "duration" : 9
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b825767c5a2480ba",
-  "name" : "验证【用户管理】修改用户，phonenumber不以13\\14\\15\\17\\18开头，其他数据正常，修改失败",
-  "time" : {
-    "start" : 1711276141599,
-    "stop" : 1711276141608,
-    "duration" : 9
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "67d185de3415541d",
-  "name" : "验证【用户管理】添加用户，nickName为1个字符，其他数据正常，添加失败",
-  "time" : {
-    "start" : 1711276139450,
-    "stop" : 1711276139532,
-    "duration" : 82
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "a9187f0314f0f4a9",
-  "name" : "验证【用户管理】查询用户，pageNum为数字0，其他数据正常，查询失败",
-  "time" : {
-    "start" : 1711276142780,
-    "stop" : 1711276142790,
-    "duration" : 10
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d11313dfe2076f32",
-  "name" : "验证【角色管理】添加角色，remark含有特殊字符，其他数据正常，添加失败",
-  "time" : {
-    "start" : 1711276144966,
-    "stop" : 1711276144978,
-    "duration" : 12
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "3b5ba9759973dcbe",
-  "name" : "验证【角色管理】添加角色，角色顺序roleSort为999，其他数据正常，添加成功",
-  "time" : {
-    "start" : 1711276144686,
-    "stop" : 1711276144699,
-    "duration" : 13
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2e09d92f747ca03d",
-  "name" : "验证【用户管理】查询用户，params[beginTime]符合时间格式且起始时间大于结束时间，其他数据正常，查询失败",
-  "time" : {
-    "start" : 1711276143965,
-    "stop" : 1711276143973,
-    "duration" : 8
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "149417e41a3c05cb",
-  "name" : "验证【用户管理】查询用户，userName重复，但是字母大小写不一致，其他数据正常，查询失败",
-  "time" : {
-    "start" : 1711276143315,
-    "stop" : 1711276143327,
-    "duration" : 12
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6f4147ef10ad1f5",
-  "name" : "验证【角色管理】添加角色，状态status为2，其他数据正常，添加失败",
-  "time" : {
-    "start" : 1711276144853,
-    "stop" : 1711276144866,
-    "duration" : 13
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "7a235789a92a8bcf",
-  "name" : "验证【用户管理】查询用户，status为1，其他数据正常，查询成功",
-  "time" : {
-    "start" : 1711276143660,
-    "stop" : 1711276143670,
-    "duration" : 10
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "231b10d66c7a0835",
-  "name" : "验证【用户管理】添加用户，postlds为1，其他数据正常，添加成功",
-  "time" : {
-    "start" : 1711276137857,
-    "stop" : 1711276137936,
-    "duration" : 79
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2baed67447bae591",
-  "name" : "验证【用户管理】修改用户，postlds为2，其他数据正常，修改成功",
-  "time" : {
-    "start" : 1711276141689,
-    "stop" : 1711276141696,
-    "duration" : 7
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "1861b849f29cbb90",
-  "name" : "验证【菜单管理】添加菜单，路由地址path为没有点，其他数据正常，添加成功",
-  "time" : {
-    "start" : 1711276145421,
-    "stop" : 1711276145430,
-    "duration" : 9
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f57d025a30e88211",
-  "name" : "验证【用户管理】添加用户，rolelds为空，其他数据正常，添加成功",
-  "time" : {
-    "start" : 1711276137772,
-    "stop" : 1711276137847,
-    "duration" : 75
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b7c8772aa3f6d024",
-  "name" : "验证【用户管理】添加用户，sex为0，其他数据正常，添加成功",
-  "time" : {
-    "start" : 1711276138567,
-    "stop" : 1711276138642,
-    "duration" : 75
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6c39eb11d78059a7",
-  "name" : "验证【用户管理】查询用户，phonenumber以13开头的11位纯数字，其他数据正常，查询成功",
-  "time" : {
-    "start" : 1711276143398,
-    "stop" : 1711276143410,
-    "duration" : 12
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "106c6990e7bdf2e",
-  "name" : "验证【用户管理】修改用户，password含有特殊字符，其他数据正常，修改失败",
-  "time" : {
-    "start" : 1711276141339,
-    "stop" : 1711276141347,
-    "duration" : 8
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "726302a0f7f55f8a",
-  "name" : "验证【菜单管理】添加菜单，显示排序orderNum为3，其他数据正常，添加成功",
-  "time" : {
-    "start" : 1711276145271,
-    "stop" : 1711276145284,
-    "duration" : 13
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5d19e000124b0a86",
-  "name" : "验证【用户管理】查询用户，params[beginTime]不符合时间格式，其他数据正常，查询失败",
-  "time" : {
-    "start" : 1711276144049,
-    "stop" : 1711276144057,
-    "duration" : 8
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "232633073a178489",
-  "name" : "验证【用户管理】修改用户，postlds为1，其他数据正常，修改成功",
-  "time" : {
-    "start" : 1711276141659,
-    "stop" : 1711276141667,
-    "duration" : 8
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "c162d9630a85945e",
-  "name" : "验证【用户管理】添加用户，email有@无点，其他数据正常，添加失败",
-  "time" : {
-    "start" : 1711276134728,
-    "stop" : 1711276134816,
-    "duration" : 88
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "1c060655e00a5673",
-  "name" : "验证【用户管理】修改用户，email为空，其他数据正常，修改成功",
-  "time" : {
-    "start" : 1711276140850,
-    "stop" : 1711276140859,
-    "duration" : 9
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "9f559d9d09730cbe",
-  "name" : "验证【用户管理】查询用户，status为2，其他数据正常，查询成功",
-  "time" : {
-    "start" : 1711276143683,
-    "stop" : 1711276143694,
-    "duration" : 11
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1fc39a6ee79e27b6",
-  "name" : "验证【用户管理】查询用户，postlds为2，其他数据正常，查询成功",
-  "time" : {
-    "start" : 1711276143754,
-    "stop" : 1711276143769,
-    "duration" : 15
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e9bf9904262bed28",
-  "name" : "验证【用户管理】修改用户，postlds为5，其他数据正常，修改失败",
-  "time" : {
-    "start" : 1711276142184,
-    "stop" : 1711276142192,
-    "duration" : 8
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "732e04f46c848e01",
-  "name" : "验证【用户管理】添加用户，deptld为106，其他数据正常，添加成功",
-  "time" : {
-    "start" : 1711276133809,
-    "stop" : 1711276133909,
-    "duration" : 100
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2010f370b544f775",
-  "name" : "验证【用户管理】添加用户，nickName过30个字符，其他数据正常，添加成功",
-  "time" : {
-    "start" : 1711276139718,
-    "stop" : 1711276139793,
-    "duration" : 75
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8098e1d441ba2858",
-  "name" : "验证【用户管理】修改用户，postlds为3，其他数据正常，修改成功",
-  "time" : {
-    "start" : 1711276142070,
-    "stop" : 1711276142079,
-    "duration" : 9
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "58e51ca91f42df92",
-  "name" : "验证【角色管理】添加角色，角色顺序roleSort为1000，其他数据正常，添加成功",
-  "time" : {
-    "start" : 1711276144710,
-    "stop" : 1711276144721,
-    "duration" : 11
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e427e4adc35d50d5",
-  "name" : "验证【用户管理】查询用户，postlds为1，其他数据正常，查询成功",
-  "time" : {
-    "start" : 1711276143731,
-    "stop" : 1711276143740,
-    "duration" : 9
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "35e8a3384995eec3",
-  "name" : "验证【菜单管理】添加菜单，路由地址path为空，其他数据正常，添加成功",
-  "time" : {
-    "start" : 1711276145463,
-    "stop" : 1711276145472,
-    "duration" : 9
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "267064defca564ee",
-  "name" : "验证【用户管理】添加用户，remark为空，其他数据正常，添加成功",
-  "time" : {
-    "start" : 1711276137228,
-    "stop" : 1711276137304,
-    "duration" : 76
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1b1725381ad3f090",
-  "name" : "验证【用户管理】添加用户，password为空，其他数据正常，添加失败",
-  "time" : {
-    "start" : 1711276135411,
-    "stop" : 1711276135495,
-    "duration" : 84
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "7a225f8aa314ef31",
-  "name" : "验证【菜单管理】添加菜单，显示排序orderNum为4，其他数据正常，添加成功",
-  "time" : {
-    "start" : 1711276145295,
-    "stop" : 1711276145306,
-    "duration" : 11
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2baf3acc393d33c2",
-  "name" : "验证【用户管理】修改用户，password为6位字符，其他数据正常，修改成功",
-  "time" : {
-    "start" : 1711276141281,
-    "stop" : 1711276141289,
-    "duration" : 8
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "f4af47ca7ad3d7e3",
-  "name" : "验证【用户管理】查询用户，userName为空，其他数据正常，查询失败",
-  "time" : {
-    "start" : 1711276143188,
-    "stop" : 1711276143200,
-    "duration" : 12
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c583a200ee663773",
-  "name" : "验证【用户管理】添加用户，deptld为100，其他数据正常，添加成功",
-  "time" : {
-    "start" : 1711276133127,
-    "stop" : 1711276133225,
-    "duration" : 98
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "88a5cf79230d91b1",
-  "name" : "验证【用户管理】添加用户，email@和点之间无字符，其他数据正常，添加失败",
-  "time" : {
-    "start" : 1711276134875,
-    "stop" : 1711276134882,
-    "duration" : 7
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a5242978cd78c8c3",
-  "name" : "验证【用户管理】添加用户，deptld为105，其他数据正常，添加成功",
-  "time" : {
-    "start" : 1711276133651,
-    "stop" : 1711276133796,
-    "duration" : 145
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "7d4dc09625c9c455",
-  "name" : "验证【菜单管理】添加菜单，路由地址path过短，其他数据正常，添加失败",
-  "time" : {
-    "start" : 1711276145484,
-    "stop" : 1711276145494,
-    "duration" : 10
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "9687f0445d24ab5",
-  "name" : "验证【用户管理】修改用户，email长度为50个字符，其他数据正常，修改成功",
-  "time" : {
-    "start" : 1711276141140,
-    "stop" : 1711276141148,
-    "duration" : 8
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "9a0420faef983207",
-  "name" : "验证【用户管理】查询用户，phonenumber不以13\\14\\15\\17\\18开头，其他数据正常，查询失败",
-  "time" : {
-    "start" : 1711276143610,
-    "stop" : 1711276143622,
-    "duration" : 12
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "778e5b23a323f7c8",
-  "name" : "验证【用户管理】修改用户，userName长度为30个字符，其他数据正常，修改成功",
-  "time" : {
-    "start" : 1711276140219,
-    "stop" : 1711276140232,
-    "duration" : 13
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "8a02838599e3031e",
-  "name" : "验证【菜单管理】添加菜单，显示排序orderNum为空，其他数据正常，添加失败",
-  "time" : {
-    "start" : 1711276145198,
-    "stop" : 1711276145204,
-    "duration" : 6
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "ae6a22c52d94bc75",
-  "name" : "验证【用户管理】添加用户，postlds为2，其他数据正常，添加成功",
-  "time" : {
-    "start" : 1711276136870,
-    "stop" : 1711276136949,
-    "duration" : 79
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3c6d48120a692a8e",
-  "name" : "验证【角色管理】添加角色，角色名称roleName过长，其他数据正常，添加失败",
-  "time" : {
-    "start" : 1711276144357,
-    "stop" : 1711276144363,
-    "duration" : 6
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "70e5dbc772484ed1",
-  "name" : "验证【用户管理】修改用户，nickName过31个字符，其他数据正常，修改失败",
-  "time" : {
-    "start" : 1711276142622,
-    "stop" : 1711276142628,
-    "duration" : 6
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "70c59212bafadb62",
-  "name" : "验证【用户管理】查询用户，postlds为0，其他数据正常，查询失败",
-  "time" : {
-    "start" : 1711276143850,
-    "stop" : 1711276143862,
-    "duration" : 12
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "23694a116631bbfe",
-  "name" : "验证【角色管理】添加角色，角色名称roleName重复，但是字母大小写不一致，其他数据正常，添加失败",
-  "time" : {
-    "start" : 1711276144442,
-    "stop" : 1711276144455,
-    "duration" : 13
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "1a3219f9496fc368",
-  "name" : "验证【用户管理】查询用户，pageNum为特殊符号，其他数据正常，查询失败",
-  "time" : {
-    "start" : 1711276142897,
-    "stop" : 1711276142909,
-    "duration" : 12
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "7e6dd646b98c2bda",
-  "name" : "验证【用户管理】修改用户，deptld为103，其他数据正常，修改成功",
-  "time" : {
-    "start" : 1711276140523,
-    "stop" : 1711276140531,
-    "duration" : 8
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "e7d12161c6bce5f1",
-  "name" : "验证【用户管理】添加用户，deptld为104，其他数据正常，添加成功",
-  "time" : {
-    "start" : 1711276133552,
-    "stop" : 1711276133640,
-    "duration" : 88
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5d7f3e1c14a1f02a",
-  "name" : "验证【用户管理】查询用户，postlds为3，其他数据正常，查询成功",
-  "time" : {
-    "start" : 1711276143781,
-    "stop" : 1711276143792,
-    "duration" : 11
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9c333909e95bce12",
-  "name" : "验证【用户管理】修改用户，email无@有点，其他数据正常，修改失败",
-  "time" : {
-    "start" : 1711276140927,
-    "stop" : 1711276140933,
-    "duration" : 6
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "140d4349f005d242",
-  "name" : "验证【用户管理】查询用户，pageSize数值为20，其他数据正常，查询成功",
-  "time" : {
-    "start" : 1711276142966,
-    "stop" : 1711276142977,
-    "duration" : 11
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1a4c06e735b4c63d",
-  "name" : "验证【用户管理】添加用户，userName长度为1个字符，其他数据正常，添加失败",
-  "time" : {
-    "start" : 1711276132614,
-    "stop" : 1711276132745,
-    "duration" : 131
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "974b9953682f1c42",
-  "name" : "验证【用户管理】添加用户，phonenumber以15开头的11位纯数字，其他数据正常，添加成功",
-  "time" : {
-    "start" : 1711276136181,
-    "stop" : 1711276136259,
-    "duration" : 78
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "540c00820f5a2b4f",
-  "name" : "验证【用户管理】查询用户，pageSize数值为10，其他数据正常，查询成功",
-  "time" : {
-    "start" : 1711276142942,
-    "stop" : 1711276142953,
-    "duration" : 11
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "60887231da766374",
-  "name" : "验证【用户管理】修改用户，deptld为110，其他数据正常，修改成功",
-  "time" : {
-    "start" : 1711276140793,
-    "stop" : 1711276140801,
-    "duration" : 8
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "7458303fd5e57653",
-  "name" : "验证【用户管理】修改用户，deptld为空，其他数据正常，修改成功",
-  "time" : {
-    "start" : 1711276140411,
-    "stop" : 1711276140418,
-    "duration" : 7
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "bb80005ee159e3bd",
-  "name" : "验证【用户管理】修改用户，password为空，其他数据正常，修改失败",
-  "time" : {
-    "start" : 1711276141192,
-    "stop" : 1711276141200,
-    "duration" : 8
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "802ede232a3e9678",
-  "name" : "验证【用户管理】添加用户，email汉字，其他数据正常，添加失败",
-  "time" : {
-    "start" : 1711276135066,
-    "stop" : 1711276135156,
-    "duration" : 90
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "b234875dce2ca8f2",
-  "name" : "验证【用户管理】添加用户，nickName为2个字符，其他数据正常，添加成功",
-  "time" : {
-    "start" : 1711276139549,
-    "stop" : 1711276139625,
-    "duration" : 76
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e2a9a86d16399937",
-  "name" : "验证【用户管理】修改用户，rolelds为1，其他数据正常，修改失败",
-  "time" : {
-    "start" : 1711276141900,
-    "stop" : 1711276141907,
-    "duration" : 7
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "9b09108eefcce112",
+  "uid" : "d7ec84fb12a299a7",
   "name" : "验证【用户管理】添加用户，deptld为109，其他数据正常，添加成功",
   "time" : {
-    "start" : 1711276134144,
-    "stop" : 1711276134243,
-    "duration" : 99
+    "start" : 1712029690084,
+    "stop" : 1712029690280,
+    "duration" : 196
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "b24fa55d5b6e20d0",
-  "name" : "验证【用户管理】添加用户，rolelds为1，其他数据正常，添加失败",
+  "uid" : "7758f9ac131bdfbe",
+  "name" : "验证【用户管理】查询用户，params[endTime]符合时间格式且起始时间等于结束时间，其他数据正常，查询失败",
   "time" : {
-    "start" : 1711276137487,
-    "stop" : 1711276137573,
+    "start" : 1712029718660,
+    "stop" : 1712029718710,
+    "duration" : 50
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c3bc8ac3eb1b848b",
+  "name" : "验证【用户管理】修改用户，password含有特殊字符，其他数据正常，修改失败",
+  "time" : {
+    "start" : 1712029708979,
+    "stop" : 1712029709059,
+    "duration" : 80
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "aac21a066f869183",
+  "name" : "验证【用户管理】修改用户，email@开头，其他数据正常，修改失败",
+  "time" : {
+    "start" : 1712029707440,
+    "stop" : 1712029707518,
+    "duration" : 78
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "223ef7869b61fa0a",
+  "name" : "验证【用户管理】修改用户，rolelds为1，其他数据正常，修改失败",
+  "time" : {
+    "start" : 1712029710885,
+    "stop" : 1712029710971,
     "duration" : 86
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "484102f6f0c62358",
-  "name" : "验证输入包含特殊字符的用户名正确的密码，登录失败，并提示账号或密码错误",
-  "time" : {
-    "start" : 1711276132308,
-    "stop" : 1711276132378,
-    "duration" : 70
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "eb47622307273531",
-  "name" : "验证【用户管理】添加用户，email长度为50个字符，其他数据正常，添加成功",
-  "time" : {
-    "start" : 1711276135294,
-    "stop" : 1711276135383,
-    "duration" : 89
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "bc9b34a1efc5ef5f",
-  "name" : "验证【用户管理】添加用户，postlds为3，其他数据正常，添加成功",
-  "time" : {
-    "start" : 1711276138032,
-    "stop" : 1711276138111,
-    "duration" : 79
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e97313dd6d439311",
-  "name" : "验证【用户管理】修改用户，sex为空，其他数据正常，修改成功",
-  "time" : {
-    "start" : 1711276142320,
-    "stop" : 1711276142328,
-    "duration" : 8
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "205173fbb2a41b93",
-  "name" : "验证【用户管理】修改用户，status为2，其他数据正常，修改成功",
-  "time" : {
-    "start" : 1711276142432,
-    "stop" : 1711276142438,
-    "duration" : 6
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "4c1b7e98448dfde5",
-  "name" : "验证【角色管理】添加角色，角色顺序roleSort为0，其他数据正常，添加失败",
-  "time" : {
-    "start" : 1711276144608,
-    "stop" : 1711276144621,
-    "duration" : 13
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "e80593374030490c",
+  "uid" : "372b7ffc96e1e8db",
   "name" : "验证【用户管理】添加用户，nickName为空，其他数据正常，添加失败",
   "time" : {
-    "start" : 1711276139355,
-    "stop" : 1711276139432,
-    "duration" : 77
+    "start" : 1712029702747,
+    "stop" : 1712029702944,
+    "duration" : 197
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "93c1737ca6c23736",
-  "name" : "验证【用户管理】修改用户，nickName为2个字符，其他数据正常，修改成功",
+  "uid" : "d64085a5ed2f2b8a",
+  "name" : "验证【用户管理】添加用户，nickName过31个字符，其他数据正常，添加失败",
   "time" : {
-    "start" : 1711276142541,
-    "stop" : 1711276142548,
-    "duration" : 7
+    "start" : 1712029703791,
+    "stop" : 1712029703904,
+    "duration" : 113
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1f58e56241025005",
+  "name" : "验证【用户管理】添加用户，sex为2，其他数据正常，添加成功",
+  "time" : {
+    "start" : 1712029701224,
+    "stop" : 1712029701421,
+    "duration" : 197
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "53412ab1b5aa4a97",
+  "name" : "验证【用户管理】修改用户，rolelds为2，其他数据正常，修改成功",
+  "time" : {
+    "start" : 1712029711004,
+    "stop" : 1712029711085,
+    "duration" : 81
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "12c4d6f9f9df4ba1",
-  "name" : "验证【菜单管理】添加菜单，显示排序orderNum为1，其他数据正常，添加成功",
+  "uid" : "e2c8c8aee995aafc",
+  "name" : "验证【用户管理】查询用户，phonenumber以18开头的11位纯数字，其他数据正常，查询成功",
   "time" : {
-    "start" : 1711276145223,
-    "stop" : 1711276145234,
-    "duration" : 11
+    "start" : 1712029717067,
+    "stop" : 1712029717116,
+    "duration" : 49
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "318092a008dddee8",
-  "name" : "验证【用户管理】查询用户，params[endTime]符合时间格式且无起始时间只有结束时间，其他数据正常，查询成功",
+  "uid" : "c87a0e0e27bcc1f7",
+  "name" : "验证【用户管理】查询用户，status为0，其他数据正常，查询成功",
   "time" : {
-    "start" : 1711276144154,
-    "stop" : 1711276144164,
-    "duration" : 10
+    "start" : 1712029717387,
+    "stop" : 1712029717437,
+    "duration" : 50
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "b3934b687bbf4d2c",
-  "name" : "验证【用户管理】添加用户，postlds为空，其他数据正常，添加成功",
+  "uid" : "1075991ee940eed4",
+  "name" : "验证【菜单管理】添加菜单，显示排序orderNum为2，其他数据正常，添加成功",
   "time" : {
-    "start" : 1711276138483,
-    "stop" : 1711276138558,
-    "duration" : 75
+    "start" : 1712029725043,
+    "stop" : 1712029725165,
+    "duration" : 122
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "326585b9333780e2",
-  "name" : "验证【用户管理】修改用户，status为1，其他数据正常，修改成功",
+  "uid" : "379f8ef48f780cdd",
+  "name" : "验证【用户管理】添加用户，email长度3，其他数据正常，添加成功",
   "time" : {
-    "start" : 1711276142403,
-    "stop" : 1711276142411,
-    "duration" : 8
+    "start" : 1712029692780,
+    "stop" : 1712029692976,
+    "duration" : 196
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e64e86f3d8a8e81f",
+  "name" : "验证【用户管理】修改用户，userName含有特殊字符，其他数据正常，修改成功",
+  "time" : {
+    "start" : 1712029705443,
+    "stop" : 1712029705524,
+    "duration" : 81
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "3ae431bcc55a808d",
-  "name" : "验证【用户管理】查询用户，phonenumber不为纯数字，其他数据正常，查询失败",
+  "uid" : "dda8760e4825e6c4",
+  "name" : "验证【用户管理】修改用户，deptld为99，其他数据正常，修改成功",
   "time" : {
-    "start" : 1711276143558,
-    "stop" : 1711276143568,
-    "duration" : 10
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3679c33119d9952e",
-  "name" : "验证【用户管理】修改用户，email多个点，其他数据正常，修改失败",
-  "time" : {
-    "start" : 1711276141018,
-    "stop" : 1711276141024,
-    "duration" : 6
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9b5bbb9f1a2b6068",
-  "name" : "验证输入正确的用户名过长的密码，登录失败，并提示账号或密码错误",
-  "time" : {
-    "start" : 1711276131724,
-    "stop" : 1711276131731,
-    "duration" : 7
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8f7788141e339a8",
-  "name" : "验证【用户管理】修改用户，email@开头，其他数据正常，修改失败",
-  "time" : {
-    "start" : 1711276140945,
-    "stop" : 1711276140952,
-    "duration" : 7
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4a861dde8566ecb6",
-  "name" : "验证输入过长的用户名正确的密码，登录失败，并提示账号或密码错误",
-  "time" : {
-    "start" : 1711276132008,
-    "stop" : 1711276132013,
-    "duration" : 5
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "97539353bc4b9387",
-  "name" : "验证【用户管理】修改用户，postlds不为1234且不为空，其他数据正常，修改失败",
-  "time" : {
-    "start" : 1711276141774,
-    "stop" : 1711276141782,
-    "duration" : 8
+    "start" : 1712029706740,
+    "stop" : 1712029706822,
+    "duration" : 82
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "b970c8d7efb7ae62",
-  "name" : "验证【用户管理】修改用户，nickName为1个字符，其他数据正常，修改失败",
+  "uid" : "8af3e2ad22f2c928",
+  "name" : "验证【用户管理】修改用户，email长度为50个字符，其他数据正常，修改成功",
   "time" : {
-    "start" : 1711276142514,
-    "stop" : 1711276142521,
-    "duration" : 7
+    "start" : 1712029708275,
+    "stop" : 1712029708358,
+    "duration" : 83
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "3d42c3dc666d685d",
+  "uid" : "14881e315c2a00a2",
+  "name" : "验证【用户管理】添加用户，nickName为1个字符，其他数据正常，添加失败",
+  "time" : {
+    "start" : 1712029702961,
+    "stop" : 1712029703160,
+    "duration" : 199
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "f05d127799209a",
   "name" : "验证【用户管理】修改用户，postlds为2，其他数据正常，修改成功",
   "time" : {
-    "start" : 1711276142044,
-    "stop" : 1711276142051,
-    "duration" : 7
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "4e15a974b9a5aa33",
-  "name" : "验证【用户管理】添加用户，password为17位字符，其他数据正常，添加失败",
-  "time" : {
-    "start" : 1711276135617,
-    "stop" : 1711276135697,
+    "start" : 1712029710165,
+    "stop" : 1712029710245,
     "duration" : 80
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "7ebb53b8ab742d67",
-  "name" : "验证【用户管理】修改用户，status为0，其他数据正常，修改成功",
+  "uid" : "2f70d4b33e9180d6",
+  "name" : "验证【用户管理】添加用户，email@开头，其他数据正常，添加失败",
   "time" : {
-    "start" : 1711276142375,
-    "stop" : 1711276142383,
-    "duration" : 8
+    "start" : 1712029691607,
+    "stop" : 1712029691721,
+    "duration" : 114
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "63f5f2666ca438ff",
+  "name" : "验证【用户管理】修改用户，remark有敏感词，其他数据正常，修改成功",
+  "time" : {
+    "start" : 1712029710781,
+    "stop" : 1712029710862,
+    "duration" : 81
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "9416691763fe8b6e",
-  "name" : "验证【用户管理】添加用户，userName重复，但是字母大小写不一致，其他数据正常，添加失败",
+  "uid" : "7e7e60ffd0e5052",
+  "name" : "验证【用户管理】查询用户，params[endTime]符合时间格式且只有起始时间无结束时间，其他数据正常，查询成功",
   "time" : {
-    "start" : 1711276132787,
-    "stop" : 1711276132799,
-    "duration" : 12
+    "start" : 1712029718792,
+    "stop" : 1712029718840,
+    "duration" : 48
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "139bdead3a9aa077",
-  "name" : "验证【用户管理】修改用户，password为17位字符，其他数据正常，修改失败",
+  "uid" : "2fec549cca54967b",
+  "name" : "验证【用户管理】添加用户，email@和点之间无字符，其他数据正常，添加失败",
   "time" : {
-    "start" : 1711276141252,
-    "stop" : 1711276141260,
-    "duration" : 8
+    "start" : 1712029691730,
+    "stop" : 1712029691844,
+    "duration" : 114
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "60ee75f7a890916e",
+  "name" : "验证【用户管理】修改用户，deptld为102，其他数据正常，修改成功",
+  "time" : {
+    "start" : 1712029705942,
+    "stop" : 1712029706023,
+    "duration" : 81
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "40fd23579cc5672b",
-  "name" : "验证【用户管理】添加用户，userName含有特殊字符，其他数据正常，添加成功",
-  "time" : {
-    "start" : 1711276132821,
-    "stop" : 1711276132910,
-    "duration" : 89
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c9507cf046147dbb",
-  "name" : "验证【菜单管理】添加菜单，菜单名称menuName过长，其他数据正常，添加失败",
-  "time" : {
-    "start" : 1711276145059,
-    "stop" : 1711276145065,
-    "duration" : 6
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3327c175508ee2d",
-  "name" : "验证【用户管理】添加用户，nickName过31个字符，其他数据正常，添加失败",
-  "time" : {
-    "start" : 1711276139802,
-    "stop" : 1711276139809,
-    "duration" : 7
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f66cad3ac907d02f",
-  "name" : "验证【用户管理】修改用户，phonenumber以13开头的11位纯数字，其他数据正常，修改成功",
-  "time" : {
-    "start" : 1711276141367,
-    "stop" : 1711276141376,
-    "duration" : 9
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "f2927e38c2572801",
-  "name" : "验证【用户管理】修改用户，userName有敏感词，其他数据正常，修改成功",
-  "time" : {
-    "start" : 1711276140384,
-    "stop" : 1711276140391,
-    "duration" : 7
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "b062ad53ff548235",
-  "name" : "验证【用户管理】修改用户，postlds为4，其他数据正常，修改成功",
-  "time" : {
-    "start" : 1711276141746,
-    "stop" : 1711276141754,
-    "duration" : 8
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "c9d4654540790588",
-  "name" : "验证【角色管理】添加角色，状态status为1，其他数据正常，添加成功",
-  "time" : {
-    "start" : 1711276144830,
-    "stop" : 1711276144842,
-    "duration" : 12
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d60f5f2d39256887",
-  "name" : "验证【用户管理】查询用户，params[beginTime]符合时间格式且无起始时间只有结束时间，其他数据正常，查询成功",
-  "time" : {
-    "start" : 1711276144005,
-    "stop" : 1711276144016,
-    "duration" : 11
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8482c848c31ee3cb",
-  "name" : "验证【用户管理】添加用户，deptld为101，其他数据正常，添加成功",
-  "time" : {
-    "start" : 1711276133239,
-    "stop" : 1711276133335,
-    "duration" : 96
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "20802f951705865a",
-  "name" : "验证【用户管理】添加用户，remark含有特殊字符，其他数据正常，添加成功",
-  "time" : {
-    "start" : 1711276137315,
-    "stop" : 1711276137392,
-    "duration" : 77
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8f538bc70596bf9",
-  "name" : "验证【用户管理】添加用户，email无@有点，其他数据正常，添加失败",
-  "time" : {
-    "start" : 1711276134838,
-    "stop" : 1711276134845,
-    "duration" : 7
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "7b19f508cccc201a",
-  "name" : "验证【角色管理】添加角色，状态status为0，其他数据正常，添加成功",
-  "time" : {
-    "start" : 1711276144806,
-    "stop" : 1711276144819,
-    "duration" : 13
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3f7b1c0358af6152",
-  "name" : "验证【用户管理】修改用户，deptld为100，其他数据正常，修改成功",
-  "time" : {
-    "start" : 1711276140440,
-    "stop" : 1711276140448,
-    "duration" : 8
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "d2ac56a5f1c94baa",
-  "name" : "验证【用户管理】查询用户，pageSize数值空，其他数据正常，查询成功",
-  "time" : {
-    "start" : 1711276143069,
-    "stop" : 1711276143080,
-    "duration" : 11
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "7bbc6b94266536d5",
-  "name" : "验证【用户管理】修改用户，status为3，其他数据正常，修改失败",
-  "time" : {
-    "start" : 1711276142458,
-    "stop" : 1711276142466,
-    "duration" : 8
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "f65cba22e8dc9a3f",
-  "name" : "验证【用户管理】查询用户，status为3，其他数据正常，查询失败",
-  "time" : {
-    "start" : 1711276143707,
-    "stop" : 1711276143718,
-    "duration" : 11
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "89f04e089d349d4c",
-  "name" : "验证【用户管理】添加用户，userName长度31个字符，其他数据正常，添加失败",
-  "time" : {
-    "start" : 1711276132594,
-    "stop" : 1711276132600,
-    "duration" : 6
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e80925f682037214",
-  "name" : "验证【用户管理】修改用户，rolelds为2，其他数据正常，修改成功",
-  "time" : {
-    "start" : 1711276141928,
-    "stop" : 1711276141935,
-    "duration" : 7
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "c2636ff8a40a1806",
-  "name" : "验证【用户管理】修改用户，deptld为107，其他数据正常，修改成功",
-  "time" : {
-    "start" : 1711276140671,
-    "stop" : 1711276140679,
-    "duration" : 8
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "ce7ff3d5d47e4d23",
-  "name" : "验证【角色管理】添加角色，角色名称roleName含有特殊字符，其他数据正常，添加失败",
-  "time" : {
-    "start" : 1711276144476,
-    "stop" : 1711276144489,
-    "duration" : 13
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "b0ebe53a7172084e",
-  "name" : "验证【用户管理】查询用户，postlds为4，其他数据正常，查询成功",
-  "time" : {
-    "start" : 1711276143804,
-    "stop" : 1711276143815,
-    "duration" : 11
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a56a638e51abd6a3",
-  "name" : "验证【用户管理】修改用户，deptld为101，其他数据正常，修改成功",
-  "time" : {
-    "start" : 1711276140468,
-    "stop" : 1711276140475,
-    "duration" : 7
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "56687c6c08e552de",
-  "name" : "验证【用户管理】添加用户，deptld为110，其他数据正常，添加成功",
-  "time" : {
-    "start" : 1711276134369,
-    "stop" : 1711276134466,
-    "duration" : 97
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a4ddcbf9f5d0c4bc",
-  "name" : "验证【用户管理】修改用户，postlds为空，其他数据正常，修改成功",
-  "time" : {
-    "start" : 1711276141630,
-    "stop" : 1711276141638,
-    "duration" : 8
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "e4f047e90eea290d",
-  "name" : "验证【用户管理】添加用户，status为3，其他数据正常，添加失败",
-  "time" : {
-    "start" : 1711276139258,
-    "stop" : 1711276139336,
-    "duration" : 78
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "1825ef320f0aa7e8",
-  "name" : "验证【用户管理】修改用户，phonenumber位数不为11位，其他数据正常，修改失败",
-  "time" : {
-    "start" : 1711276141518,
-    "stop" : 1711276141525,
-    "duration" : 7
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8a23276d376e3f06",
-  "name" : "验证【用户管理】修改用户，rolelds为3，其他数据正常，修改失败",
-  "time" : {
-    "start" : 1711276141956,
-    "stop" : 1711276141964,
-    "duration" : 8
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "6698a56f0b5dd036",
-  "name" : "验证【用户管理】查询用户，pageSize数值为40，其他数据正常，查询成功",
-  "time" : {
-    "start" : 1711276143016,
-    "stop" : 1711276143027,
-    "duration" : 11
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "45dd405de1349bda",
-  "name" : "验证【用户管理】添加用户，password为6位字符，其他数据正常，添加成功",
-  "time" : {
-    "start" : 1711276135714,
-    "stop" : 1711276135793,
-    "duration" : 79
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "a3c8bfec54764aad",
-  "name" : "验证【用户管理】下载模板，请求成功",
-  "time" : {
-    "start" : 1711276144219,
-    "stop" : 1711276144247,
-    "duration" : 28
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "cec35c8d08c74080",
+  "uid" : "acf4a3ca5e641bae",
   "name" : "验证【用户管理】添加用户，phonenumber包含空格，其他数据正常，添加失败",
   "time" : {
-    "start" : 1711276136502,
-    "stop" : 1711276136581,
+    "start" : 1712029695974,
+    "stop" : 1712029696170,
+    "duration" : 196
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "77675998e0dee384",
+  "name" : "验证【用户管理】添加用户，postlds为4，其他数据正常，添加成功",
+  "time" : {
+    "start" : 1712029697234,
+    "stop" : 1712029697431,
+    "duration" : 197
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "18cea9f0f2b3b765",
+  "name" : "验证【用户管理】添加用户，userName重复，但是字母大小写不一致，其他数据正常，添加失败",
+  "time" : {
+    "start" : 1712029687411,
+    "stop" : 1712029687528,
+    "duration" : 117
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f96458d4437ee723",
+  "name" : "验证【菜单管理】添加菜单，菜单名称menuName重复，但是字母大小写不一致，其他数据正常，添加失败",
+  "time" : {
+    "start" : 1712029724373,
+    "stop" : 1712029724492,
+    "duration" : 119
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "43f46abb6f7df46",
+  "name" : "验证输入不存在的用户名正确的密码，登录失败，并提示账号或密码错误",
+  "time" : {
+    "start" : 1712029685272,
+    "stop" : 1712029685393,
+    "duration" : 121
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "74e87578228ffc64",
+  "name" : "验证【菜单管理】添加菜单，菜单名称menuName为空，其他数据正常，添加失败",
+  "time" : {
+    "start" : 1712029723857,
+    "stop" : 1712029723973,
+    "duration" : 116
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "40a1dfb783a0770b",
+  "name" : "验证【用户管理】查询用户，pageSize数值为50，其他数据正常，查询成功",
+  "time" : {
+    "start" : 1712029715375,
+    "stop" : 1712029715434,
+    "duration" : 59
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cf24e8756db892d8",
+  "name" : "验证【角色管理】添加角色，角色名称roleName过长，其他数据正常，添加失败",
+  "time" : {
+    "start" : 1712029720332,
+    "stop" : 1712029720446,
+    "duration" : 114
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "274dc49e9349e79",
+  "name" : "验证【用户管理】查询用户，phonenumber位数不为11位，其他数据正常，查询失败",
+  "time" : {
+    "start" : 1712029717129,
+    "stop" : 1712029717176,
+    "duration" : 47
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b1ff51102f2ab667",
+  "name" : "验证【用户管理】修改用户，nickName过30个字符，其他数据正常，修改成功",
+  "time" : {
+    "start" : 1712029713394,
+    "stop" : 1712029713474,
+    "duration" : 80
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "f4868120b5bf8218",
+  "name" : "验证【用户管理】查询用户，phonenumber包含空格，其他数据正常，查询失败",
+  "time" : {
+    "start" : 1712029717252,
+    "stop" : 1712029717302,
+    "duration" : 50
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "184f33c30f02284b",
+  "name" : "验证【用户管理】修改用户，rolelds为空，其他数据正常，修改成功",
+  "time" : {
+    "start" : 1712029711218,
+    "stop" : 1712029711298,
+    "duration" : 80
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "108944feed770050",
+  "name" : "验证【用户管理】修改用户，remark含有特殊字符，其他数据正常，修改成功",
+  "time" : {
+    "start" : 1712029710676,
+    "stop" : 1712029710756,
+    "duration" : 80
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "36ee940ad6a28d9f",
+  "name" : "验证【用户管理】添加用户，userName为空，其他数据正常，添加失败",
+  "time" : {
+    "start" : 1712029686648,
+    "stop" : 1712029686764,
+    "duration" : 116
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a059a1a39c85dd65",
+  "name" : "验证【用户管理】修改用户，sex不为012且不为空，其他数据正常，修改失败",
+  "time" : {
+    "start" : 1712029712515,
+    "stop" : 1712029712594,
     "duration" : 79
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "3303f9c1b37c5a35",
-  "name" : "验证【菜单管理】添加菜单，路由地址path为没有https，其他数据正常，添加成功",
+  "uid" : "dce25f8215fa713b",
+  "name" : "验证【用户管理】修改用户，postlds为2，其他数据正常，修改成功",
   "time" : {
-    "start" : 1711276145398,
-    "stop" : 1711276145408,
-    "duration" : 10
+    "start" : 1712029711416,
+    "stop" : 1712029711496,
+    "duration" : 80
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "5b24fd6865dbc1ee",
+  "name" : "验证【用户管理】添加用户，userName含有特殊字符，其他数据正常，添加成功",
+  "time" : {
+    "start" : 1712029687540,
+    "stop" : 1712029687736,
+    "duration" : 196
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "cdb41c227929aa8d",
-  "name" : "验证【用户管理】添加用户，userName重复，其他数据正常，添加失败",
+  "uid" : "a44c1c1ba2f58b25",
+  "name" : "验证【用户管理】修改用户，postlds为5，其他数据正常，修改失败",
   "time" : {
-    "start" : 1711276132758,
-    "stop" : 1711276132766,
-    "duration" : 8
+    "start" : 1712029711914,
+    "stop" : 1712029711994,
+    "duration" : 80
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "4bca57f5d0995e88",
+  "name" : "验证【用户管理】添加用户，postlds为4，其他数据正常，添加成功",
+  "time" : {
+    "start" : 1712029699766,
+    "stop" : 1712029699961,
+    "duration" : 195
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "e0d6cad52a9438e1",
-  "name" : "验证【用户管理】添加用户，nickName含有特殊字符，其他数据正常，添加成功",
+  "uid" : "9886be95426f5559",
+  "name" : "验证【用户管理】添加用户，deptld为103，其他数据正常，添加成功",
   "time" : {
-    "start" : 1711276139993,
-    "stop" : 1711276140069,
-    "duration" : 76
+    "start" : 1712029688826,
+    "stop" : 1712029689030,
+    "duration" : 204
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "5861289ce1bddaf3",
-  "name" : "验证【用户管理】查询用户，pageNum为空，其他数据正常，查询成功",
+  "uid" : "a7a231d7a29586c",
+  "name" : "验证【用户管理】修改用户，email长度3，其他数据正常，修改成功",
   "time" : {
-    "start" : 1711276142921,
-    "stop" : 1711276142931,
-    "duration" : 10
+    "start" : 1712029708173,
+    "stop" : 1712029708255,
+    "duration" : 82
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "b52e96815c0dc47e",
+  "name" : "验证【用户管理】修改用户，status为3，其他数据正常，修改失败",
+  "time" : {
+    "start" : 1712029712905,
+    "stop" : 1712029712985,
+    "duration" : 80
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "4d497e746f5a96f4",
+  "name" : "验证【用户管理】添加用户，postlds为5，其他数据正常，添加失败",
+  "time" : {
+    "start" : 1712029700391,
+    "stop" : 1712029700588,
+    "duration" : 197
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "db375c462c8f2a1a",
+  "name" : "验证【用户管理】修改用户，userName长度31个字符，其他数据正常，修改失败",
+  "time" : {
+    "start" : 1712029705044,
+    "stop" : 1712029705124,
+    "duration" : 80
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "746576cda2cdd87e",
-  "name" : "验证输入正确的用户名密码大小写不一致，登录失败，并提示账号或密码错误",
+  "uid" : "9264b71423091f9e",
+  "name" : "验证【用户管理】修改用户，nickName含有特殊字符，其他数据正常，修改成功",
   "time" : {
-    "start" : 1711276131827,
-    "stop" : 1711276131897,
+    "start" : 1712029713784,
+    "stop" : 1712029713864,
+    "duration" : 80
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "23279559d2aed3ae",
+  "name" : "验证【用户管理】修改用户，deptld为103，其他数据正常，修改成功",
+  "time" : {
+    "start" : 1712029706043,
+    "stop" : 1712029706123,
+    "duration" : 80
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "93b193330a28e596",
+  "name" : "验证【用户管理】查询用户，postlds为空，其他数据正常，查询成功",
+  "time" : {
+    "start" : 1712029718093,
+    "stop" : 1712029718141,
+    "duration" : 48
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "66a594649a989555",
+  "name" : "验证【用户管理】查询用户，pageSize为特殊符号，其他数据正常，查询失败",
+  "time" : {
+    "start" : 1712029715959,
+    "stop" : 1712029716012,
+    "duration" : 53
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "29e8803b6dbc94e1",
+  "name" : "验证【用户管理】查询用户，phonenumber以14开头的11位纯数字，其他数据正常，查询成功",
+  "time" : {
+    "start" : 1712029716869,
+    "stop" : 1712029716918,
+    "duration" : 49
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "11ae218cda512a0a",
+  "name" : "验证【用户管理】上传空文件，上传失败",
+  "time" : {
+    "start" : 1712029719976,
+    "stop" : 1712029720046,
     "duration" : 70
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "5a1797c714070103",
-  "name" : "验证【用户管理】添加用户，phonenumber以14开头的11位纯数字，其他数据正常，添加成功",
+  "uid" : "a1db674cc75b4abb",
+  "name" : "验证【用户管理】添加用户，phonenumber以17开头的11位纯数字，其他数据正常，添加成功",
   "time" : {
-    "start" : 1711276136094,
-    "stop" : 1711276136171,
-    "duration" : 77
+    "start" : 1712029695221,
+    "stop" : 1712029695418,
+    "duration" : 197
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "203beba0fc1f9fcb",
-  "name" : "验证【用户管理】查询用户，phonenumber位数不为11位，其他数据正常，查询失败",
+  "uid" : "25565bcd1ccbe979",
+  "name" : "验证【角色管理】添加角色，角色名称roleName有敏感词，其他数据正常，添加成功",
   "time" : {
-    "start" : 1711276143532,
-    "stop" : 1711276143542,
-    "duration" : 10
+    "start" : 1712029721037,
+    "stop" : 1712029721156,
+    "duration" : 119
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "642422e731d033c5",
-  "name" : "验证【用户管理】修改用户，nickName重复，其他数据正常，修改成功",
+  "uid" : "1199faec002b02be",
+  "name" : "验证【用户管理】添加用户，password为空，其他数据正常，添加失败",
   "time" : {
-    "start" : 1711276142639,
-    "stop" : 1711276142647,
-    "duration" : 8
+    "start" : 1712029693316,
+    "stop" : 1712029693512,
+    "duration" : 196
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "6be6b30a04a299ac",
-  "name" : "验证【用户管理】添加用户，email长度3，其他数据正常，添加成功",
+  "uid" : "fde4d6a133e211a1",
+  "name" : "验证【用户管理】添加用户，sex为空，其他数据正常，添加成功",
   "time" : {
-    "start" : 1711276135195,
-    "stop" : 1711276135283,
-    "duration" : 88
+    "start" : 1712029701431,
+    "stop" : 1712029701625,
+    "duration" : 194
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "82e77bd88b1c1bbe",
-  "name" : "验证【用户管理】修改用户，phonenumber以14开头的11位纯数字，其他数据正常，修改成功",
+  "uid" : "9d672bb36a75583c",
+  "name" : "验证【用户管理】修改用户，email为空，其他数据正常，修改成功",
   "time" : {
-    "start" : 1711276141399,
-    "stop" : 1711276141406,
-    "duration" : 7
+    "start" : 1712029707056,
+    "stop" : 1712029707137,
+    "duration" : 81
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "3f1062319ba7c70c",
-  "name" : "验证【用户管理】添加用户，nickName重复，但是字母大小写不一致，其他数据正常，添加成功",
+  "uid" : "8a0eaf5a2cb792a1",
+  "name" : "验证【用户管理】查询用户，userName有敏感词，其他数据正常，查询成功",
   "time" : {
-    "start" : 1711276139906,
-    "stop" : 1711276139983,
-    "duration" : 77
+    "start" : 1712029716729,
+    "stop" : 1712029716779,
+    "duration" : 50
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "7a43d9d0cb92d7fd",
-  "name" : "验证【用户管理】添加用户，email多个@，其他数据正常，添加失败",
+  "uid" : "9e9911021189a87",
+  "name" : "验证【用户管理】添加用户，postlds为1，其他数据正常，添加成功",
   "time" : {
-    "start" : 1711276134913,
-    "stop" : 1711276134920,
-    "duration" : 7
+    "start" : 1712029699142,
+    "stop" : 1712029699338,
+    "duration" : 196
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "90478bbce5a207e5",
-  "name" : "验证【用户管理】添加用户，email多个点，其他数据正常，添加失败",
+  "uid" : "7fb2f35e29ca64e5",
+  "name" : "验证【用户管理】查询用户，params[endTime]为空，其他数据正常，查询成功",
   "time" : {
-    "start" : 1711276134932,
-    "stop" : 1711276134940,
-    "duration" : 8
+    "start" : 1712029718909,
+    "stop" : 1712029718955,
+    "duration" : 46
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "54cfac4b81d17709",
-  "name" : "验证【用户管理】添加用户，postlds为4，其他数据正常，添加成功",
+  "uid" : "15421ca48f015ee0",
+  "name" : "验证【用户管理】修改用户，rolelds为3，其他数据正常，修改失败",
   "time" : {
-    "start" : 1711276137045,
-    "stop" : 1711276137124,
+    "start" : 1712029711110,
+    "stop" : 1712029711192,
+    "duration" : 82
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "eb06edb368f397ea",
+  "name" : "验证【菜单管理】添加菜单，路由地址path为空，其他数据正常，添加成功",
+  "time" : {
+    "start" : 1712029726252,
+    "stop" : 1712029726369,
+    "duration" : 117
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "29253384401e2f52",
+  "name" : "验证【用户管理】修改用户，postlds为3，其他数据正常，修改成功",
+  "time" : {
+    "start" : 1712029711514,
+    "stop" : 1712029711594,
+    "duration" : 80
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "3f9c0fb43ff57297",
+  "name" : "验证【用户管理】查询用户，userName含有特殊字符，其他数据正常，查询成功",
+  "time" : {
+    "start" : 1712029716658,
+    "stop" : 1712029716708,
+    "duration" : 50
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6e680a9228244cf1",
+  "name" : "验证【用户管理】添加用户，email点结尾，其他数据正常，添加失败",
+  "time" : {
+    "start" : 1712029691853,
+    "stop" : 1712029691967,
+    "duration" : 114
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1be11c66b4d834a1",
+  "name" : "验证【用户管理】修改用户，password为16位字符，其他数据正常，修改成功",
+  "time" : {
+    "start" : 1712029708579,
+    "stop" : 1712029708660,
+    "duration" : 81
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "cfade90146055197",
+  "name" : "验证【用户管理】添加用户，userName重复，其他数据正常，添加失败",
+  "time" : {
+    "start" : 1712029687320,
+    "stop" : 1712029687402,
+    "duration" : 82
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e7ade17ed57c4733",
+  "name" : "验证输入过短的用户名正确的密码，登录失败，并提示账号或密码错误",
+  "time" : {
+    "start" : 1712029685460,
+    "stop" : 1712029685505,
+    "duration" : 45
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5de37dfd1dbf6415",
+  "name" : "验证【用户管理】修改用户，email汉字，其他数据正常，修改失败",
+  "time" : {
+    "start" : 1712029707987,
+    "stop" : 1712029708067,
+    "duration" : 80
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d7d386bb80b2b804",
+  "name" : "验证【用户管理】查询用户，postlds为5，其他数据正常，查询失败",
+  "time" : {
+    "start" : 1712029718033,
+    "stop" : 1712029718080,
+    "duration" : 47
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8fab741c1633c3f5",
+  "name" : "验证【用户管理】查询用户，params[endTime]符合时间格式且起始时间小于结束时间，其他数据正常，查询成功",
+  "time" : {
+    "start" : 1712029718597,
+    "stop" : 1712029718647,
+    "duration" : 50
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "94e0554fa2df704e",
+  "name" : "验证【角色管理】添加角色，角色顺序roleSort为空，其他数据正常，添加失败",
+  "time" : {
+    "start" : 1712029721542,
+    "stop" : 1712029721656,
+    "duration" : 114
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "351801d0a5687a37",
+  "name" : "验证【用户管理】修改用户，userName长度为1个字符，其他数据正常，修改失败",
+  "time" : {
+    "start" : 1712029705135,
+    "stop" : 1712029705227,
+    "duration" : 92
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "cb415a546da2e8df",
+  "name" : "验证【用户管理】修改用户，status为2，其他数据正常，修改成功",
+  "time" : {
+    "start" : 1712029712808,
+    "stop" : 1712029712887,
+    "duration" : 79
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "9a838f5772e88b",
+  "name" : "验证【用户管理】添加用户，status为2，其他数据正常，添加成功",
+  "time" : {
+    "start" : 1712029702325,
+    "stop" : 1712029702524,
+    "duration" : 199
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6a21f5b807138d74",
+  "name" : "验证【用户管理】添加用户，email汉字，其他数据正常，添加失败",
+  "time" : {
+    "start" : 1712029692443,
+    "stop" : 1712029692639,
+    "duration" : 196
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "39a1f359e791fc70",
+  "name" : "验证【用户管理】添加用户，userName长度为30个字符，其他数据正常，添加成功",
+  "time" : {
+    "start" : 1712029686776,
+    "stop" : 1712029686979,
+    "duration" : 203
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "32dd4e9ac5cc66c2",
+  "name" : "验证【用户管理】查询用户，pageNum为特殊符号，其他数据正常，查询失败",
+  "time" : {
+    "start" : 1712029714453,
+    "stop" : 1712029714504,
+    "duration" : 51
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e5fcbe9784f1ce7e",
+  "name" : "验证【菜单管理】添加菜单，路由地址path为正确的地址格式，其他数据正常，添加成功",
+  "time" : {
+    "start" : 1712029725575,
+    "stop" : 1712029725691,
+    "duration" : 116
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6845a83cb29dc1af",
+  "name" : "验证【用户管理】查询用户，phonenumber以17开头的11位纯数字，其他数据正常，查询成功",
+  "time" : {
+    "start" : 1712029717003,
+    "stop" : 1712029717052,
+    "duration" : 49
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "193c571b275ad49f",
+  "name" : "验证【用户管理】修改用户，deptld为107，其他数据正常，修改成功",
+  "time" : {
+    "start" : 1712029706431,
+    "stop" : 1712029706512,
+    "duration" : 81
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d69bd4283aad67d4",
+  "name" : "验证【用户管理】修改用户，email无@有点，其他数据正常，修改失败",
+  "time" : {
+    "start" : 1712029707352,
+    "stop" : 1712029707431,
     "duration" : 79
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "d4cbb80ff9b6e73",
-  "name" : "验证【角色管理】添加角色，权限字符roleKey为空，其他数据正常，添加失败",
+  "uid" : "c15fade5e9e844d8",
+  "name" : "验证【用户管理】查询用户，params[endTime]符合时间格式且无起始时间只有结束时间，其他数据正常，查询成功",
   "time" : {
-    "start" : 1711276144534,
-    "stop" : 1711276144540,
-    "duration" : 6
+    "start" : 1712029718850,
+    "stop" : 1712029718898,
+    "duration" : 48
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "3f58ab3e70602b21",
-  "name" : "验证输入正确的用户名密码包含特殊字符，登录失败，并提示账号或密码错误",
+  "uid" : "c05cdc96fcbf604",
+  "name" : "验证【用户管理】修改用户，deptld为108，其他数据正常，修改成功",
   "time" : {
-    "start" : 1711276131907,
-    "stop" : 1711276131978,
-    "duration" : 71
+    "start" : 1712029706545,
+    "stop" : 1712029706625,
+    "duration" : 80
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "504f72b7bc037d28",
+  "name" : "验证【用户管理】添加用户，email长度为50个字符，其他数据正常，添加成功",
+  "time" : {
+    "start" : 1712029692986,
+    "stop" : 1712029693183,
+    "duration" : 197
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "c68f75a5418db633",
-  "name" : "验证【用户管理】修改用户，phonenumber以15开头的11位纯数字，其他数据正常，修改成功",
+  "uid" : "27df599d125795f1",
+  "name" : "验证【用户管理】查询用户，params[beginTime]为空，其他数据正常，查询成功",
   "time" : {
-    "start" : 1711276141428,
-    "stop" : 1711276141436,
-    "duration" : 8
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "b8d5c4150ca8325d",
-  "name" : "验证【用户管理】修改用户，password为16位字符，其他数据正常，修改成功",
-  "time" : {
-    "start" : 1711276141223,
-    "stop" : 1711276141232,
-    "duration" : 9
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "123622ae0eecebb8",
-  "name" : "验证【用户管理】查询用户，postlds为[1,2,3,4]，其他数据正常，查询成功",
-  "time" : {
-    "start" : 1711276143827,
-    "stop" : 1711276143838,
-    "duration" : 11
+    "start" : 1712029718475,
+    "stop" : 1712029718527,
+    "duration" : 52
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "99984be0b42f8581",
-  "name" : "验证【用户管理】修改用户，sex为2，其他数据正常，修改成功",
+  "uid" : "325a06bc81547693",
+  "name" : "验证【用户管理】查询用户，params[endTime]不符合时间格式，其他数据正常，查询失败",
   "time" : {
-    "start" : 1711276142293,
-    "stop" : 1711276142300,
-    "duration" : 7
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "91a14b1f92bd75b",
-  "name" : "验证【用户管理】修改用户，nickName含有特殊字符，其他数据正常，修改成功",
-  "time" : {
-    "start" : 1711276142699,
-    "stop" : 1711276142707,
-    "duration" : 8
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "5d60aeea7aa8c0dd",
-  "name" : "验证【用户管理】修改用户，userName长度31个字符，其他数据正常，修改失败",
-  "time" : {
-    "start" : 1711276140252,
-    "stop" : 1711276140258,
-    "duration" : 6
+    "start" : 1712029718969,
+    "stop" : 1712029719017,
+    "duration" : 48
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "253de7ea0b115232",
-  "name" : "验证【用户管理】修改用户，deptld为106，其他数据正常，修改成功",
+  "uid" : "8a33df8fd42f519c",
+  "name" : "验证【用户管理】添加用户，deptld为100，其他数据正常，添加成功",
   "time" : {
-    "start" : 1711276140623,
-    "stop" : 1711276140632,
-    "duration" : 9
+    "start" : 1712029688180,
+    "stop" : 1712029688378,
+    "duration" : 198
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5d6bcfd355a3ea2c",
+  "name" : "验证输入正确的用户名密码大小写不一致，登录失败，并提示账号或密码错误",
+  "time" : {
+    "start" : 1712029684912,
+    "stop" : 1712029685077,
+    "duration" : 165
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "96a71a658819c26",
+  "name" : "验证【用户管理】修改用户，password为空，其他数据正常，修改失败",
+  "time" : {
+    "start" : 1712029708478,
+    "stop" : 1712029708559,
+    "duration" : 81
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "a6e77ede57f8eccd",
+  "uid" : "5b43c05ddb45b1d1",
+  "name" : "验证【用户管理】修改用户，phonenumber不为纯数字，其他数据正常，修改失败",
+  "time" : {
+    "start" : 1712029709675,
+    "stop" : 1712029709755,
+    "duration" : 80
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d4cd386c04ebca5e",
+  "name" : "验证【用户管理】修改用户，postlds为1，其他数据正常，修改成功",
+  "time" : {
+    "start" : 1712029711317,
+    "stop" : 1712029711397,
+    "duration" : 80
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "b44bc87f133ece1e",
+  "name" : "验证【用户管理】添加用户，nickName过29个字符，其他数据正常，添加成功",
+  "time" : {
+    "start" : 1712029703382,
+    "stop" : 1712029703575,
+    "duration" : 193
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "99b0bb462284499d",
+  "name" : "验证【用户管理】添加用户，remark有敏感词，其他数据正常，添加成功",
+  "time" : {
+    "start" : 1712029698077,
+    "stop" : 1712029698271,
+    "duration" : 194
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f3001c7a9b1c5b73",
+  "name" : "验证【用户管理】添加用户，status为1，其他数据正常，添加成功",
+  "time" : {
+    "start" : 1712029702119,
+    "stop" : 1712029702316,
+    "duration" : 197
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a703e0d99e36e2f7",
+  "name" : "验证输入正确的用户名过长的密码，登录失败，并提示账号或密码错误",
+  "time" : {
+    "start" : 1712029684638,
+    "stop" : 1712029684719,
+    "duration" : 81
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "60dcdce4182cfa88",
   "name" : "验证【用户管理】修改用户，remark为空，其他数据正常，修改成功",
   "time" : {
-    "start" : 1711276141805,
-    "stop" : 1711276141813,
-    "duration" : 8
+    "start" : 1712029710567,
+    "stop" : 1712029710647,
+    "duration" : 80
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "631d77a3bbb251de",
-  "name" : "验证【用户管理】修改用户，nickName过29个字符，其他数据正常，修改成功",
-  "time" : {
-    "start" : 1711276142568,
-    "stop" : 1711276142575,
-    "duration" : 7
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "871e0d3fc01337f7",
-  "name" : "验证【用户管理】添加用户，deptld为99，其他数据正常，添加成功",
-  "time" : {
-    "start" : 1711276134256,
-    "stop" : 1711276134354,
-    "duration" : 98
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4fedb11e6217d2d8",
-  "name" : "验证【用户管理】修改用户，phonenumber包含空格，其他数据正常，修改失败",
-  "time" : {
-    "start" : 1711276141566,
-    "stop" : 1711276141575,
-    "duration" : 9
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "fc4dd10bf2426374",
-  "name" : "验证【角色管理】添加角色，角色顺序roleSort为2，其他数据正常，添加成功",
-  "time" : {
-    "start" : 1711276144664,
-    "stop" : 1711276144675,
-    "duration" : 11
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8faa47180194f247",
-  "name" : "验证【用户管理】修改用户，email有@无点，其他数据正常，修改失败",
-  "time" : {
-    "start" : 1711276140899,
-    "stop" : 1711276140907,
-    "duration" : 8
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "f22145440135198f",
+  "uid" : "81e1572a477b2228",
   "name" : "验证【用户管理】添加用户，sex不为012且不为空，其他数据正常，添加失败",
   "time" : {
-    "start" : 1711276138906,
-    "stop" : 1711276138982,
-    "duration" : 76
+    "start" : 1712029701635,
+    "stop" : 1712029701887,
+    "duration" : 252
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "ee4b9a4a496f9607",
-  "name" : "验证【用户管理】添加用户，postlds为[1, 2, 3, 4]，其他数据正常，添加成功",
+  "uid" : "115fb074d3dc4d01",
+  "name" : "验证【用户管理】修改用户，email多个点，其他数据正常，修改失败",
   "time" : {
-    "start" : 1711276138207,
-    "stop" : 1711276138285,
+    "start" : 1712029707798,
+    "stop" : 1712029707878,
+    "duration" : 80
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "80daa857e0a9e71e",
+  "name" : "验证【用户管理】修改用户，deptld为109，其他数据正常，修改成功",
+  "time" : {
+    "start" : 1712029706642,
+    "stop" : 1712029706723,
+    "duration" : 81
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "e6bc47a9fb772bd5",
+  "name" : "验证【用户管理】修改用户，phonenumber位数不为11位，其他数据正常，修改失败",
+  "time" : {
+    "start" : 1712029709584,
+    "stop" : 1712029709662,
     "duration" : 78
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "689055683130b703",
+  "uid" : "7396aee73a86b4e1",
+  "name" : "验证【用户管理】查询用户，params[beginTime]符合时间格式且只有起始时间无结束时间，其他数据正常，查询成功",
+  "time" : {
+    "start" : 1712029718341,
+    "stop" : 1712029718389,
+    "duration" : 48
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "31a8db2a890991b",
+  "name" : "验证【用户管理】添加用户，deptld为105，其他数据正常，添加成功",
+  "time" : {
+    "start" : 1712029689253,
+    "stop" : 1712029689452,
+    "duration" : 199
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4852d139d864dc1",
+  "name" : "验证【用户管理】修改用户，postlds为0，其他数据正常，修改失败",
+  "time" : {
+    "start" : 1712029711813,
+    "stop" : 1712029711893,
+    "duration" : 80
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "bd3bfd7d7464025f",
   "name" : "验证输入大小写不一致的用户名正确的密码，登录失败，并提示账号或密码错误",
   "time" : {
-    "start" : 1711276132042,
-    "stop" : 1711276132171,
+    "start" : 1712029685515,
+    "stop" : 1712029686108,
+    "duration" : 593
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "468e0584018c7e87",
+  "name" : "验证【用户管理】添加用户，email多个点，其他数据正常，添加失败",
+  "time" : {
+    "start" : 1712029692103,
+    "stop" : 1712029692218,
+    "duration" : 115
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a841cc2ff3d68e2b",
+  "name" : "验证【角色管理】添加角色，角色名称roleName过短，其他数据正常，添加失败",
+  "time" : {
+    "start" : 1712029720461,
+    "stop" : 1712029720587,
+    "duration" : 126
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "85289eb4918dcb6d",
+  "name" : "验证【菜单管理】添加菜单，路由地址path为没有点，其他数据正常，添加成功",
+  "time" : {
+    "start" : 1712029725987,
+    "stop" : 1712029726104,
+    "duration" : 117
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d73a0533ec6eab13",
+  "name" : "验证【用户管理】添加用户，nickName重复，但是字母大小写不一致，其他数据正常，添加成功",
+  "time" : {
+    "start" : 1712029704116,
+    "stop" : 1712029704317,
+    "duration" : 201
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b0f698c23b73407f",
+  "name" : "验证【用户管理】修改用户，sex为1，其他数据正常，修改成功",
+  "time" : {
+    "start" : 1712029712216,
+    "stop" : 1712029712295,
+    "duration" : 79
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "3a46a6ffe04b5d44",
+  "name" : "验证【用户管理】查询用户，params[endTime]符合时间格式且起始时间大于结束时间，其他数据正常，查询失败",
+  "time" : {
+    "start" : 1712029718722,
+    "stop" : 1712029718781,
+    "duration" : 59
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7417f9e488ee74f3",
+  "name" : "验证【用户管理】添加用户，postlds不为1234且不为空，其他数据正常，添加失败",
+  "time" : {
+    "start" : 1712029697443,
+    "stop" : 1712029697639,
+    "duration" : 196
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "16ceb41c37414a79",
+  "name" : "验证【用户管理】添加用户，password为17位字符，其他数据正常，添加失败",
+  "time" : {
+    "start" : 1712029693744,
+    "stop" : 1712029693938,
+    "duration" : 194
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "2ce8bfdb9cffda16",
+  "name" : "验证【用户管理】修改用户，sex为0，其他数据正常，修改成功",
+  "time" : {
+    "start" : 1712029712116,
+    "stop" : 1712029712195,
+    "duration" : 79
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "9803b431fc798bd4",
+  "name" : "验证【角色管理】添加角色，角色名称roleName为空，其他数据正常，添加失败",
+  "time" : {
+    "start" : 1712029720195,
+    "stop" : 1712029720320,
+    "duration" : 125
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d480fcaf180a3cf8",
+  "name" : "验证【用户管理】添加用户，deptld为101，其他数据正常，添加成功",
+  "time" : {
+    "start" : 1712029688399,
+    "stop" : 1712029688596,
+    "duration" : 197
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c3196b93b27809fb",
+  "name" : "验证【用户管理】查询用户，phonenumber不以13\\14\\15\\17\\18开头，其他数据正常，查询失败",
+  "time" : {
+    "start" : 1712029717326,
+    "stop" : 1712029717374,
+    "duration" : 48
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "42009ab70500869d",
+  "name" : "验证【用户管理】查询用户，status为3，其他数据正常，查询失败",
+  "time" : {
+    "start" : 1712029717567,
+    "stop" : 1712029717615,
+    "duration" : 48
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "41e8d95afb261a66",
+  "name" : "验证【用户管理】修改用户，deptld为106，其他数据正常，修改成功",
+  "time" : {
+    "start" : 1712029706333,
+    "stop" : 1712029706413,
+    "duration" : 80
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "ad4084132075ba3f",
+  "name" : "验证【用户管理】添加用户，phonenumber以13开头的11位纯数字，其他数据正常，添加成功",
+  "time" : {
+    "start" : 1712029694595,
+    "stop" : 1712029694793,
+    "duration" : 198
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "329a8829cbf0fb6e",
+  "name" : "验证【用户管理】修改用户，deptld为110，其他数据正常，修改成功",
+  "time" : {
+    "start" : 1712029706841,
+    "stop" : 1712029706925,
+    "duration" : 84
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "4a064bc5727cd5fa",
+  "name" : "验证【用户管理】添加用户，postlds为[1, 2, 3, 4]，其他数据正常，添加成功",
+  "time" : {
+    "start" : 1712029699971,
+    "stop" : 1712029700168,
+    "duration" : 197
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f759baae7fdb7acc",
+  "name" : "验证【用户管理】修改用户，email有@无点，其他数据正常，修改失败",
+  "time" : {
+    "start" : 1712029707254,
+    "stop" : 1712029707334,
+    "duration" : 80
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "1d17e9f424c2dcde",
+  "name" : "验证【用户管理】修改用户，postlds为3，其他数据正常，修改成功",
+  "time" : {
+    "start" : 1712029710263,
+    "stop" : 1712029710344,
+    "duration" : 81
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "67b62c101814bbc4",
+  "name" : "验证【用户管理】添加用户，email多个@，其他数据正常，添加失败",
+  "time" : {
+    "start" : 1712029691980,
+    "stop" : 1712029692094,
+    "duration" : 114
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d739bf2cf8d7e177",
+  "name" : "验证【菜单管理】添加菜单，显示排序orderNum为1，其他数据正常，添加成功",
+  "time" : {
+    "start" : 1712029724913,
+    "stop" : 1712029725030,
+    "duration" : 117
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "28de506c461e0a36",
+  "name" : "验证【用户管理】添加用户，password为6位字符，其他数据正常，添加成功",
+  "time" : {
+    "start" : 1712029693955,
+    "stop" : 1712029694151,
+    "duration" : 196
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "9701c0b67b1dadb7",
+  "name" : "验证【用户管理】查询用户，pageNum为空，其他数据正常，查询成功",
+  "time" : {
+    "start" : 1712029714538,
+    "stop" : 1712029714589,
+    "duration" : 51
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "609896775da08bb3",
+  "name" : "验证【用户管理】添加用户，email无@无点，其他数据正常，添加失败",
+  "time" : {
+    "start" : 1712029691135,
+    "stop" : 1712029691256,
+    "duration" : 121
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c89b14d29f8df777",
+  "name" : "验证【用户管理】添加用户，postlds为0，其他数据正常，添加失败",
+  "time" : {
+    "start" : 1712029700177,
+    "stop" : 1712029700374,
+    "duration" : 197
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "418f53db5eab2ba",
+  "name" : "验证【菜单管理】添加菜单，路由地址path为没有www，其他数据正常，添加失败",
+  "time" : {
+    "start" : 1712029725706,
+    "stop" : 1712029725824,
+    "duration" : 118
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "eb5831dd88f98d1",
+  "name" : "验证【菜单管理】添加菜单，菜单名称menuName过长，其他数据正常，添加失败",
+  "time" : {
+    "start" : 1712029723983,
+    "stop" : 1712029724101,
+    "duration" : 118
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "46b4e235ed80b4bc",
+  "name" : "验证【用户管理】查询用户，userName为空，其他数据正常，查询失败",
+  "time" : {
+    "start" : 1712029716179,
+    "stop" : 1712029716236,
+    "duration" : 57
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "10abe2feafc126b0",
+  "name" : "验证【用户管理】修改用户，email无@无点，其他数据正常，修改失败",
+  "time" : {
+    "start" : 1712029707162,
+    "stop" : 1712029707243,
+    "duration" : 81
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c693134c608ec049",
+  "name" : "验证【用户管理】查询用户，pageNum为null，其他数据正常，查询失败",
+  "time" : {
+    "start" : 1712029714378,
+    "stop" : 1712029714427,
+    "duration" : 49
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "931bf1779d60a98f",
+  "name" : "验证【用户管理】添加用户，填写有效数据能够添加用户成功",
+  "time" : {
+    "start" : 1712029686441,
+    "stop" : 1712029686637,
+    "duration" : 196
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "421a519789ec0b69",
+  "name" : "验证【用户管理】修改用户，nickName为2个字符，其他数据正常，修改成功",
+  "time" : {
+    "start" : 1712029713199,
+    "stop" : 1712029713279,
+    "duration" : 80
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "eb8bedb3248ad0dc",
+  "name" : "验证【用户管理】修改用户，nickName过29个字符，其他数据正常，修改成功",
+  "time" : {
+    "start" : 1712029713297,
+    "stop" : 1712029713376,
+    "duration" : 79
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "8bd051ea592afd39",
+  "name" : "验证【用户管理】添加用户，postlds为3，其他数据正常，添加成功",
+  "time" : {
+    "start" : 1712029697028,
+    "stop" : 1712029697225,
+    "duration" : 197
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fcc1aba4090a6285",
+  "name" : "验证【用户管理】添加用户，postlds为3，其他数据正常，添加成功",
+  "time" : {
+    "start" : 1712029699558,
+    "stop" : 1712029699755,
+    "duration" : 197
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "566a18069d3a1d09",
+  "name" : "验证【菜单管理】添加菜单，路由地址path过短，其他数据正常，添加失败",
+  "time" : {
+    "start" : 1712029726381,
+    "stop" : 1712029726501,
+    "duration" : 120
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "32fa421e56847441",
+  "name" : "验证【用户管理】查询用户，userName长度31个字符，其他数据正常，查询失败",
+  "time" : {
+    "start" : 1712029716350,
+    "stop" : 1712029716399,
+    "duration" : 49
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "abde69a73a1ca9da",
+  "name" : "验证【用户管理】添加用户，rolelds为空，其他数据正常，添加成功",
+  "time" : {
+    "start" : 1712029698937,
+    "stop" : 1712029699133,
+    "duration" : 196
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7394552b4a1834d4",
+  "name" : "验证【用户管理】添加用户，nickName为2个字符，其他数据正常，添加成功",
+  "time" : {
+    "start" : 1712029703178,
+    "stop" : 1712029703372,
+    "duration" : 194
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "697150581071cc0",
+  "name" : "验证【用户管理】添加用户，deptld为空，其他数据正常，添加成功",
+  "time" : {
+    "start" : 1712029687965,
+    "stop" : 1712029688165,
+    "duration" : 200
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6aaaea80b08608c2",
+  "name" : "验证【用户管理】添加用户，email无@有点，其他数据正常，添加失败",
+  "time" : {
+    "start" : 1712029691482,
+    "stop" : 1712029691596,
+    "duration" : 114
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "837c51fa5066efe8",
+  "name" : "验证【用户管理】查询用户，phonenumber不为纯数字，其他数据正常，查询失败",
+  "time" : {
+    "start" : 1712029717191,
+    "stop" : 1712029717240,
+    "duration" : 49
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f63d1cdb41b6d67b",
+  "name" : "验证【用户管理】查询用户，status为2，其他数据正常，查询成功",
+  "time" : {
+    "start" : 1712029717508,
+    "stop" : 1712029717555,
+    "duration" : 47
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c3961bc3771d5a91",
+  "name" : "验证【用户管理】查询用户，userName长度为1个字符，其他数据正常，查询失败",
+  "time" : {
+    "start" : 1712029716426,
+    "stop" : 1712029716487,
+    "duration" : 61
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "caf45e81b5a957e2",
+  "name" : "验证【菜单管理】添加菜单，菜单名称menuName有敏感词，其他数据正常，添加成功",
+  "time" : {
+    "start" : 1712029724647,
+    "stop" : 1712029724766,
+    "duration" : 119
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "10ca0601972d54da",
+  "name" : "验证【用户管理】添加用户，postlds为空，其他数据正常，添加成功",
+  "time" : {
+    "start" : 1712029696401,
+    "stop" : 1712029696596,
+    "duration" : 195
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f04030da46abfc76",
+  "name" : "验证【角色管理】添加角色，角色顺序roleSort为1，其他数据正常，添加成功",
+  "time" : {
+    "start" : 1712029721807,
+    "stop" : 1712029721926,
+    "duration" : 119
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1310938180c7e7aa",
+  "name" : "验证【用户管理】修改用户，sex为2，其他数据正常，修改成功",
+  "time" : {
+    "start" : 1712029712315,
+    "stop" : 1712029712395,
+    "duration" : 80
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "561e836bf6662c22",
+  "name" : "验证【用户管理】修改用户，postlds不为1234且不为空，其他数据正常，修改失败",
+  "time" : {
+    "start" : 1712029710468,
+    "stop" : 1712029710549,
+    "duration" : 81
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "74c1a010cb19d6c9",
+  "name" : "验证【用户管理】修改用户，postlds为4，其他数据正常，修改成功",
+  "time" : {
+    "start" : 1712029711613,
+    "stop" : 1712029711694,
+    "duration" : 81
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "2d5b8b0295bf6d66",
+  "name" : "验证【用户管理】修改用户，nickName重复，但是字母大小写不一致，其他数据正常，修改成功",
+  "time" : {
+    "start" : 1712029713680,
+    "stop" : 1712029713764,
+    "duration" : 84
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "3ccb41a81ddac290",
+  "name" : "验证【用户管理】添加用户，email长度为51个字符，其他数据正常，添加失败",
+  "time" : {
+    "start" : 1712029693193,
+    "stop" : 1712029693306,
+    "duration" : 113
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a205d84a2601c525",
+  "name" : "验证【用户管理】添加用户，remark含有特殊字符，其他数据正常，添加成功",
+  "time" : {
+    "start" : 1712029697872,
+    "stop" : 1712029698067,
+    "duration" : 195
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f76bf34d96f98438",
+  "name" : "验证【角色管理】添加角色，角色顺序roleSort为999，其他数据正常，添加成功",
+  "time" : {
+    "start" : 1712029722067,
+    "stop" : 1712029722185,
+    "duration" : 118
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a615668167548a95",
+  "name" : "验证【用户管理】查询用户，postlds为2，其他数据正常，查询成功",
+  "time" : {
+    "start" : 1712029717704,
+    "stop" : 1712029717755,
+    "duration" : 51
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "254384bd8f6963b1",
+  "name" : "验证【菜单管理】添加菜单，显示排序orderNum为3，其他数据正常，添加成功",
+  "time" : {
+    "start" : 1712029725176,
+    "stop" : 1712029725294,
+    "duration" : 118
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1fb9fb7fa98ee60b",
+  "name" : "验证【角色管理】添加角色，remark为空，其他数据正常，添加失败",
+  "time" : {
+    "start" : 1712029723293,
+    "stop" : 1712029723414,
+    "duration" : 121
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "6fdc54a2b6dcbbc3",
+  "name" : "验证【用户管理】添加用户，sex为0，其他数据正常，添加成功",
+  "time" : {
+    "start" : 1712029700810,
+    "stop" : 1712029701004,
+    "duration" : 194
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "31a43a047e6c096b",
+  "name" : "验证【用户管理】查询用户，pageNum为负数，其他数据正常，查询失败",
+  "time" : {
+    "start" : 1712029714301,
+    "stop" : 1712029714350,
+    "duration" : 49
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "af2a43553216d53d",
+  "name" : "验证【用户管理】修改用户，userName长度为30个字符，其他数据正常，修改成功",
+  "time" : {
+    "start" : 1712029704944,
+    "stop" : 1712029705028,
+    "duration" : 84
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "b50eda151a2f4fc7",
+  "name" : "验证【角色管理】添加角色，角色顺序roleSort为1000，其他数据正常，添加成功",
+  "time" : {
+    "start" : 1712029722195,
+    "stop" : 1712029722313,
+    "duration" : 118
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3ffad20486b4410a",
+  "name" : "验证【用户管理】添加用户，email特殊字符，其他数据正常，添加失败",
+  "time" : {
+    "start" : 1712029692228,
+    "stop" : 1712029692425,
+    "duration" : 197
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "e32a921603fdc74d",
+  "name" : "验证【用户管理】查询用户，pageNum为数字1，其他数据正常，查询成功",
+  "time" : {
+    "start" : 1712029713985,
+    "stop" : 1712029714035,
+    "duration" : 50
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3152268f35427a8a",
+  "name" : "验证【用户管理】查询用户，pageSize数值空，其他数据正常，查询成功",
+  "time" : {
+    "start" : 1712029715485,
+    "stop" : 1712029715559,
+    "duration" : 74
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2cf1bd3fe8613d33",
+  "name" : "验证【用户管理】查询用户，params[beginTime]符合时间格式且起始时间小于结束时间，其他数据正常，查询成功",
+  "time" : {
+    "start" : 1712029718154,
+    "stop" : 1712029718206,
+    "duration" : 52
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1a024d49598b97e2",
+  "name" : "验证【用户管理】添加用户，deptld为107，其他数据正常，添加成功",
+  "time" : {
+    "start" : 1712029689672,
+    "stop" : 1712029689869,
+    "duration" : 197
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d0ca277f3e711b75",
+  "name" : "验证【用户管理】添加用户，password为5位字符，其他数据正常，添加成功",
+  "time" : {
+    "start" : 1712029694168,
+    "stop" : 1712029694366,
+    "duration" : 198
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "4d3fa6c13061955",
+  "name" : "验证【用户管理】修改用户，postlds为空，其他数据正常，修改成功",
+  "time" : {
+    "start" : 1712029712015,
+    "stop" : 1712029712094,
+    "duration" : 79
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "313dd9c07db1f07",
+  "name" : "验证【用户管理】修改用户，email长度2，其他数据正常，修改失败",
+  "time" : {
+    "start" : 1712029708084,
+    "stop" : 1712029708164,
+    "duration" : 80
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3fb95d43fd7c08a4",
+  "name" : "验证【用户管理】修改用户，nickName为空，其他数据正常，修改失败",
+  "time" : {
+    "start" : 1712029713003,
+    "stop" : 1712029713082,
+    "duration" : 79
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "7693eb4ffc1ea73e",
+  "name" : "验证【用户管理】添加用户，userName长度为1个字符，其他数据正常，添加失败",
+  "time" : {
+    "start" : 1712029687114,
+    "stop" : 1712029687310,
+    "duration" : 196
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f0764111c791ef58",
+  "name" : "验证【用户管理】修改用户，nickName过31个字符，其他数据正常，修改失败",
+  "time" : {
+    "start" : 1712029713492,
+    "stop" : 1712029713571,
+    "duration" : 79
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6a49013844b988c",
+  "name" : "验证【用户管理】添加用户，userName长度31个字符，其他数据正常，添加失败",
+  "time" : {
+    "start" : 1712029686990,
+    "stop" : 1712029687105,
+    "duration" : 115
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a7572aed8b3cb3e2",
+  "name" : "验证【菜单管理】添加菜单，路由地址path为有特殊字符，其他数据正常，添加成功",
+  "time" : {
+    "start" : 1712029726116,
+    "stop" : 1712029726238,
+    "duration" : 122
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "280e1897f61fcbf1",
+  "name" : "验证【用户管理】修改用户，deptld为100，其他数据正常，修改成功",
+  "time" : {
+    "start" : 1712029705737,
+    "stop" : 1712029705819,
+    "duration" : 82
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "5dfecaf65f637d42",
+  "name" : "验证【用户管理】修改用户，deptld为104，其他数据正常，修改成功",
+  "time" : {
+    "start" : 1712029706140,
+    "stop" : 1712029706220,
+    "duration" : 80
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d6e60876b8bafedf",
+  "name" : "验证【用户管理】添加用户，postlds为2，其他数据正常，添加成功",
+  "time" : {
+    "start" : 1712029699347,
+    "stop" : 1712029699547,
+    "duration" : 200
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cfa478551e6d6b23",
+  "name" : "验证【用户管理】修改用户，sex为空，其他数据正常，修改成功",
+  "time" : {
+    "start" : 1712029712412,
+    "stop" : 1712029712492,
+    "duration" : 80
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "86f00cdb3f05309f",
+  "name" : "验证【用户管理】修改用户，userName重复，其他数据正常，修改失败",
+  "time" : {
+    "start" : 1712029705245,
+    "stop" : 1712029705329,
+    "duration" : 84
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "9f6c7d3e1e720935",
+  "name" : "验证【菜单管理】添加菜单，填写有效数据能够添加用户成功",
+  "time" : {
+    "start" : 1712029723712,
+    "stop" : 1712029723844,
+    "duration" : 132
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "335948ae31fc9497",
+  "name" : "验证【用户管理】删除用户，输入不存在的用户id不能删除",
+  "time" : {
+    "start" : 1712029704798,
+    "stop" : 1712029704844,
+    "duration" : 46
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "99cf32f1b00fb7bd",
+  "name" : "验证【菜单管理】添加菜单，菜单名称menuName含有特殊字符，其他数据正常，添加失败",
+  "time" : {
+    "start" : 1712029724510,
+    "stop" : 1712029724629,
+    "duration" : 119
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "1a5f96742fa56c58",
+  "name" : "验证【用户管理】添加用户，nickName有敏感词，其他数据正常，添加成功",
+  "time" : {
+    "start" : 1712029704532,
+    "stop" : 1712029704725,
+    "duration" : 193
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8316fb0e5374ebf",
+  "name" : "验证【用户管理】添加用户，rolelds为1，其他数据正常，添加失败",
+  "time" : {
+    "start" : 1712029698281,
+    "stop" : 1712029698479,
+    "duration" : 198
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "96fa846f8753b14a",
+  "name" : "验证【用户管理】添加用户，postlds为2，其他数据正常，添加成功",
+  "time" : {
+    "start" : 1712029696817,
+    "stop" : 1712029697018,
+    "duration" : 201
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "51b2075f26bd884e",
+  "name" : "验证【用户管理】查询用户，postlds为[1,2,3,4]，其他数据正常，查询成功",
+  "time" : {
+    "start" : 1712029717902,
+    "stop" : 1712029717950,
+    "duration" : 48
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b060321cf067b883",
+  "name" : "验证【用户管理】添加用户，password为16位字符，其他数据正常，添加成功",
+  "time" : {
+    "start" : 1712029693530,
+    "stop" : 1712029693726,
+    "duration" : 196
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "fb1507ebdf3ea50",
+  "name" : "验证【用户管理】添加用户，phonenumber以15开头的11位纯数字，其他数据正常，添加成功",
+  "time" : {
+    "start" : 1712029695015,
+    "stop" : 1712029695211,
+    "duration" : 196
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "10f5cfcb39626620",
+  "name" : "验证【用户管理】查询用户，postlds为0，其他数据正常，查询失败",
+  "time" : {
+    "start" : 1712029717961,
+    "stop" : 1712029718012,
+    "duration" : 51
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8c2ed44a56f2fb97",
+  "name" : "验证【用户管理】修改用户，nickName有敏感词，其他数据正常，修改成功",
+  "time" : {
+    "start" : 1712029713884,
+    "stop" : 1712029713963,
+    "duration" : 79
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "c6fb8d304b0a78de",
+  "name" : "验证输入正确的用户名密码包含特殊字符，登录失败，并提示账号或密码错误",
+  "time" : {
+    "start" : 1712029685087,
+    "stop" : 1712029685252,
+    "duration" : 165
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d4bf5127cf8add02",
+  "name" : "验证【用户管理】添加用户，email符合邮箱规则，其他数据正常，添加成功",
+  "time" : {
+    "start" : 1712029690704,
+    "stop" : 1712029690918,
+    "duration" : 214
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fbfb0bfeff4be073",
+  "name" : "验证【角色管理】添加角色，菜单权限menuIds为存在的id其他数据正常，添加成功",
+  "time" : {
+    "start" : 1712029723142,
+    "stop" : 1712029723270,
+    "duration" : 128
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1c58ac72d5272224",
+  "name" : "验证【角色管理】添加角色，状态status为1，其他数据正常，添加成功",
+  "time" : {
+    "start" : 1712029722730,
+    "stop" : 1712029722850,
+    "duration" : 120
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d21ec2a04a062d39",
+  "name" : "验证【用户管理】修改用户，phonenumber以14开头的11位纯数字，其他数据正常，修改成功",
+  "time" : {
+    "start" : 1712029709172,
+    "stop" : 1712029709252,
+    "duration" : 80
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "add5d134b0057746",
+  "name" : "验证【用户管理】修改用户，email@和点之间无字符，其他数据正常，修改失败",
+  "time" : {
+    "start" : 1712029707528,
+    "stop" : 1712029707606,
+    "duration" : 78
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "872f0611df068a15",
+  "name" : "验证【用户管理】修改用户，phonenumber以13开头的11位纯数字，其他数据正常，修改成功",
+  "time" : {
+    "start" : 1712029709075,
+    "stop" : 1712029709156,
+    "duration" : 81
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d3932735ab07b56",
+  "name" : "验证【角色管理】添加角色，remark含有特殊字符，其他数据正常，添加失败",
+  "time" : {
+    "start" : 1712029723433,
+    "stop" : 1712029723562,
     "duration" : 129
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "8f14a58afd89a24d",
-  "name" : "验证【用户管理】修改用户，postlds为1，其他数据正常，修改成功",
+  "uid" : "3be759e516d72cdb",
+  "name" : "验证【菜单管理】添加菜单，菜单名称menuName重复，其他数据正常，添加失败",
   "time" : {
-    "start" : 1711276142015,
-    "stop" : 1711276142022,
-    "duration" : 7
+    "start" : 1712029724241,
+    "stop" : 1712029724363,
+    "duration" : 122
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2eaca331b179aab5",
+  "name" : "验证【角色管理】添加角色，角色名称roleName重复，但是字母大小写不一致，其他数据正常，添加失败",
+  "time" : {
+    "start" : 1712029720752,
+    "stop" : 1712029720874,
+    "duration" : 122
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "d630fb5291415fea",
-  "name" : "验证【用户管理】查询用户，userName有敏感词，其他数据正常，查询成功",
+  "uid" : "cfe464ab4a93c8fe",
+  "name" : "验证输入错误的用户名错误的密码，登录失败，并提示账号或密码错误",
   "time" : {
-    "start" : 1711276143371,
-    "stop" : 1711276143383,
-    "duration" : 12
+    "start" : 1712029686380,
+    "stop" : 1712029686431,
+    "duration" : 51
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "3e5e85e323b2bee9",
-  "name" : "验证【用户管理】添加用户，deptld为107，其他数据正常，添加成功",
+  "uid" : "b0202a9a30966474",
+  "name" : "验证【菜单管理】添加菜单，路由地址path过长，其他数据正常，添加失败",
   "time" : {
-    "start" : 1711276133922,
-    "stop" : 1711276134022,
-    "duration" : 100
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "748530072514e805",
-  "name" : "验证【用户管理】修改用户，deptld为109，其他数据正常，修改成功",
-  "time" : {
-    "start" : 1711276140733,
-    "stop" : 1711276140741,
-    "duration" : 8
+    "start" : 1712029726521,
+    "stop" : 1712029726643,
+    "duration" : 122
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "257eb09d402945e1",
-  "name" : "验证【用户管理】添加用户，填写有效数据能够添加用户成功",
+  "uid" : "4c897809f4d26d11",
+  "name" : "验证【用户管理】添加用户，phonenumber位数不为11位，其他数据正常，添加失败",
   "time" : {
-    "start" : 1711276132409,
-    "stop" : 1711276132481,
-    "duration" : 72
+    "start" : 1712029695632,
+    "stop" : 1712029695747,
+    "duration" : 115
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "6c92127dc30c4be4",
-  "name" : "验证输入不存在的用户名正确的密码，登录失败，并提示账号或密码错误",
+  "uid" : "73de72c54385edd4",
+  "name" : "验证【菜单管理】添加菜单，显示排序orderNum为空，其他数据正常，添加失败",
   "time" : {
-    "start" : 1711276131988,
-    "stop" : 1711276131999,
-    "duration" : 11
+    "start" : 1712029724777,
+    "stop" : 1712029724895,
+    "duration" : 118
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "e9f4127b833239d9",
+  "name" : "验证【角色管理】添加角色，权限字符roleKey为common，其他数据正常，添加成功",
+  "time" : {
+    "start" : 1712029721418,
+    "stop" : 1712029721533,
+    "duration" : 115
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "f82a7ed7d11cc4df",
-  "name" : "验证【用户管理】添加用户，status为0，其他数据正常，添加成功",
+  "uid" : "f333fef99eb30267",
+  "name" : "验证【用户管理】添加用户，email长度2，其他数据正常，添加失败",
   "time" : {
-    "start" : 1711276139002,
-    "stop" : 1711276139077,
-    "duration" : 75
+    "start" : 1712029692657,
+    "stop" : 1712029692770,
+    "duration" : 113
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "40aa3dc9647d22aa",
-  "name" : "验证【用户管理】查询用户，pageNum为负数，其他数据正常，查询失败",
-  "time" : {
-    "start" : 1711276142847,
-    "stop" : 1711276142857,
-    "duration" : 10
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "27bb6cc2a0457efa",
-  "name" : "验证【用户管理】查询用户，postlds为5，其他数据正常，查询失败",
-  "time" : {
-    "start" : 1711276143874,
-    "stop" : 1711276143884,
-    "duration" : 10
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "aad8ef37f5523b57",
+  "uid" : "cd34d8b2a944c8b3",
   "name" : "验证【用户管理】添加用户，rolelds为3，其他数据正常，添加失败",
   "time" : {
-    "start" : 1711276137678,
-    "stop" : 1711276137755,
-    "duration" : 77
+    "start" : 1712029698703,
+    "stop" : 1712029698907,
+    "duration" : 204
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "5e144f010b69f8fa",
-  "name" : "验证【用户管理】删除用户，选择正确的用户id能够删除成功",
+  "uid" : "e481239ed425b80c",
+  "name" : "验证【用户管理】查询用户，params[beginTime]符合时间格式且无起始时间只有结束时间，其他数据正常，查询成功",
   "time" : {
-    "start" : 1711276140166,
-    "stop" : 1711276140175,
-    "duration" : 9
+    "start" : 1712029718402,
+    "stop" : 1712029718455,
+    "duration" : 53
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "ae52be98403a3197",
-  "name" : "验证【用户管理】修改用户，deptld为108，其他数据正常，修改成功",
+  "uid" : "21a3fe13d129abe1",
+  "name" : "验证【用户管理】修改用户，userName有敏感词，其他数据正常，修改成功",
   "time" : {
-    "start" : 1711276140701,
-    "stop" : 1711276140710,
-    "duration" : 9
+    "start" : 1712029705541,
+    "stop" : 1712029705622,
+    "duration" : 81
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "14d3dbf6fd04ce6f",
-  "name" : "验证【用户管理】查询用户，pageSize数值为60，其他数据正常，查询失败",
+  "uid" : "aa65eabf8096b5b7",
+  "name" : "验证【角色管理】添加角色，状态status为2，其他数据正常，添加失败",
   "time" : {
-    "start" : 1711276143116,
-    "stop" : 1711276143125,
-    "duration" : 9
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8ca17d481a4e7d6a",
-  "name" : "验证【用户管理】查询用户，userName含有特殊字符，其他数据正常，查询成功",
-  "time" : {
-    "start" : 1711276143342,
-    "stop" : 1711276143356,
-    "duration" : 14
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e934b43243857578",
-  "name" : "验证【用户管理】添加用户，postlds为1，其他数据正常，添加成功",
-  "time" : {
-    "start" : 1711276136782,
-    "stop" : 1711276136860,
-    "duration" : 78
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b6dcbe5825eb902d",
-  "name" : "验证【用户管理】修改用户，phonenumber以18开头的11位纯数字，其他数据正常，修改成功",
-  "time" : {
-    "start" : 1711276141489,
-    "stop" : 1711276141496,
-    "duration" : 7
+    "start" : 1712029722861,
+    "stop" : 1712029722987,
+    "duration" : 126
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "49be2d309a4926e1",
+  "uid" : "58dbac785b6d420a",
+  "name" : "验证【用户管理】添加用户，email有@无点，其他数据正常，添加失败",
+  "time" : {
+    "start" : 1712029691267,
+    "stop" : 1712029691464,
+    "duration" : 197
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "a90a0b4cd5068f",
+  "name" : "验证【用户管理】查询用户，params[beginTime]不符合时间格式，其他数据正常，查询失败",
+  "time" : {
+    "start" : 1712029718538,
+    "stop" : 1712029718586,
+    "duration" : 48
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cf722e9255823b77",
+  "name" : "验证【角色管理】添加角色，权限字符roleKey为admin，其他数据正常，添加成功",
+  "time" : {
+    "start" : 1712029721291,
+    "stop" : 1712029721407,
+    "duration" : 116
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2def93c19860d19a",
+  "name" : "验证【用户管理】添加用户，deptld为110，其他数据正常，添加成功",
+  "time" : {
+    "start" : 1712029690497,
+    "stop" : 1712029690693,
+    "duration" : 196
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ff0f94cccc8a690c",
+  "name" : "验证【用户管理】修改用户，password为5位字符，其他数据正常，修改成功",
+  "time" : {
+    "start" : 1712029708881,
+    "stop" : 1712029708961,
+    "duration" : 80
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "ecbc5e5ee398a82",
+  "name" : "验证【菜单管理】添加菜单，显示排序orderNum为4，其他数据正常，添加成功",
+  "time" : {
+    "start" : 1712029725306,
+    "stop" : 1712029725423,
+    "duration" : 117
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6d2aca988029be43",
+  "name" : "验证【角色管理】添加角色，角色顺序roleSort为0，其他数据正常，添加失败",
+  "time" : {
+    "start" : 1712029721670,
+    "stop" : 1712029721790,
+    "duration" : 120
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "24dc0043c20b16a5",
+  "name" : "验证【用户管理】修改用户，phonenumber以15开头的11位纯数字，其他数据正常，修改成功",
+  "time" : {
+    "start" : 1712029709269,
+    "stop" : 1712029709349,
+    "duration" : 80
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "f9cdbee5cc71b553",
+  "name" : "验证输入正确的用户名错误的密码，登录失败，并提示账号或密码错误",
+  "time" : {
+    "start" : 1712029684460,
+    "stop" : 1712029684626,
+    "duration" : 166
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7f80821ad40d7bb7",
+  "name" : "验证【用户管理】查询用户，status为1，其他数据正常，查询成功",
+  "time" : {
+    "start" : 1712029717448,
+    "stop" : 1712029717496,
+    "duration" : 48
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d8f1e3481eb97c09",
+  "name" : "验证【用户管理】添加用户，nickName含有特殊字符，其他数据正常，添加成功",
+  "time" : {
+    "start" : 1712029704327,
+    "stop" : 1712029704521,
+    "duration" : 194
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "257c76af3ad10640",
+  "name" : "验证【用户管理】修改用户，phonenumber包含空格，其他数据正常，修改失败",
+  "time" : {
+    "start" : 1712029709772,
+    "stop" : 1712029709852,
+    "duration" : 80
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "618e261f3b82daea",
+  "name" : "验证【用户管理】修改用户，userName为空，其他数据正常，修改失败",
+  "time" : {
+    "start" : 1712029704854,
+    "stop" : 1712029704934,
+    "duration" : 80
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c2fd981eb1e7c58a",
+  "name" : "验证【用户管理】添加用户，nickName重复，其他数据正常，添加成功",
+  "time" : {
+    "start" : 1712029703913,
+    "stop" : 1712029704106,
+    "duration" : 193
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4532f46497374c16",
+  "name" : "验证【用户管理】添加用户，deptld为108，其他数据正常，添加成功",
+  "time" : {
+    "start" : 1712029689879,
+    "stop" : 1712029690075,
+    "duration" : 196
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "245749feb307c81d",
+  "name" : "验证【用户管理】修改用户，nickName为1个字符，其他数据正常，修改失败",
+  "time" : {
+    "start" : 1712029713100,
+    "stop" : 1712029713181,
+    "duration" : 81
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "57725e53bc5a7b93",
+  "name" : "验证【角色管理】添加角色，角色顺序roleSort为1001，其他数据正常，添加失败",
+  "time" : {
+    "start" : 1712029722324,
+    "stop" : 1712029722442,
+    "duration" : 118
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "c42275f30c88cd77",
+  "name" : "验证【用户管理】查询用户，postlds为4，其他数据正常，查询成功",
+  "time" : {
+    "start" : 1712029717840,
+    "stop" : 1712029717888,
+    "duration" : 48
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a59da9ea3ec5b356",
+  "name" : "验证【菜单管理】添加菜单，显示排序orderNum为5，其他数据正常，添加失败",
+  "time" : {
+    "start" : 1712029725433,
+    "stop" : 1712029725554,
+    "duration" : 121
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "dc1428b7130e7c39",
+  "name" : "验证【用户管理】查询用户，phonenumber以15开头的11位纯数字，其他数据正常，查询成功",
+  "time" : {
+    "start" : 1712029716936,
+    "stop" : 1712029716988,
+    "duration" : 52
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "55a8ca281d089afd",
+  "name" : "验证【用户管理】查询用户，pageSize数值为0，其他数据正常，查询失败",
+  "time" : {
+    "start" : 1712029715740,
+    "stop" : 1712029715806,
+    "duration" : 66
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8b5dcf86d203ede1",
+  "name" : "验证【用户管理】添加用户，email为空，其他数据正常，添加成功",
+  "time" : {
+    "start" : 1712029690928,
+    "stop" : 1712029691125,
+    "duration" : 197
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c8828772e9939714",
+  "name" : "验证【角色管理】添加角色，角色名称roleName重复，其他数据正常，添加失败",
+  "time" : {
+    "start" : 1712029720608,
+    "stop" : 1712029720731,
+    "duration" : 123
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "8048ba63e266e424",
+  "name" : "验证【用户管理】修改用户，password为6位字符，其他数据正常，修改成功",
+  "time" : {
+    "start" : 1712029708783,
+    "stop" : 1712029708864,
+    "duration" : 81
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "6fc371321844d007",
+  "name" : "验证【用户管理】修改用户，deptld为空，其他数据正常，修改成功",
+  "time" : {
+    "start" : 1712029705639,
+    "stop" : 1712029705720,
+    "duration" : 81
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "7d1136abe1d19b1d",
   "name" : "验证【用户管理】修改用户，userName重复，但是字母大小写不一致，其他数据正常，修改失败",
   "time" : {
-    "start" : 1711276140332,
-    "stop" : 1711276140339,
-    "duration" : 7
+    "start" : 1712029705346,
+    "stop" : 1712029705426,
+    "duration" : 80
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "382a4ed7132f052b",
-  "name" : "验证【菜单管理】添加菜单，路由地址path为有特殊字符，其他数据正常，添加成功",
+  "uid" : "fd0986a38e530cf6",
+  "name" : "验证【用户管理】修改用户，postlds为[1, 2, 3, 4]，其他数据正常，修改成功",
   "time" : {
-    "start" : 1711276145441,
-    "stop" : 1711276145452,
-    "duration" : 11
+    "start" : 1712029711713,
+    "stop" : 1712029711793,
+    "duration" : 80
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "b17b30edfb36021d",
+  "name" : "验证输入过长的用户名正确的密码，登录失败，并提示账号或密码错误",
+  "time" : {
+    "start" : 1712029685402,
+    "stop" : 1712029685448,
+    "duration" : 46
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "3c79f5f7239af20c",
+  "uid" : "b9ef5c59bf9069c2",
+  "name" : "验证【用户管理】添加用户，nickName过30个字符，其他数据正常，添加成功",
+  "time" : {
+    "start" : 1712029703585,
+    "stop" : 1712029703781,
+    "duration" : 196
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5d1db08be9473ede",
+  "name" : "验证【角色管理】添加角色，角色名称roleName含有特殊字符，其他数据正常，添加失败",
+  "time" : {
+    "start" : 1712029720896,
+    "stop" : 1712029721016,
+    "duration" : 120
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "23df3cead4422138",
+  "name" : "验证【用户管理】修改用户，phonenumber以18开头的11位纯数字，其他数据正常，修改成功",
+  "time" : {
+    "start" : 1712029709486,
+    "stop" : 1712029709566,
+    "duration" : 80
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "7d4e21686c6ab39a",
+  "name" : "验证【用户管理】修改用户，postlds为4，其他数据正常，修改成功",
+  "time" : {
+    "start" : 1712029710363,
+    "stop" : 1712029710445,
+    "duration" : 82
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "80095d13bfe1742d",
+  "name" : "验证【用户管理】查询用户，pageNum为数字0，其他数据正常，查询失败",
+  "time" : {
+    "start" : 1712029714048,
+    "stop" : 1712029714094,
+    "duration" : 46
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ec67afee4afec18b",
+  "name" : "验证【用户管理】修改用户，nickName重复，其他数据正常，修改成功",
+  "time" : {
+    "start" : 1712029713581,
+    "stop" : 1712029713661,
+    "duration" : 80
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "9137f764511bcf2c",
+  "name" : "验证【用户管理】修改用户，status为0，其他数据正常，修改成功",
+  "time" : {
+    "start" : 1712029712612,
+    "stop" : 1712029712692,
+    "duration" : 80
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "4c16226aaee97e24",
+  "name" : "验证【用户管理】添加用户，phonenumber以14开头的11位纯数字，其他数据正常，添加成功",
+  "time" : {
+    "start" : 1712029694808,
+    "stop" : 1712029695005,
+    "duration" : 197
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6af22ae1aee5ac17",
+  "name" : "验证【用户管理】添加用户，status为3，其他数据正常，添加失败",
+  "time" : {
+    "start" : 1712029702534,
+    "stop" : 1712029702729,
+    "duration" : 195
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "48a4a7fef01dba48",
+  "name" : "验证【用户管理】查询用户，pageNum为数字1000，其他数据正常，查询失败",
+  "time" : {
+    "start" : 1712029714198,
+    "stop" : 1712029714244,
+    "duration" : 46
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1ee130f301dee69d",
+  "name" : "验证【用户管理】修改用户，status为1，其他数据正常，修改成功",
+  "time" : {
+    "start" : 1712029712710,
+    "stop" : 1712029712790,
+    "duration" : 80
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "17b5dbd1f9529fb3",
+  "name" : "验证【用户管理】查询用户，userName重复，但是字母大小写不一致，其他数据正常，查询失败",
+  "time" : {
+    "start" : 1712029716582,
+    "stop" : 1712029716635,
+    "duration" : 53
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "51d9af36622cafa0",
+  "name" : "验证【角色管理】添加角色，状态status为0，其他数据正常，添加成功",
+  "time" : {
+    "start" : 1712029722600,
+    "stop" : 1712029722719,
+    "duration" : 119
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6a922ca80e79771b",
+  "name" : "验证【用户管理】修改用户，phonenumber不以13\\14\\15\\17\\18开头，其他数据正常，修改失败",
+  "time" : {
+    "start" : 1712029709870,
+    "stop" : 1712029709951,
+    "duration" : 81
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "c351f74307ace9a3",
+  "name" : "验证【角色管理】添加角色，填写有效数据能够添加用户成功",
+  "time" : {
+    "start" : 1712029720059,
+    "stop" : 1712029720183,
+    "duration" : 124
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ac8d91f6b09a7ea4",
+  "name" : "验证【用户管理】添加用户，deptld为99，其他数据正常，添加成功",
+  "time" : {
+    "start" : 1712029690290,
+    "stop" : 1712029690487,
+    "duration" : 197
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c93b0605f6b857ba",
+  "name" : "验证【用户管理】添加用户，postlds为空，其他数据正常，添加成功",
+  "time" : {
+    "start" : 1712029700605,
+    "stop" : 1712029700799,
+    "duration" : 194
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "932f7255e01253ea",
+  "name" : "验证【用户管理】添加用户，phonenumber不以13\\14\\15\\17\\18开头，其他数据正常，添加失败",
+  "time" : {
+    "start" : 1712029696188,
+    "stop" : 1712029696384,
+    "duration" : 196
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "407cf1b30fb0610e",
+  "name" : "验证【用户管理】查询用户，pageSize数值为null，其他数据正常，查询失败",
+  "time" : {
+    "start" : 1712029716071,
+    "stop" : 1712029716124,
+    "duration" : 53
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a3615fbf56df587e",
+  "name" : "验证【用户管理】添加用户，status为0，其他数据正常，添加成功",
+  "time" : {
+    "start" : 1712029701905,
+    "stop" : 1712029702103,
+    "duration" : 198
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3535ba7eca41719f",
+  "name" : "验证【用户管理】查询用户，pageNum为数字999，其他数据正常，查询成功",
+  "time" : {
+    "start" : 1712029714104,
+    "stop" : 1712029714172,
+    "duration" : 68
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e4a06d562efa66c5",
+  "name" : "验证【用户管理】查询用户，params[beginTime]符合时间格式且起始时间大于结束时间，其他数据正常，查询失败",
+  "time" : {
+    "start" : 1712029718281,
+    "stop" : 1712029718328,
+    "duration" : 47
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2eac871e9fa95178",
+  "name" : "验证【用户管理】添加用户，deptld为104，其他数据正常，添加成功",
+  "time" : {
+    "start" : 1712029689042,
+    "stop" : 1712029689242,
+    "duration" : 200
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "969c9c8ceb6eea05",
+  "name" : "验证【用户管理】添加用户，remark为空，其他数据正常，添加成功",
+  "time" : {
+    "start" : 1712029697658,
+    "stop" : 1712029697861,
+    "duration" : 203
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "486be277e9e3d6ec",
+  "name" : "验证【用户管理】添加用户，rolelds为2，其他数据正常，添加成功",
+  "time" : {
+    "start" : 1712029698496,
+    "stop" : 1712029698693,
+    "duration" : 197
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7c228328535ffc2a",
+  "name" : "验证【用户管理】修改用户，email点结尾，其他数据正常，修改失败",
+  "time" : {
+    "start" : 1712029707616,
+    "stop" : 1712029707699,
+    "duration" : 83
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f1916dc87f4928f8",
+  "name" : "验证【用户管理】查询用户，params[beginTime]符合时间格式且起始时间等于结束时间，其他数据正常，查询失败",
+  "time" : {
+    "start" : 1712029718219,
+    "stop" : 1712029718267,
+    "duration" : 48
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "91a0d0c4633efbb4",
+  "name" : "验证【用户管理】添加用户，sex为1，其他数据正常，添加成功",
+  "time" : {
+    "start" : 1712029701014,
+    "stop" : 1712029701214,
+    "duration" : 200
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "58c25018cd005d59",
+  "name" : "验证【用户管理】添加用户，deptld为102，其他数据正常，添加成功",
+  "time" : {
+    "start" : 1712029688607,
+    "stop" : 1712029688814,
+    "duration" : 207
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bb6c2fc32f92ce9e",
+  "name" : "验证输入正确的用户名过短的密码，登录失败，并提示账号或密码错误",
+  "time" : {
+    "start" : 1712029684731,
+    "stop" : 1712029684897,
+    "duration" : 166
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4f7a7d51ad8c4f84",
+  "name" : "验证【用户管理】修改用户，phonenumber以17开头的11位纯数字，其他数据正常，修改成功",
+  "time" : {
+    "start" : 1712029709367,
+    "stop" : 1712029709457,
+    "duration" : 90
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "7d7607b8ddee38d",
+  "name" : "验证【角色管理】添加角色，remark有敏感词，其他数据正常，添加成功",
+  "time" : {
+    "start" : 1712029723581,
+    "stop" : 1712029723699,
+    "duration" : 118
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "31783a6f6b0800ec",
+  "name" : "验证【用户管理】修改用户，email长度为51个字符，其他数据正常，修改失败",
+  "time" : {
+    "start" : 1712029708386,
+    "stop" : 1712029708465,
+    "duration" : 79
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b4a7beaac9bbb2b6",
+  "name" : "验证【用户管理】修改用户，deptld为101，其他数据正常，修改成功",
+  "time" : {
+    "start" : 1712029705845,
+    "stop" : 1712029705925,
+    "duration" : 80
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "40dcb708768b4c51",
+  "name" : "验证【角色管理】添加角色，状态status为空，其他数据正常，添加失败",
+  "time" : {
+    "start" : 1712029722461,
+    "stop" : 1712029722582,
+    "duration" : 121
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "b4b2936d17684351",
+  "name" : "验证【角色管理】添加角色，角色顺序roleSort为2，其他数据正常，添加成功",
+  "time" : {
+    "start" : 1712029721936,
+    "stop" : 1712029722058,
+    "duration" : 122
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8844e7956e1f3eb6",
+  "name" : "验证【用户管理】修改用户，password为17位字符，其他数据正常，修改失败",
+  "time" : {
+    "start" : 1712029708681,
+    "stop" : 1712029708766,
+    "duration" : 85
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "23b0b33c775cdb03",
+  "name" : "验证【角色管理】添加角色，菜单权限menuIds为空，其他数据正常，添加成功",
+  "time" : {
+    "start" : 1712029723007,
+    "stop" : 1712029723128,
+    "duration" : 121
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "54d86925277be12e",
+  "name" : "验证【用户管理】修改用户，postlds为1，其他数据正常，修改成功",
+  "time" : {
+    "start" : 1712029710067,
+    "stop" : 1712029710147,
+    "duration" : 80
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "7f32d7feb6385748",
+  "name" : "验证【用户管理】添加用户，deptld为106，其他数据正常，添加成功",
+  "time" : {
+    "start" : 1712029689462,
+    "stop" : 1712029689659,
+    "duration" : 197
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7e51af6ce33ab991",
+  "name" : "验证【用户管理】删除用户，选择正确的用户id能够删除成功",
+  "time" : {
+    "start" : 1712029704735,
+    "stop" : 1712029704788,
+    "duration" : 53
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "175303dff0ce25da",
+  "name" : "验证【用户管理】添加用户，password含有特殊字符，其他数据正常，添加失败",
+  "time" : {
+    "start" : 1712029694383,
+    "stop" : 1712029694577,
+    "duration" : 194
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "960108fd90883f4",
+  "name" : "验证【用户管理】添加用户，phonenumber不为纯数字，其他数据正常，添加失败",
+  "time" : {
+    "start" : 1712029695757,
+    "stop" : 1712029695957,
+    "duration" : 200
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "6ce5a16bbfb4f7ea",
+  "name" : "验证【用户管理】查询用户，pageSize数值为40，其他数据正常，查询成功",
+  "time" : {
+    "start" : 1712029715063,
+    "stop" : 1712029715120,
+    "duration" : 57
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "926b1f28004c9bf7",
+  "name" : "验证【用户管理】修改用户，email多个@，其他数据正常，修改失败",
+  "time" : {
+    "start" : 1712029707709,
+    "stop" : 1712029707789,
+    "duration" : 80
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c9a794a45bbb19d7",
+  "name" : "验证【用户管理】查询用户，pageSize数值为10，其他数据正常，查询成功",
+  "time" : {
+    "start" : 1712029714760,
+    "stop" : 1712029714814,
+    "duration" : 54
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4271cf96da9bd670",
+  "name" : "验证【用户管理】添加用户，userName有敏感词，其他数据正常，添加成功",
+  "time" : {
+    "start" : 1712029687747,
+    "stop" : 1712029687944,
+    "duration" : 197
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fa602535fe21d82c",
+  "name" : "验证【用户管理】修改用户，email符合邮箱规则，其他数据正常，修改成功",
+  "time" : {
+    "start" : 1712029706943,
+    "stop" : 1712029707025,
+    "duration" : 82
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "2acaab484155ec56",
+  "name" : "验证【用户管理】修改用户，deptld为105，其他数据正常，修改成功",
+  "time" : {
+    "start" : 1712029706236,
+    "stop" : 1712029706316,
+    "duration" : 80
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "cb45cb6a98eca8c2",
   "name" : "验证【菜单管理】添加菜单，菜单名称menuName过短，其他数据正常，添加失败",
   "time" : {
-    "start" : 1711276145076,
-    "stop" : 1711276145086,
-    "duration" : 10
+    "start" : 1712029724111,
+    "stop" : 1712029724228,
+    "duration" : 117
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "d75b348f27b5c9df",
-  "name" : "验证【用户管理】查询用户，params[endTime]不符合时间格式，其他数据正常，查询失败",
+  "uid" : "5e93ac9b11464592",
+  "name" : "验证【角色管理】添加角色，权限字符roleKey为空，其他数据正常，添加失败",
   "time" : {
-    "start" : 1711276144196,
-    "stop" : 1711276144207,
-    "duration" : 11
+    "start" : 1712029721167,
+    "stop" : 1712029721280,
+    "duration" : 113
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cf1397ee83684b0e",
+  "name" : "验证【用户管理】导出模板，下载成功",
+  "time" : {
+    "start" : 1712029719043,
+    "stop" : 1712029719960,
+    "duration" : 917
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7a37b2bd1d308940",
+  "name" : "验证【用户管理】查询用户，pageSize数值为20，其他数据正常，查询成功",
+  "time" : {
+    "start" : 1712029714862,
+    "stop" : 1712029714912,
+    "duration" : 50
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "492b4201428e4d0e",
+  "name" : "验证【用户管理】修改用户，postlds为空，其他数据正常，修改成功",
+  "time" : {
+    "start" : 1712029709969,
+    "stop" : 1712029710048,
+    "duration" : 79
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "75eb527d0ca77083",
+  "name" : "验证【用户管理】查询用户，userName长度为30个字符，其他数据正常，查询成功",
+  "time" : {
+    "start" : 1712029716262,
+    "stop" : 1712029716313,
+    "duration" : 51
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b6608036fbb94b56",
+  "name" : "验证【用户管理】添加用户，postlds为1，其他数据正常，添加成功",
+  "time" : {
+    "start" : 1712029696609,
+    "stop" : 1712029696807,
+    "duration" : 198
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b524512fc02b45b",
+  "name" : "验证【用户管理】修改用户，email特殊字符，其他数据正常，修改失败",
+  "time" : {
+    "start" : 1712029707888,
+    "stop" : 1712029707969,
+    "duration" : 81
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "296584b7f149ba72",
+  "name" : "验证【用户管理】查询用户，phonenumber以13开头的11位纯数字，其他数据正常，查询成功",
+  "time" : {
+    "start" : 1712029716799,
+    "stop" : 1712029716850,
+    "duration" : 51
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "106e2e71a39d7127",
+  "name" : "验证输入包含特殊字符的用户名正确的密码，登录失败，并提示账号或密码错误",
+  "time" : {
+    "start" : 1712029686244,
+    "stop" : 1712029686371,
+    "duration" : 127
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3e0e0eb44bf1d25f",
+  "name" : "验证输入正确的用户名正确的密码，登录成功",
+  "time" : {
+    "start" : 1712029683228,
+    "stop" : 1712029684448,
+    "duration" : 1220
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "25eb4203b3be29e",
+  "name" : "验证【用户管理】添加用户，phonenumber以18开头的11位纯数字，其他数据正常，添加成功",
+  "time" : {
+    "start" : 1712029695427,
+    "stop" : 1712029695623,
+    "duration" : 196
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b28e4e86b65d53a7",
+  "name" : "验证【用户管理】查询用户，pageSize数值为30，其他数据正常，查询成功",
+  "time" : {
+    "start" : 1712029714972,
+    "stop" : 1712029715022,
+    "duration" : 50
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7ed30595687e4aed",
+  "name" : "验证【菜单管理】添加菜单，路由地址path为没有https，其他数据正常，添加成功",
+  "time" : {
+    "start" : 1712029725844,
+    "stop" : 1712029725970,
+    "duration" : 126
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9914b63c5e02cfa3",
+  "name" : "验证【用户管理】查询用户，postlds为3，其他数据正常，查询成功",
+  "time" : {
+    "start" : 1712029717770,
+    "stop" : 1712029717823,
+    "duration" : 53
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ba2547a9db342dfe",
+  "name" : "验证【用户管理】查询用户，postlds为1，其他数据正常，查询成功",
+  "time" : {
+    "start" : 1712029717633,
+    "stop" : 1712029717687,
+    "duration" : 54
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a4f67133d7044c39",
+  "name" : "验证【用户管理】查询用户，pageSize数值为60，其他数据正常，查询失败",
+  "time" : {
+    "start" : 1712029715854,
+    "stop" : 1712029715919,
+    "duration" : 65
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ec4fc9dfcfbec3b4",
+  "name" : "验证【用户管理】查询用户，userName重复，其他数据正常，查询失败",
+  "time" : {
+    "start" : 1712029716511,
+    "stop" : 1712029716561,
+    "duration" : 50
   },
   "status" : "passed",
   "severity" : "normal"

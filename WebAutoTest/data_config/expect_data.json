@@ -1,18 +1,18 @@
 {
   "系统认证": {
     "登录系统":{
-      "login_001": "http://192.168.109.134:81/index",
-      "login_002": "http://192.168.109.134:81/login?redirect=%2Findex",
-      "login_003": "http://192.168.109.134:81/login?redirect=%2Findex",
-      "login_004": "http://192.168.109.134:81/login?redirect=%2Findex",
-      "login_005": "http://192.168.109.134:81/login?redirect=%2Findex",
-      "login_006": "http://192.168.109.134:81/login?redirect=%2Findex",
-      "login_007": "http://192.168.109.134:81/login?redirect=%2Findex",
-      "login_008": "http://192.168.109.134:81/login?redirect=%2Findex",
-      "login_009": "http://192.168.109.134:81/login?redirect=%2Findex",
-      "login_010": "http://192.168.109.134:81/login?redirect=%2Findex",
-      "login_011": "http://192.168.109.134:81/login?redirect=%2Findex",
-      "login_012": "http://192.168.109.134:81/login?redirect=%2Findex"
+      "login_001": "http://47.113.217.131:88/index",
+      "login_002": "http://47.113.217.131:88/login?redirect=%2Findex",
+      "login_003": "http://47.113.217.131:88/login?redirect=%2Findex",
+      "login_004": "http://47.113.217.131:88/login?redirect=%2Findex",
+      "login_005": "http://47.113.217.131:88/login?redirect=%2Findex",
+      "login_006": "http://47.113.217.131:88/login?redirect=%2Findex",
+      "login_007": "http://47.113.217.131:88/login?redirect=%2Findex",
+      "login_008": "http://47.113.217.131:88/login?redirect=%2Findex",
+      "login_009": "http://47.113.217.131:88/login?redirect=%2Findex",
+      "login_010": "http://47.113.217.131:88/login?redirect=%2Findex",
+      "login_011": "http://47.113.217.131:88/login?redirect=%2Findex",
+      "login_012": "http://47.113.217.131:88/login?redirect=%2Findex"
     }
   },
   "用户管理": {
@@ -36,6 +36,24 @@
       "add_user_017": "失败",
       "add_user_018": "新增成功",
       "add_user_019": "新增成功"
+    }
+  },
+    "角色管理": {
+    "添加角色": {
+      "add_role_001": "新增成功",
+      "add_role_002": "角色名称不能为空" ,
+      "add_role_003": "角色名称长度不能超过30个字符",
+      "add_role_004": "角色名称已存在",
+      "add_role_005": "失败",
+      "add_role_006": "失败",
+      "add_role_007": "角色权限已存在",
+      "add_role_008": "新增成功",
+      "add_role_009": "新增成功",
+      "add_role_010": "新增成功",
+      "add_role_011": "新增成功",
+      "add_role_012": "新增成功",
+      "add_role_013": "新增成功",
+      "add_role_014": "新增成功"
     }
   }
 }

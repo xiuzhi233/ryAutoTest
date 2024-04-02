@@ -34,7 +34,7 @@ class LoginPage(Basic):
         time.sleep(0.5)
 
     def quit(self):
-        if self.driver.current_url == "http://192.168.109.134:81/index":
+        if self.driver.current_url == "http://47.113.217.131:88/index":
             # 4.点击角标
             self.click(self.yaml_data["login"]["loginPage"]["corner"])
             # 5.点击退出登录

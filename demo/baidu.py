@@ -21,7 +21,7 @@ kw = {
 headers = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36"}
 # params 接收一个字典或者字符串的查询参数，字典类型自动转换为url编码，不需要urlencode()
-response = requests.get("http://192.168.109.134:81/prod-api/system/user/list", params=kw)
+response = requests.get("http://47.113.217.131:88/prod-api/system/user/list", params=kw)
 
 # 查看响应状态码
 print(response.status_code)

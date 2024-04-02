@@ -19,7 +19,7 @@ class TestAdduser():
     self.driver.quit()
   
   def test_adduser(self):
-    self.driver.get("http://192.168.109.134:81/login?redirect=%2Findex")
+    self.driver.get("http://47.113.217.131:88/login?redirect=%2Findex")
     self.driver.set_window_size(1395, 977)
     self.driver.find_element(By.CSS_SELECTOR, ".el-form-item:nth-child(2) .el-input__inner").click()
     self.driver.find_element(By.CSS_SELECTOR, ".el-form-item:nth-child(2) .el-input__inner").send_keys("admin")

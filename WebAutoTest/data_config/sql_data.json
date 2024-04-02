@@ -21,5 +21,23 @@
       "add_user_018": "DELETE FROM sys_user WHERE user_name = '~@#$^&*()_+{}|';",
       "add_user_019": "DELETE FROM sys_user WHERE user_name = '毛泽东';"
     }
+  },
+  "角色管理": {
+    "添加角色": {
+      "add_role_001": "DELETE FROM sys_role WHERE role_key = 'add_role_001'",
+      "add_role_002": "DELETE FROM sys_role WHERE role_key = 'add_role_002'",
+      "add_role_003": "DELETE FROM sys_role WHERE role_key = 'add_role_003'",
+      "add_role_004": "DELETE FROM sys_role WHERE role_key = 'add_role_004'",
+      "add_role_005": "DELETE FROM sys_role WHERE role_key = 'add_role_005'",
+      "add_role_006": "DELETE FROM sys_role WHERE role_key = 'add_role_006'",
+      "add_role_007": "DELETE FROM sys_role WHERE role_name = 'add_role_007'",
+      "add_role_008": "DELETE FROM sys_role WHERE role_key = 'add_role_008'",
+      "add_role_009": "DELETE FROM sys_role WHERE role_key = 'add_role_009'",
+      "add_role_010": "DELETE FROM sys_role WHERE role_key = 'add_role_010'",
+      "add_role_011": "DELETE FROM sys_role WHERE role_key = 'add_role_011'",
+      "add_role_012": "DELETE FROM sys_role WHERE role_key = 'add_role_012'",
+      "add_role_013": "DELETE FROM sys_role WHERE role_key = 'add_role_013'",
+      "add_role_014": "DELETE FROM sys_role WHERE role_key = 'add_role_014'"
+    }
   }
 }

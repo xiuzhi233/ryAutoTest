@@ -1,0 +1,3 @@
+[32mINFO    [0m root:__init__.py:27 功能的名称为：test_ryvue 功能的描述为：None
+[1m[31mERROR   [0m root:test_ryvue.py:76 menuManagement_021断言失败，用例数据为：{'parentId': 0, 'menuName': 'menuManagement_021', 'icon': '', 'menuType': 'M', 'orderNum': 5, 'isFrame': '1', 'isCache': '0', 'visible': '0', 'status': '0', 'path': 'menuManagement_001menuManagement_001menuManagement_001menuManagement_001.com'}期望数据为：{'msg': '操作失败', 'code': 500}服务器返回的期望数据：{"msg":"操作成功","code":200}
+[1m[31mERROR   [0m root:__init__.py:33 断言失败

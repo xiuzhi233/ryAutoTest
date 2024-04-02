@@ -18,7 +18,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 # 创建实例化对象
 driver = webdriver.Chrome()
 
-ry_admin_url = "http://192.168.109.134:81/"
+ry_admin_url = "http://47.113.217.131:88/"
 
 driver.maximize_window()
 

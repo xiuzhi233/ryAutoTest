@@ -24,16 +24,6 @@ manage:
     nick_name: CSS_SELECTOR, [placeholder="请输入用户昵称"]
     # 用户名称
     user_name: CSS_SELECTOR, [placeholder="请输入用户名称"][maxlength="30"]
-    # 归属部门
-    deptId: CSS_SELECTOR, [class="vue-treeselect__menu-container"]
-    # 手机号
-    # 邮箱
-    # 用户密码
-    # 用户性别
-    # 状态
-    # 岗位
-    # 角色
-    # 备注
     # 确认
     confirm: CSS_SELECTOR, [aria-label="添加用户"] [class="el-button el-button--primary el-button--medium"]
     # 响应数据
@@ -41,5 +31,30 @@ manage:
     # 取消
     cancel: CSS_SELECTOR, [aria-label="添加用户"] [class="el-button el-button--default el-button--medium"]
 
-
+  roleManage:
+    # 系统管理
+    sysManage: XPATH, /html/body/div/div[1]/div[1]/div[2]/div[1]/div/ul/div[2]/li/div/span
+    # 角色管理
+    roleManage: XPATH, /html/body/div[1]/div[1]/div[1]/div[2]/div[1]/div/ul/div[2]/li/ul/div[2]/a/li
+    # 新增
+    addRole: CSS_SELECTOR, [class="el-icon-plus"]
+    # 角色名称
+    roleName: CSS_SELECTOR, [class$="el-input--medium"] [placeholder="请输入角色名称"]
+    # 权限字符
+    roleKey: CSS_SELECTOR, [class$="el-input--medium"] [placeholder="请输入权限字符"]
+    # 角色顺序
+    roleSort: CSS_SELECTOR, [class="el-input__inner"][aria-disabled="false"]
+    # 状态
+    status_0: CSS_SELECTOR, [class="el-radio__input is-checked"]
+    status_1: CSS_SELECTOR, [class="el-radio__input"]
+    # 菜单权限
+    menuIds_manage: CSS_SELECTOR, div[class="el-tree tree-border"]>div:nth-of-type(1)>div:nth-of-type(1) label [class="el-checkbox__input"]
+    menuIds_control: CSS_SELECTOR, div[class="el-tree tree-border"]>div:nth-of-type(2)>div:nth-of-type(1) label [class="el-checkbox__input"]
+    menuIds_tool: CSS_SELECTOR, div[class="el-tree tree-border"]>div:nth-of-type(3)>div:nth-of-type(1) label [class="el-checkbox__input"]
+    # 备注
+    remark: CSS_SELECTOR, [placeholder="请输入内容"]
+    # 确定
+    confirm: CSS_SELECTOR, [style*="z-index"] [aria-label="添加角色"] [class="el-button el-button--primary el-button--medium"]
+    # 取消
+    cancel: CSS_SELECTOR, [style*="z-index"] [aria-label="添加角色"] [class="el-button el-button--default el-button--medium"]
 

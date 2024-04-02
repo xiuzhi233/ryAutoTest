@@ -1,0 +1,194 @@
+{
+  "uid" : "f96458d4437ee723",
+  "name" : "验证【菜单管理】添加菜单，菜单名称menuName重复，但是字母大小写不一致，其他数据正常，添加失败",
+  "fullName" : "test_case.test_ryvue.TestRyvue#test_ryvue",
+  "historyId" : "5059a7b3420b3ef1a0d4e2e7dc0b2687",
+  "time" : {
+    "start" : 1712029724373,
+    "stop" : 1712029724492,
+    "duration" : 119
+  },
+  "description" : "actual_data:{'msg': '操作成功', 'code': 200}",
+  "descriptionHtml" : "<p>actual_data:{'msg': '操作成功', 'code': 200}</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: 断言失败",
+  "statusTrace" : "self = <APIAutoTest.test_case.test_ryvue.TestRyvue object at 0x0000023F8349BB00>\ndb_fixture = <APIAutoTest.common.db.DB object at 0x0000023F82DC9F70>\nrequest_fixture = <APIAutoTest.request_method.RequestMethod.RequestMethod object at 0x0000023F8313CDD0>\ncase_number = 'menuManagement_006', module_name = '系统管理', api_name = '菜单管理'\ncase_title = '验证【菜单管理】添加菜单，菜单名称menuName重复，但是字母大小写不一致，其他数据正常，添加失败'\nrequest_url = 'http://47.113.217.131:88/prod-api/system/menu', case_level = '中', request_method = 'POST'\nrequest_mime = 'application/json'\nrequest_data = {'icon': '', 'isCache': '0', 'isFrame': '1', 'menuName': 'MENUMANAGEMENT_001', ...}\nrequest_expect = {'code': 500, 'msg': \"新增菜单'MENUMANAGEMENT_001'失败，菜单名称已存在\"}, sql_type = 'DELETE'\nsql_sentence = \"DELETE FROM sys_menu WHERE menu_name = 'MENUMANAGEMENT_001';\", update_key = None\n\n    @allure.epic(\"若依接口自动化测试\")\n    @log_decorator\n    @pytest.mark.parametrize(\n        \"case_number, module_name, api_name, case_title, case_level, request_url, request_method, request_mime, \"\n        \"request_data, request_expect, sql_type, sql_sentence, update_key\",\n        ReadExcel().get_data())\n    def test_ryvue(self, db_fixture, request_fixture, case_number, module_name, api_name, case_title, request_url,\n                   case_level, request_method, request_mime, request_data, request_expect, sql_type, sql_sentence,\n                   update_key):\n        # 调用allure功能，影响报告的显示\n        # @allure.feature(\"模块名称\")\n        allure.dynamic.feature(module_name)\n        # @allure.story(\"接口名称\")\n        allure.dynamic.story(api_name)\n        # @allure.title(\"用例标题\")\n        allure.dynamic.title(case_title)\n        # @allure.severity(\"用例等级\")\n        allure.dynamic.severity(case_level)\n        # 判断sql语句类型是否为DELETE\n        if sql_type == \"DELETE\":\n            # 使用DB类对象来执行删除的语句\n            db_fixture.delete(sql_sentence)\n    \n        elif sql_type == \"SELECT\":\n            # 使用DB类对象来执行查询的语句，接收查询的结果\n            select_result = db_fixture.select(sql_sentence)\n            # 将查询结果更新到用例数据中\n            request_data[update_key] = select_result\n            # 更新之后的用例数据发送给服务器\n    \n        elif sql_type == \"SELECT|DELETE\" or sql_type == \"DELETE|SELECT\":\n            # 使用DB类对象，调用delete方法执行删除语句；使用DB类对象来执行查询的语句，接收查询的结果\n            db_fixture.delete(sql_sentence.get(\"DELETE\"))\n            select_result = db_fixture.delete(sql_sentence.get(\"SELECT\"))\n            request_data[update_key] = select_result\n    \n        # 使用RequestMethod对象发送请求\n        response = request_fixture.request_all(req_method=request_method, req_url=request_url, req_mime=request_mime,\n                                               case_data=request_data)\n        try:\n            allure.dynamic.description(f\"actual_data:{response.json()}\")\n        except:\n            allure.dynamic.description(f\"status_code:{response.status_code}\")\n        # 断言\n        try:\n            # 获取期望数据的key，期望数据的key对应的值是否和服务器返回的数据key对应的值相等，如果相等断言成功，否则失败\n            # assert response.json().get('msg') == request_expect['msg']\n            # and response.json().get('code') == request_expect['code']\n    \n            for key in request_expect.keys():\n                if key == \"status_code\":\n                    assert response.status_code == request_expect[\"status_code\"]\n                else:\n>                   assert response.json().get(key) == request_expect[key]\nE                   assert '操作成功' == \"新增菜单'MENUMAN...01'失败，菜单名称已存在\"\nE                     \nE                     - 新增菜单'MENUMANAGEMENT_001'失败，菜单名称已存在\nE                     + 操作成功\n\ntest_case\\test_ryvue.py:73: AssertionError\n\nDuring handling of the above exception, another exception occurred:\n\nself = <APIAutoTest.test_case.test_ryvue.TestRyvue object at 0x0000023F8349BB00>\ndb_fixture = <APIAutoTest.common.db.DB object at 0x0000023F82DC9F70>\nrequest_fixture = <APIAutoTest.request_method.RequestMethod.RequestMethod object at 0x0000023F8313CDD0>\ncase_number = 'menuManagement_006', module_name = '系统管理', api_name = '菜单管理'\ncase_title = '验证【菜单管理】添加菜单，菜单名称menuName重复，但是字母大小写不一致，其他数据正常，添加失败'\nrequest_url = 'http://47.113.217.131:88/prod-api/system/menu', case_level = '中', request_method = 'POST'\nrequest_mime = 'application/json'\nrequest_data = {'icon': '', 'isCache': '0', 'isFrame': '1', 'menuName': 'MENUMANAGEMENT_001', ...}\nrequest_expect = {'code': 500, 'msg': \"新增菜单'MENUMANAGEMENT_001'失败，菜单名称已存在\"}, sql_type = 'DELETE'\nsql_sentence = \"DELETE FROM sys_menu WHERE menu_name = 'MENUMANAGEMENT_001';\", update_key = None\n\n    @allure.epic(\"若依接口自动化测试\")\n    @log_decorator\n    @pytest.mark.parametrize(\n        \"case_number, module_name, api_name, case_title, case_level, request_url, request_method, request_mime, \"\n        \"request_data, request_expect, sql_type, sql_sentence, update_key\",\n        ReadExcel().get_data())\n    def test_ryvue(self, db_fixture, request_fixture, case_number, module_name, api_name, case_title, request_url,\n                   case_level, request_method, request_mime, request_data, request_expect, sql_type, sql_sentence,\n                   update_key):\n        # 调用allure功能，影响报告的显示\n        # @allure.feature(\"模块名称\")\n        allure.dynamic.feature(module_name)\n        # @allure.story(\"接口名称\")\n        allure.dynamic.story(api_name)\n        # @allure.title(\"用例标题\")\n        allure.dynamic.title(case_title)\n        # @allure.severity(\"用例等级\")\n        allure.dynamic.severity(case_level)\n        # 判断sql语句类型是否为DELETE\n        if sql_type == \"DELETE\":\n            # 使用DB类对象来执行删除的语句\n            db_fixture.delete(sql_sentence)\n    \n        elif sql_type == \"SELECT\":\n            # 使用DB类对象来执行查询的语句，接收查询的结果\n            select_result = db_fixture.select(sql_sentence)\n            # 将查询结果更新到用例数据中\n            request_data[update_key] = select_result\n            # 更新之后的用例数据发送给服务器\n    \n        elif sql_type == \"SELECT|DELETE\" or sql_type == \"DELETE|SELECT\":\n            # 使用DB类对象，调用delete方法执行删除语句；使用DB类对象来执行查询的语句，接收查询的结果\n            db_fixture.delete(sql_sentence.get(\"DELETE\"))\n            select_result = db_fixture.delete(sql_sentence.get(\"SELECT\"))\n            request_data[update_key] = select_result\n    \n        # 使用RequestMethod对象发送请求\n        response = request_fixture.request_all(req_method=request_method, req_url=request_url, req_mime=request_mime,\n                                               case_data=request_data)\n        try:\n            allure.dynamic.description(f\"actual_data:{response.json()}\")\n        except:\n            allure.dynamic.description(f\"status_code:{response.status_code}\")\n        # 断言\n        try:\n            # 获取期望数据的key，期望数据的key对应的值是否和服务器返回的数据key对应的值相等，如果相等断言成功，否则失败\n            # assert response.json().get('msg') == request_expect['msg']\n            # and response.json().get('code') == request_expect['code']\n    \n            for key in request_expect.keys():\n                if key == \"status_code\":\n                    assert response.status_code == request_expect[\"status_code\"]\n                else:\n                    assert response.json().get(key) == request_expect[key]\n    \n        except AssertionError:\n            logging.error(case_number + \"断言失败，用例数据为：\" + str(request_data) + \"期望数据为：\" + str(\n                request_expect) + \"服务器返回的期望数据：\" + response.text)\n>           raise AssertionError(\"断言失败\")\nE           AssertionError: 断言失败\n\ntest_case\\test_ryvue.py:78: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "db_fixture",
+    "time" : {
+      "start" : 1712029682195,
+      "stop" : 1712029682371,
+      "duration" : 176
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "request_fixture",
+    "time" : {
+      "start" : 1712029682372,
+      "stop" : 1712029683226,
+      "duration" : 854
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "actual_data:{'msg': '操作成功', 'code': 200}",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: 断言失败",
+    "statusTrace" : "self = <APIAutoTest.test_case.test_ryvue.TestRyvue object at 0x0000023F8349BB00>\ndb_fixture = <APIAutoTest.common.db.DB object at 0x0000023F82DC9F70>\nrequest_fixture = <APIAutoTest.request_method.RequestMethod.RequestMethod object at 0x0000023F8313CDD0>\ncase_number = 'menuManagement_006', module_name = '系统管理', api_name = '菜单管理'\ncase_title = '验证【菜单管理】添加菜单，菜单名称menuName重复，但是字母大小写不一致，其他数据正常，添加失败'\nrequest_url = 'http://47.113.217.131:88/prod-api/system/menu', case_level = '中', request_method = 'POST'\nrequest_mime = 'application/json'\nrequest_data = {'icon': '', 'isCache': '0', 'isFrame': '1', 'menuName': 'MENUMANAGEMENT_001', ...}\nrequest_expect = {'code': 500, 'msg': \"新增菜单'MENUMANAGEMENT_001'失败，菜单名称已存在\"}, sql_type = 'DELETE'\nsql_sentence = \"DELETE FROM sys_menu WHERE menu_name = 'MENUMANAGEMENT_001';\", update_key = None\n\n    @allure.epic(\"若依接口自动化测试\")\n    @log_decorator\n    @pytest.mark.parametrize(\n        \"case_number, module_name, api_name, case_title, case_level, request_url, request_method, request_mime, \"\n        \"request_data, request_expect, sql_type, sql_sentence, update_key\",\n        ReadExcel().get_data())\n    def test_ryvue(self, db_fixture, request_fixture, case_number, module_name, api_name, case_title, request_url,\n                   case_level, request_method, request_mime, request_data, request_expect, sql_type, sql_sentence,\n                   update_key):\n        # 调用allure功能，影响报告的显示\n        # @allure.feature(\"模块名称\")\n        allure.dynamic.feature(module_name)\n        # @allure.story(\"接口名称\")\n        allure.dynamic.story(api_name)\n        # @allure.title(\"用例标题\")\n        allure.dynamic.title(case_title)\n        # @allure.severity(\"用例等级\")\n        allure.dynamic.severity(case_level)\n        # 判断sql语句类型是否为DELETE\n        if sql_type == \"DELETE\":\n            # 使用DB类对象来执行删除的语句\n            db_fixture.delete(sql_sentence)\n    \n        elif sql_type == \"SELECT\":\n            # 使用DB类对象来执行查询的语句，接收查询的结果\n            select_result = db_fixture.select(sql_sentence)\n            # 将查询结果更新到用例数据中\n            request_data[update_key] = select_result\n            # 更新之后的用例数据发送给服务器\n    \n        elif sql_type == \"SELECT|DELETE\" or sql_type == \"DELETE|SELECT\":\n            # 使用DB类对象，调用delete方法执行删除语句；使用DB类对象来执行查询的语句，接收查询的结果\n            db_fixture.delete(sql_sentence.get(\"DELETE\"))\n            select_result = db_fixture.delete(sql_sentence.get(\"SELECT\"))\n            request_data[update_key] = select_result\n    \n        # 使用RequestMethod对象发送请求\n        response = request_fixture.request_all(req_method=request_method, req_url=request_url, req_mime=request_mime,\n                                               case_data=request_data)\n        try:\n            allure.dynamic.description(f\"actual_data:{response.json()}\")\n        except:\n            allure.dynamic.description(f\"status_code:{response.status_code}\")\n        # 断言\n        try:\n            # 获取期望数据的key，期望数据的key对应的值是否和服务器返回的数据key对应的值相等，如果相等断言成功，否则失败\n            # assert response.json().get('msg') == request_expect['msg']\n            # and response.json().get('code') == request_expect['code']\n    \n            for key in request_expect.keys():\n                if key == \"status_code\":\n                    assert response.status_code == request_expect[\"status_code\"]\n                else:\n>                   assert response.json().get(key) == request_expect[key]\nE                   assert '操作成功' == \"新增菜单'MENUMAN...01'失败，菜单名称已存在\"\nE                     \nE                     - 新增菜单'MENUMANAGEMENT_001'失败，菜单名称已存在\nE                     + 操作成功\n\ntest_case\\test_ryvue.py:73: AssertionError\n\nDuring handling of the above exception, another exception occurred:\n\nself = <APIAutoTest.test_case.test_ryvue.TestRyvue object at 0x0000023F8349BB00>\ndb_fixture = <APIAutoTest.common.db.DB object at 0x0000023F82DC9F70>\nrequest_fixture = <APIAutoTest.request_method.RequestMethod.RequestMethod object at 0x0000023F8313CDD0>\ncase_number = 'menuManagement_006', module_name = '系统管理', api_name = '菜单管理'\ncase_title = '验证【菜单管理】添加菜单，菜单名称menuName重复，但是字母大小写不一致，其他数据正常，添加失败'\nrequest_url = 'http://47.113.217.131:88/prod-api/system/menu', case_level = '中', request_method = 'POST'\nrequest_mime = 'application/json'\nrequest_data = {'icon': '', 'isCache': '0', 'isFrame': '1', 'menuName': 'MENUMANAGEMENT_001', ...}\nrequest_expect = {'code': 500, 'msg': \"新增菜单'MENUMANAGEMENT_001'失败，菜单名称已存在\"}, sql_type = 'DELETE'\nsql_sentence = \"DELETE FROM sys_menu WHERE menu_name = 'MENUMANAGEMENT_001';\", update_key = None\n\n    @allure.epic(\"若依接口自动化测试\")\n    @log_decorator\n    @pytest.mark.parametrize(\n        \"case_number, module_name, api_name, case_title, case_level, request_url, request_method, request_mime, \"\n        \"request_data, request_expect, sql_type, sql_sentence, update_key\",\n        ReadExcel().get_data())\n    def test_ryvue(self, db_fixture, request_fixture, case_number, module_name, api_name, case_title, request_url,\n                   case_level, request_method, request_mime, request_data, request_expect, sql_type, sql_sentence,\n                   update_key):\n        # 调用allure功能，影响报告的显示\n        # @allure.feature(\"模块名称\")\n        allure.dynamic.feature(module_name)\n        # @allure.story(\"接口名称\")\n        allure.dynamic.story(api_name)\n        # @allure.title(\"用例标题\")\n        allure.dynamic.title(case_title)\n        # @allure.severity(\"用例等级\")\n        allure.dynamic.severity(case_level)\n        # 判断sql语句类型是否为DELETE\n        if sql_type == \"DELETE\":\n            # 使用DB类对象来执行删除的语句\n            db_fixture.delete(sql_sentence)\n    \n        elif sql_type == \"SELECT\":\n            # 使用DB类对象来执行查询的语句，接收查询的结果\n            select_result = db_fixture.select(sql_sentence)\n            # 将查询结果更新到用例数据中\n            request_data[update_key] = select_result\n            # 更新之后的用例数据发送给服务器\n    \n        elif sql_type == \"SELECT|DELETE\" or sql_type == \"DELETE|SELECT\":\n            # 使用DB类对象，调用delete方法执行删除语句；使用DB类对象来执行查询的语句，接收查询的结果\n            db_fixture.delete(sql_sentence.get(\"DELETE\"))\n            select_result = db_fixture.delete(sql_sentence.get(\"SELECT\"))\n            request_data[update_key] = select_result\n    \n        # 使用RequestMethod对象发送请求\n        response = request_fixture.request_all(req_method=request_method, req_url=request_url, req_mime=request_mime,\n                                               case_data=request_data)\n        try:\n            allure.dynamic.description(f\"actual_data:{response.json()}\")\n        except:\n            allure.dynamic.description(f\"status_code:{response.status_code}\")\n        # 断言\n        try:\n            # 获取期望数据的key，期望数据的key对应的值是否和服务器返回的数据key对应的值相等，如果相等断言成功，否则失败\n            # assert response.json().get('msg') == request_expect['msg']\n            # and response.json().get('code') == request_expect['code']\n    \n            for key in request_expect.keys():\n                if key == \"status_code\":\n                    assert response.status_code == request_expect[\"status_code\"]\n                else:\n                    assert response.json().get(key) == request_expect[key]\n    \n        except AssertionError:\n            logging.error(case_number + \"断言失败，用例数据为：\" + str(request_data) + \"期望数据为：\" + str(\n                request_expect) + \"服务器返回的期望数据：\" + response.text)\n>           raise AssertionError(\"断言失败\")\nE           AssertionError: 断言失败\n\ntest_case\\test_ryvue.py:78: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "49b23e9a843eb7d2",
+      "name" : "log",
+      "source" : "49b23e9a843eb7d2.txt",
+      "type" : "text/plain",
+      "size" : 606
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "db_fixture::0",
+    "time" : {
+      "start" : 1712029726659,
+      "stop" : 1712029726659,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "request_fixture::0",
+    "time" : {
+      "start" : 1712029726658,
+      "stop" : 1712029726658,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "系统管理"
+  }, {
+    "name" : "story",
+    "value" : "菜单管理"
+  }, {
+    "name" : "severity",
+    "value" : "中"
+  }, {
+    "name" : "epic",
+    "value" : "若依接口自动化测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_ryvue"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRyvue"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-P49BVBS"
+  }, {
+    "name" : "thread",
+    "value" : "1936-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_ryvue"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "api_name",
+    "value" : "'菜单管理'"
+  }, {
+    "name" : "case_level",
+    "value" : "'中'"
+  }, {
+    "name" : "case_number",
+    "value" : "'menuManagement_006'"
+  }, {
+    "name" : "case_title",
+    "value" : "'验证【菜单管理】添加菜单，菜单名称menuName重复，但是字母大小写不一致，其他数据正常，添加失败'"
+  }, {
+    "name" : "module_name",
+    "value" : "'系统管理'"
+  }, {
+    "name" : "request_data",
+    "value" : "{'parentId': 0, 'menuName': 'MENUMANAGEMENT_001', 'icon': '', 'menuType': 'M', 'orderNum': 1, 'isFrame': '1', 'isCache': '0', 'visible': '0', 'status': '0', 'path': 'menuManagement_001.com'}"
+  }, {
+    "name" : "request_expect",
+    "value" : "{'msg': \"新增菜单'MENUMANAGEMENT_001'失败，菜单名称已存在\", 'code': 500}"
+  }, {
+    "name" : "request_method",
+    "value" : "'POST'"
+  }, {
+    "name" : "request_mime",
+    "value" : "'application/json'"
+  }, {
+    "name" : "request_url",
+    "value" : "'http://47.113.217.131:88/prod-api/system/menu'"
+  }, {
+    "name" : "sql_sentence",
+    "value" : "'DELETE FROM sys_menu WHERE menu_name = 'MENUMANAGEMENT_001';'"
+  }, {
+    "name" : "sql_type",
+    "value" : "'DELETE'"
+  }, {
+    "name" : "update_key",
+    "value" : "None"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "f96458d4437ee723.json",
+  "parameterValues" : [ "'菜单管理'", "'中'", "'menuManagement_006'", "'验证【菜单管理】添加菜单，菜单名称menuName重复，但是字母大小写不一致，其他数据正常，添加失败'", "'系统管理'", "{'parentId': 0, 'menuName': 'MENUMANAGEMENT_001', 'icon': '', 'menuType': 'M', 'orderNum': 1, 'isFrame': '1', 'isCache': '0', 'visible': '0', 'status': '0', 'path': 'menuManagement_001.com'}", "{'msg': \"新增菜单'MENUMANAGEMENT_001'失败，菜单名称已存在\", 'code': 500}", "'POST'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/menu'", "'DELETE FROM sys_menu WHERE menu_name = 'MENUMANAGEMENT_001';'", "'DELETE'", "None" ]
+}

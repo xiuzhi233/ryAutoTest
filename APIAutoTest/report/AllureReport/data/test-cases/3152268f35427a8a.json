@@ -1,0 +1,192 @@
+{
+  "uid" : "3152268f35427a8a",
+  "name" : "验证【用户管理】查询用户，pageSize数值空，其他数据正常，查询成功",
+  "fullName" : "test_case.test_ryvue.TestRyvue#test_ryvue",
+  "historyId" : "d68435806c4377d9be007c2f7d55430a",
+  "time" : {
+    "start" : 1712029715485,
+    "stop" : 1712029715559,
+    "duration" : 74
+  },
+  "description" : "actual_data:{'total': 0, 'rows': [], 'code': 200, 'msg': '查询成功'}",
+  "descriptionHtml" : "<p>actual_data:{'total': 0, 'rows': [], 'code': 200, 'msg': '查询成功'}</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "db_fixture",
+    "time" : {
+      "start" : 1712029682195,
+      "stop" : 1712029682371,
+      "duration" : 176
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "request_fixture",
+    "time" : {
+      "start" : 1712029682372,
+      "stop" : 1712029683226,
+      "duration" : 854
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "actual_data:{'total': 0, 'rows': [], 'code': 200, 'msg': '查询成功'}",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "48e6e879e38723a6",
+      "name" : "log",
+      "source" : "48e6e879e38723a6.txt",
+      "type" : "text/plain",
+      "size" : 95
+    }, {
+      "uid" : "d523248c18a70852",
+      "name" : "stdout",
+      "source" : "d523248c18a70852.txt",
+      "type" : "text/plain",
+      "size" : 13
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "db_fixture::0",
+    "time" : {
+      "start" : 1712029726659,
+      "stop" : 1712029726659,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "request_fixture::0",
+    "time" : {
+      "start" : 1712029726658,
+      "stop" : 1712029726658,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "系统管理"
+  }, {
+    "name" : "story",
+    "value" : "用户管理"
+  }, {
+    "name" : "severity",
+    "value" : "高"
+  }, {
+    "name" : "epic",
+    "value" : "若依接口自动化测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_ryvue"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRyvue"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-P49BVBS"
+  }, {
+    "name" : "thread",
+    "value" : "1936-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_ryvue"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "api_name",
+    "value" : "'用户管理'"
+  }, {
+    "name" : "case_level",
+    "value" : "'高'"
+  }, {
+    "name" : "case_number",
+    "value" : "'userManagement_201'"
+  }, {
+    "name" : "case_title",
+    "value" : "'验证【用户管理】查询用户，pageSize数值空，其他数据正常，查询成功'"
+  }, {
+    "name" : "module_name",
+    "value" : "'系统管理'"
+  }, {
+    "name" : "request_data",
+    "value" : "{'pageNum': 1, 'pageSize': '', 'userName': 'ry'}"
+  }, {
+    "name" : "request_expect",
+    "value" : "{'msg': '查询成功', 'code': 200}"
+  }, {
+    "name" : "request_method",
+    "value" : "'GET'"
+  }, {
+    "name" : "request_mime",
+    "value" : "'param'"
+  }, {
+    "name" : "request_url",
+    "value" : "'http://47.113.217.131:88/prod-api/system/user/list'"
+  }, {
+    "name" : "sql_sentence",
+    "value" : "None"
+  }, {
+    "name" : "sql_type",
+    "value" : "None"
+  }, {
+    "name" : "update_key",
+    "value" : "None"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3152268f35427a8a.json",
+  "parameterValues" : [ "'用户管理'", "'高'", "'userManagement_201'", "'验证【用户管理】查询用户，pageSize数值空，其他数据正常，查询成功'", "'系统管理'", "{'pageNum': 1, 'pageSize': '', 'userName': 'ry'}", "{'msg': '查询成功', 'code': 200}", "'GET'", "'param'", "'http://47.113.217.131:88/prod-api/system/user/list'", "None", "None", "None" ]
+}

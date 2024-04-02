@@ -1,3 +1,0 @@
-[32mINFO    [0m root:__init__.py:27 功能的名称为：test_ryvue 功能的描述为：None
-[31m[1mERROR   [0m root:test_ryvue.py:70 userManagement_063断言失败，用例数据为：{'userName': 'userManagement_063', 'nickName': 'userManagement_063', 'password': '123456', 'status': '0', 'postIds': [], 'roleIds': [1]}期望数据为：{'msg': '操作失败', 'code': 500}服务器返回的期望数据：{"msg":"操作成功","code":200}
-[31m[1mERROR   [0m root:__init__.py:33 断言失败

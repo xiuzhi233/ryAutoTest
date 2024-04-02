@@ -9,6 +9,7 @@
  
 """
 import os
+import time
 import unittest
 from parameterized import parameterized
 from WebAutoTest.common.ReadExcel import ReadExcel
@@ -18,7 +19,7 @@ from WebAutoTest.common.log import ry_log
 from WebAutoTest.page.manage.add_user import UserManage
 
 # 获取测试的数据
-datas = ReadExcel().get_data()[12:]
+datas = ReadExcel().get_data()[12:31]
 read_ini = ReadIni()
 # 获取日志文件的路径
 log_dir = read_ini.get_report_path("LOG")

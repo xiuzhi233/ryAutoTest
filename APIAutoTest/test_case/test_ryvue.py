@@ -56,7 +56,10 @@ class TestRyvue:
         # 使用RequestMethod对象发送请求
         response = request_fixture.request_all(req_method=request_method, req_url=request_url, req_mime=request_mime,
                                                case_data=request_data)
-        allure.dynamic.description(f"actual_data:{response.json()}")
+        try:
+            allure.dynamic.description(f"actual_data:{response.json()}")
+        except:
+            allure.dynamic.description(f"status_code:{response.status_code}")
         # 断言
         try:
             # 获取期望数据的key，期望数据的key对应的值是否和服务器返回的数据key对应的值相等，如果相等断言成功，否则失败
@@ -64,7 +67,10 @@ class TestRyvue:
             # and response.json().get('code') == request_expect['code']
 
             for key in request_expect.keys():
-                assert response.json().get(key) == request_expect[key]
+                if key == "status_code":
+                    assert response.status_code == request_expect["status_code"]
+                else:
+                    assert response.json().get(key) == request_expect[key]
 
         except AssertionError:
             logging.error(case_number + "断言失败，用例数据为：" + str(request_data) + "期望数据为：" + str(

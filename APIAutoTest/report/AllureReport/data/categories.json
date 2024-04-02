@@ -1,1581 +1,1547 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "name" : "categories",
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
       "name" : "AssertionError: 断言失败",
       "children" : [ {
         "name" : "验证输入大小写不一致的用户名正确的密码，登录失败，并提示账号或密码错误",
-        "uid" : "689055683130b703",
+        "uid" : "bd3bfd7d7464025f",
         "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
         "status" : "failed",
         "time" : {
-          "start" : 1711276132042,
-          "stop" : 1711276132171,
-          "duration" : 129
+          "start" : 1712029685515,
+          "stop" : 1712029686108,
+          "duration" : 593
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'登录系统'", "'中'", "'login_010'", "'验证输入大小写不一致的用户名正确的密码，登录失败，并提示账号或密码错误'", "'认证接口'", "{'username': 'ADMIN', 'password': 'admin123'}", "{'msg': '用户不存在/密码错误', 'code': 500}", "'POST'", "'application/json'", "'http://192.168.109.134:81/prod-api/login'", "None", "None", "None" ]
+        "parameters" : [ "'登录系统'", "'中'", "'login_010'", "'验证输入大小写不一致的用户名正确的密码，登录失败，并提示账号或密码错误'", "'认证接口'", "{'username': 'ADMIN', 'password': 'admin123'}", "{'msg': '用户不存在/密码错误', 'code': 500}", "'POST'", "'application/json'", "'http://47.113.217.131:88/prod-api/login'", "None", "None", "None" ]
       }, {
         "name" : "验证【用户管理】添加用户，email有@无点，其他数据正常，添加失败",
-        "uid" : "c162d9630a85945e",
+        "uid" : "58dbac785b6d420a",
         "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
         "status" : "failed",
         "time" : {
-          "start" : 1711276134728,
-          "stop" : 1711276134816,
-          "duration" : 88
+          "start" : 1712029691267,
+          "stop" : 1712029691464,
+          "duration" : 197
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'中'", "'userManagement_026'", "'验证【用户管理】添加用户，email有@无点，其他数据正常，添加失败'", "'系统管理'", "{'userName': 'userManagement_026', 'nickName': 'userManagement_026', 'password': '123456', 'status': '0', 'postIds': [], 'roleIds': [], 'email': 'a@bc'}", "{'msg': '邮箱格式不正确', 'code': 500}", "'POST'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'DELETE FROM sys_user WHERE user_name = 'userManagement_026';'", "'DELETE'", "None" ]
+        "parameters" : [ "'用户管理'", "'中'", "'userManagement_026'", "'验证【用户管理】添加用户，email有@无点，其他数据正常，添加失败'", "'系统管理'", "{'userName': 'userManagement_026', 'nickName': 'userManagement_026', 'password': '123456', 'status': '0', 'postIds': [], 'roleIds': [], 'email': 'a@bc'}", "{'msg': '邮箱格式不正确', 'code': 500}", "'POST'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'DELETE FROM sys_user WHERE user_name = 'userManagement_026';'", "'DELETE'", "None" ]
       }, {
         "name" : "验证【用户管理】添加用户，email特殊字符，其他数据正常，添加失败",
-        "uid" : "bd703cf8fa70bcd7",
+        "uid" : "3ffad20486b4410a",
         "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
         "status" : "failed",
         "time" : {
-          "start" : 1711276134952,
-          "stop" : 1711276135044,
-          "duration" : 92
+          "start" : 1712029692228,
+          "stop" : 1712029692425,
+          "duration" : 197
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'中'", "'userManagement_033'", "'验证【用户管理】添加用户，email特殊字符，其他数据正常，添加失败'", "'系统管理'", "{'userName': 'userManagement_033', 'nickName': 'userManagement_033', 'password': '123456', 'status': '0', 'postIds': [], 'roleIds': [], 'email': 'a#$%^&*@b.c'}", "{'msg': '邮箱格式不正确', 'code': 500}", "'POST'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'DELETE FROM sys_user WHERE user_name = 'userManagement_033';'", "'DELETE'", "None" ]
+        "parameters" : [ "'用户管理'", "'中'", "'userManagement_033'", "'验证【用户管理】添加用户，email特殊字符，其他数据正常，添加失败'", "'系统管理'", "{'userName': 'userManagement_033', 'nickName': 'userManagement_033', 'password': '123456', 'status': '0', 'postIds': [], 'roleIds': [], 'email': 'a#$%^&*@b.c'}", "{'msg': '邮箱格式不正确', 'code': 500}", "'POST'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'DELETE FROM sys_user WHERE user_name = 'userManagement_033';'", "'DELETE'", "None" ]
       }, {
         "name" : "验证【用户管理】添加用户，email汉字，其他数据正常，添加失败",
-        "uid" : "802ede232a3e9678",
+        "uid" : "6a21f5b807138d74",
         "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
         "status" : "failed",
         "time" : {
-          "start" : 1711276135066,
-          "stop" : 1711276135156,
-          "duration" : 90
+          "start" : 1712029692443,
+          "stop" : 1712029692639,
+          "duration" : 196
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'中'", "'userManagement_034'", "'验证【用户管理】添加用户，email汉字，其他数据正常，添加失败'", "'系统管理'", "{'userName': 'userManagement_034', 'nickName': 'userManagement_034', 'password': '123456', 'status': '0', 'postIds': [], 'roleIds': [], 'email': '中a@b.c'}", "{'msg': '邮箱格式不正确', 'code': 500}", "'POST'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'DELETE FROM sys_user WHERE user_name = 'userManagement_034';'", "'DELETE'", "None" ]
+        "parameters" : [ "'用户管理'", "'中'", "'userManagement_034'", "'验证【用户管理】添加用户，email汉字，其他数据正常，添加失败'", "'系统管理'", "{'userName': 'userManagement_034', 'nickName': 'userManagement_034', 'password': '123456', 'status': '0', 'postIds': [], 'roleIds': [], 'email': '中a@b.c'}", "{'msg': '邮箱格式不正确', 'code': 500}", "'POST'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'DELETE FROM sys_user WHERE user_name = 'userManagement_034';'", "'DELETE'", "None" ]
       }, {
         "name" : "验证【用户管理】添加用户，password为空，其他数据正常，添加失败",
-        "uid" : "1b1725381ad3f090",
+        "uid" : "1199faec002b02be",
         "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
         "status" : "failed",
         "time" : {
-          "start" : 1711276135411,
-          "stop" : 1711276135495,
+          "start" : 1712029693316,
+          "stop" : 1712029693512,
+          "duration" : 196
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户管理'", "'中'", "'userManagement_039'", "'验证【用户管理】添加用户，password为空，其他数据正常，添加失败'", "'系统管理'", "{'userName': 'userManagement_039', 'nickName': 'userManagement_039', 'password': '', 'status': '0', 'postIds': [], 'roleIds': []}", "{'msg': '操作失败', 'code': 500}", "'POST'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'DELETE FROM sys_user WHERE user_name = 'userManagement_039';'", "'DELETE'", "None" ]
+      }, {
+        "name" : "验证【用户管理】添加用户，password为16位字符，其他数据正常，添加成功",
+        "uid" : "b060321cf067b883",
+        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1712029693530,
+          "stop" : 1712029693726,
+          "duration" : 196
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户管理'", "'中'", "'userManagement_040'", "'验证【用户管理】添加用户，password为16位字符，其他数据正常，添加成功'", "'系统管理'", "{'userName': 'userManagement_040', 'nickName': 'userManagement_040', 'password': '1234123412341234', 'status': '0', 'postIds': [], 'roleIds': []}", "{'msg': '操作失败', 'code': 500}", "'POST'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'DELETE FROM sys_user WHERE user_name = 'userManagement_040';'", "'DELETE'", "None" ]
+      }, {
+        "name" : "验证【用户管理】添加用户，password为17位字符，其他数据正常，添加失败",
+        "uid" : "16ceb41c37414a79",
+        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1712029693744,
+          "stop" : 1712029693938,
+          "duration" : 194
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户管理'", "'中'", "'userManagement_041'", "'验证【用户管理】添加用户，password为17位字符，其他数据正常，添加失败'", "'系统管理'", "{'userName': 'userManagement_041', 'nickName': 'userManagement_041', 'password': '12341234123412341', 'status': '0', 'postIds': [], 'roleIds': []}", "{'msg': '操作失败', 'code': 500}", "'POST'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'DELETE FROM sys_user WHERE user_name = 'userManagement_041';'", "'DELETE'", "None" ]
+      }, {
+        "name" : "验证【用户管理】添加用户，password为6位字符，其他数据正常，添加成功",
+        "uid" : "28de506c461e0a36",
+        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1712029693955,
+          "stop" : 1712029694151,
+          "duration" : 196
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户管理'", "'高'", "'userManagement_042'", "'验证【用户管理】添加用户，password为6位字符，其他数据正常，添加成功'", "'系统管理'", "{'userName': 'userManagement_042', 'nickName': 'userManagement_042', 'password': '123456', 'status': '0', 'postIds': [], 'roleIds': []}", "{'msg': '操作失败', 'code': 500}", "'POST'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'DELETE FROM sys_user WHERE user_name = 'userManagement_042';'", "'DELETE'", "None" ]
+      }, {
+        "name" : "验证【用户管理】添加用户，password为5位字符，其他数据正常，添加成功",
+        "uid" : "d0ca277f3e711b75",
+        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1712029694168,
+          "stop" : 1712029694366,
+          "duration" : 198
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户管理'", "'中'", "'userManagement_043'", "'验证【用户管理】添加用户，password为5位字符，其他数据正常，添加成功'", "'系统管理'", "{'userName': 'userManagement_043', 'nickName': 'userManagement_043', 'password': '12345', 'status': '0', 'postIds': [], 'roleIds': []}", "{'msg': '操作失败', 'code': 500}", "'POST'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'DELETE FROM sys_user WHERE user_name = 'userManagement_043';'", "'DELETE'", "None" ]
+      }, {
+        "name" : "验证【用户管理】添加用户，password含有特殊字符，其他数据正常，添加失败",
+        "uid" : "175303dff0ce25da",
+        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1712029694383,
+          "stop" : 1712029694577,
+          "duration" : 194
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户管理'", "'中'", "'userManagement_044'", "'验证【用户管理】添加用户，password含有特殊字符，其他数据正常，添加失败'", "'系统管理'", "{'userName': 'userManagement_044', 'nickName': 'userManagement_044', 'password': '~@#$^&*()_+{}|', 'status': '0', 'postIds': [], 'roleIds': []}", "{'msg': '操作失败', 'code': 500}", "'POST'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'DELETE FROM sys_user WHERE user_name = 'userManagement_044';'", "'DELETE'", "None" ]
+      }, {
+        "name" : "验证【用户管理】添加用户，phonenumber不为纯数字，其他数据正常，添加失败",
+        "uid" : "960108fd90883f4",
+        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1712029695757,
+          "stop" : 1712029695957,
+          "duration" : 200
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户管理'", "'中'", "'userManagement_051'", "'验证【用户管理】添加用户，phonenumber不为纯数字，其他数据正常，添加失败'", "'系统管理'", "{'userName': 'userManagement_051', 'nickName': 'userManagement_051', 'password': '123456', 'status': '0', 'postIds': [], 'roleIds': [], 'phonenumber': '1850r502921'}", "{'msg': '操作失败', 'code': 500}", "'POST'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'DELETE FROM sys_user WHERE user_name = 'userManagement_051';'", "'DELETE'", "None" ]
+      }, {
+        "name" : "验证【用户管理】添加用户，phonenumber包含空格，其他数据正常，添加失败",
+        "uid" : "acf4a3ca5e641bae",
+        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1712029695974,
+          "stop" : 1712029696170,
+          "duration" : 196
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户管理'", "'中'", "'userManagement_052'", "'验证【用户管理】添加用户，phonenumber包含空格，其他数据正常，添加失败'", "'系统管理'", "{'userName': 'userManagement_052', 'nickName': 'userManagement_052', 'password': '123456', 'status': '0', 'postIds': [], 'roleIds': [], 'phonenumber': '185025 2921'}", "{'msg': '操作失败', 'code': 500}", "'POST'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'DELETE FROM sys_user WHERE user_name = 'userManagement_052';'", "'DELETE'", "None" ]
+      }, {
+        "name" : "验证【用户管理】添加用户，phonenumber不以13\\14\\15\\17\\18开头，其他数据正常，添加失败",
+        "uid" : "932f7255e01253ea",
+        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1712029696188,
+          "stop" : 1712029696384,
+          "duration" : 196
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户管理'", "'中'", "'userManagement_053'", "'验证【用户管理】添加用户，phonenumber不以13\\14\\15\\17\\18开头，其他数据正常，添加失败'", "'系统管理'", "{'userName': 'userManagement_053', 'nickName': 'userManagement_053', 'password': '123456', 'status': '0', 'postIds': [], 'roleIds': [], 'phonenumber': '21502502921'}", "{'msg': '操作失败', 'code': 500}", "'POST'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'DELETE FROM sys_user WHERE user_name = 'userManagement_053';'", "'DELETE'", "None" ]
+      }, {
+        "name" : "验证【用户管理】添加用户，postlds不为1234且不为空，其他数据正常，添加失败",
+        "uid" : "7417f9e488ee74f3",
+        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1712029697443,
+          "stop" : 1712029697639,
+          "duration" : 196
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户管理'", "'中'", "'userManagement_059'", "'验证【用户管理】添加用户，postlds不为1234且不为空，其他数据正常，添加失败'", "'系统管理'", "{'userName': 'userManagement_059', 'nickName': 'userManagement_059', 'password': '123456', 'status': '0', 'postIds': [5], 'roleIds': []}", "{'msg': '操作失败', 'code': 500}", "'POST'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'DELETE FROM sys_user WHERE user_name = 'userManagement_059';'", "'DELETE'", "None" ]
+      }, {
+        "name" : "验证【用户管理】添加用户，rolelds为1，其他数据正常，添加失败",
+        "uid" : "8316fb0e5374ebf",
+        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1712029698281,
+          "stop" : 1712029698479,
+          "duration" : 198
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户管理'", "'中'", "'userManagement_063'", "'验证【用户管理】添加用户，rolelds为1，其他数据正常，添加失败'", "'系统管理'", "{'userName': 'userManagement_063', 'nickName': 'userManagement_063', 'password': '123456', 'status': '0', 'postIds': [], 'roleIds': [1]}", "{'msg': '操作失败', 'code': 500}", "'POST'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'DELETE FROM sys_user WHERE user_name = 'userManagement_063';'", "'DELETE'", "None" ]
+      }, {
+        "name" : "验证【用户管理】添加用户，rolelds为3，其他数据正常，添加失败",
+        "uid" : "cd34d8b2a944c8b3",
+        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1712029698703,
+          "stop" : 1712029698907,
+          "duration" : 204
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户管理'", "'中'", "'userManagement_065'", "'验证【用户管理】添加用户，rolelds为3，其他数据正常，添加失败'", "'系统管理'", "{'userName': 'userManagement_065', 'nickName': 'userManagement_065', 'password': '123456', 'status': '0', 'postIds': [], 'roleIds': [3]}", "{'msg': '操作失败', 'code': 500}", "'POST'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'DELETE FROM sys_user WHERE user_name = 'userManagement_065';'", "'DELETE'", "None" ]
+      }, {
+        "name" : "验证【用户管理】添加用户，postlds为0，其他数据正常，添加失败",
+        "uid" : "c89b14d29f8df777",
+        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1712029700177,
+          "stop" : 1712029700374,
+          "duration" : 197
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户管理'", "'中'", "'userManagement_072'", "'验证【用户管理】添加用户，postlds为0，其他数据正常，添加失败'", "'系统管理'", "{'userName': 'userManagement_072', 'nickName': 'userManagement_072', 'password': '123456', 'status': '0', 'postIds': [0], 'roleIds': []}", "{'msg': '操作失败', 'code': 500}", "'POST'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'DELETE FROM sys_user WHERE user_name = 'userManagement_072';'", "'DELETE'", "None" ]
+      }, {
+        "name" : "验证【用户管理】添加用户，postlds为5，其他数据正常，添加失败",
+        "uid" : "4d497e746f5a96f4",
+        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1712029700391,
+          "stop" : 1712029700588,
+          "duration" : 197
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户管理'", "'中'", "'userManagement_073'", "'验证【用户管理】添加用户，postlds为5，其他数据正常，添加失败'", "'系统管理'", "{'userName': 'userManagement_073', 'nickName': 'userManagement_073', 'password': '123456', 'status': '0', 'postIds': [5], 'roleIds': []}", "{'msg': '操作失败', 'code': 500}", "'POST'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'DELETE FROM sys_user WHERE user_name = 'userManagement_073';'", "'DELETE'", "None" ]
+      }, {
+        "name" : "验证【用户管理】添加用户，sex不为012且不为空，其他数据正常，添加失败",
+        "uid" : "81e1572a477b2228",
+        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1712029701635,
+          "stop" : 1712029701887,
+          "duration" : 252
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户管理'", "'中'", "'userManagement_079'", "'验证【用户管理】添加用户，sex不为012且不为空，其他数据正常，添加失败'", "'系统管理'", "{'userName': 'userManagement_079', 'nickName': 'userManagement_079', 'password': '123456', 'status': '0', 'postIds': [], 'roleIds': [], 'sex': '-1'}", "{'msg': '操作失败', 'code': 500}", "'POST'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'DELETE FROM sys_user WHERE user_name = 'userManagement_079';'", "'DELETE'", "None" ]
+      }, {
+        "name" : "验证【用户管理】添加用户，status为3，其他数据正常，添加失败",
+        "uid" : "6af22ae1aee5ac17",
+        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1712029702534,
+          "stop" : 1712029702729,
+          "duration" : 195
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户管理'", "'中'", "'userManagement_083'", "'验证【用户管理】添加用户，status为3，其他数据正常，添加失败'", "'系统管理'", "{'userName': 'userManagement_083', 'nickName': 'userManagement_083', 'password': '123456', 'status': '3', 'postIds': [], 'roleIds': []}", "{'msg': '操作失败', 'code': 500}", "'POST'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'DELETE FROM sys_user WHERE user_name = 'userManagement_083';'", "'DELETE'", "None" ]
+      }, {
+        "name" : "验证【用户管理】添加用户，nickName为空，其他数据正常，添加失败",
+        "uid" : "372b7ffc96e1e8db",
+        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1712029702747,
+          "stop" : 1712029702944,
+          "duration" : 197
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户管理'", "'中'", "'userManagement_084'", "'验证【用户管理】添加用户，nickName为空，其他数据正常，添加失败'", "'系统管理'", "{'userName': 'userManagement_084', 'nickName': '', 'password': '123456', 'status': '0', 'postIds': [], 'roleIds': []}", "{'msg': '操作失败', 'code': 500}", "'POST'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'DELETE FROM sys_user WHERE user_name = 'userManagement_084';'", "'DELETE'", "None" ]
+      }, {
+        "name" : "验证【用户管理】添加用户，nickName为1个字符，其他数据正常，添加失败",
+        "uid" : "14881e315c2a00a2",
+        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1712029702961,
+          "stop" : 1712029703160,
+          "duration" : 199
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户管理'", "'中'", "'userManagement_085'", "'验证【用户管理】添加用户，nickName为1个字符，其他数据正常，添加失败'", "'系统管理'", "{'userName': 'userManagement_085', 'nickName': 'u', 'password': '123456', 'status': '0', 'postIds': [], 'roleIds': []}", "{'msg': '操作失败', 'code': 500}", "'POST'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'DELETE FROM sys_user WHERE user_name = 'userManagement_085';'", "'DELETE'", "None" ]
+      }, {
+        "name" : "验证【用户管理】修改用户，userName长度为30个字符，其他数据正常，修改成功",
+        "uid" : "af2a43553216d53d",
+        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1712029704944,
+          "stop" : 1712029705028,
           "duration" : 84
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'中'", "'userManagement_039'", "'验证【用户管理】添加用户，password为空，其他数据正常，添加失败'", "'系统管理'", "{'userName': 'userManagement_039', 'nickName': 'userManagement_039', 'password': '', 'status': '0', 'postIds': [], 'roleIds': []}", "{'msg': '操作失败', 'code': 500}", "'POST'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'DELETE FROM sys_user WHERE user_name = 'userManagement_039';'", "'DELETE'", "None" ]
+        "parameters" : [ "'用户管理'", "'中'", "'userManagement_097'", "'验证【用户管理】修改用户，userName长度为30个字符，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'testtesttesttesttesttesttestte', 'nickName': 'test'}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE nick_name = 'test';'", "'SELECT'", "'user_id'" ]
       }, {
-        "name" : "验证【用户管理】添加用户，password为16位字符，其他数据正常，添加成功",
-        "uid" : "3532d9c47d84ec8e",
+        "name" : "验证【用户管理】修改用户，userName长度为1个字符，其他数据正常，修改失败",
+        "uid" : "351801d0a5687a37",
         "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
         "status" : "failed",
         "time" : {
-          "start" : 1711276135515,
-          "stop" : 1711276135597,
+          "start" : 1712029705135,
+          "stop" : 1712029705227,
+          "duration" : 92
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户管理'", "'中'", "'userManagement_099'", "'验证【用户管理】修改用户，userName长度为1个字符，其他数据正常，修改失败'", "'系统管理'", "{'userId': 4, 'userName': 't', 'nickName': 'test'}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE nick_name = 'test';'", "'SELECT'", "'user_id'" ]
+      }, {
+        "name" : "验证【用户管理】修改用户，userName重复，其他数据正常，修改失败",
+        "uid" : "86f00cdb3f05309f",
+        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1712029705245,
+          "stop" : 1712029705329,
+          "duration" : 84
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户管理'", "'中'", "'userManagement_100'", "'验证【用户管理】修改用户，userName重复，其他数据正常，修改失败'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test'}", "{'msg': \"新增用户'ry'失败，登录账号已存在\", 'code': 500}", "'PUT'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE nick_name = 'test';'", "'SELECT'", "'user_id'" ]
+      }, {
+        "name" : "验证【用户管理】修改用户，userName重复，但是字母大小写不一致，其他数据正常，修改失败",
+        "uid" : "7d1136abe1d19b1d",
+        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1712029705346,
+          "stop" : 1712029705426,
+          "duration" : 80
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户管理'", "'中'", "'userManagement_101'", "'验证【用户管理】修改用户，userName重复，但是字母大小写不一致，其他数据正常，修改失败'", "'系统管理'", "{'userId': 4, 'userName': 'TEST', 'nickName': 'test'}", "{'msg': \"新增用户'RY'失败，登录账号已存在\", 'code': 500}", "'PUT'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE nick_name = 'test';'", "'SELECT'", "'user_id'" ]
+      }, {
+        "name" : "验证【用户管理】修改用户，userName含有特殊字符，其他数据正常，修改成功",
+        "uid" : "e64e86f3d8a8e81f",
+        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1712029705443,
+          "stop" : 1712029705524,
+          "duration" : 81
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户管理'", "'中'", "'userManagement_102'", "'验证【用户管理】修改用户，userName含有特殊字符，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': '~@#$^&*()_+{}|', 'nickName': 'test'}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE nick_name = 'test';'", "'SELECT'", "'user_id'" ]
+      }, {
+        "name" : "验证【用户管理】修改用户，userName有敏感词，其他数据正常，修改成功",
+        "uid" : "21a3fe13d129abe1",
+        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1712029705541,
+          "stop" : 1712029705622,
+          "duration" : 81
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户管理'", "'高'", "'userManagement_103'", "'验证【用户管理】修改用户，userName有敏感词，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': '毛泽东', 'nickName': 'test'}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE nick_name = 'test';'", "'SELECT'", "'user_id'" ]
+      }, {
+        "name" : "验证【用户管理】修改用户，deptld为空，其他数据正常，修改成功",
+        "uid" : "6fc371321844d007",
+        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1712029705639,
+          "stop" : 1712029705720,
+          "duration" : 81
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户管理'", "'高'", "'userManagement_104'", "'验证【用户管理】修改用户，deptld为空，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'deptId': ''}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE nick_name = 'test';'", "'SELECT'", "'user_id'" ]
+      }, {
+        "name" : "验证【用户管理】修改用户，deptld为100，其他数据正常，修改成功",
+        "uid" : "280e1897f61fcbf1",
+        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1712029705737,
+          "stop" : 1712029705819,
           "duration" : 82
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'中'", "'userManagement_040'", "'验证【用户管理】添加用户，password为16位字符，其他数据正常，添加成功'", "'系统管理'", "{'userName': 'userManagement_040', 'nickName': 'userManagement_040', 'password': '1234123412341234', 'status': '0', 'postIds': [], 'roleIds': []}", "{'msg': '操作失败', 'code': 500}", "'POST'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'DELETE FROM sys_user WHERE user_name = 'userManagement_040';'", "'DELETE'", "None" ]
+        "parameters" : [ "'用户管理'", "'高'", "'userManagement_105'", "'验证【用户管理】修改用户，deptld为100，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'deptId': '100'}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
       }, {
-        "name" : "验证【用户管理】添加用户，password为17位字符，其他数据正常，添加失败",
-        "uid" : "4e15a974b9a5aa33",
+        "name" : "验证【用户管理】修改用户，deptld为101，其他数据正常，修改成功",
+        "uid" : "b4a7beaac9bbb2b6",
         "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
         "status" : "failed",
         "time" : {
-          "start" : 1711276135617,
-          "stop" : 1711276135697,
+          "start" : 1712029705845,
+          "stop" : 1712029705925,
           "duration" : 80
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'中'", "'userManagement_041'", "'验证【用户管理】添加用户，password为17位字符，其他数据正常，添加失败'", "'系统管理'", "{'userName': 'userManagement_041', 'nickName': 'userManagement_041', 'password': '12341234123412341', 'status': '0', 'postIds': [], 'roleIds': []}", "{'msg': '操作失败', 'code': 500}", "'POST'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'DELETE FROM sys_user WHERE user_name = 'userManagement_041';'", "'DELETE'", "None" ]
+        "parameters" : [ "'用户管理'", "'高'", "'userManagement_106'", "'验证【用户管理】修改用户，deptld为101，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'deptId': '101'}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
       }, {
-        "name" : "验证【用户管理】添加用户，password为6位字符，其他数据正常，添加成功",
-        "uid" : "45dd405de1349bda",
+        "name" : "验证【用户管理】修改用户，deptld为102，其他数据正常，修改成功",
+        "uid" : "60ee75f7a890916e",
         "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
         "status" : "failed",
         "time" : {
-          "start" : 1711276135714,
-          "stop" : 1711276135793,
+          "start" : 1712029705942,
+          "stop" : 1712029706023,
+          "duration" : 81
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户管理'", "'高'", "'userManagement_107'", "'验证【用户管理】修改用户，deptld为102，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'deptId': '102'}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
+      }, {
+        "name" : "验证【用户管理】修改用户，deptld为103，其他数据正常，修改成功",
+        "uid" : "23279559d2aed3ae",
+        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1712029706043,
+          "stop" : 1712029706123,
+          "duration" : 80
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户管理'", "'高'", "'userManagement_108'", "'验证【用户管理】修改用户，deptld为103，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'deptId': '103'}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
+      }, {
+        "name" : "验证【用户管理】修改用户，deptld为104，其他数据正常，修改成功",
+        "uid" : "5dfecaf65f637d42",
+        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1712029706140,
+          "stop" : 1712029706220,
+          "duration" : 80
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户管理'", "'高'", "'userManagement_109'", "'验证【用户管理】修改用户，deptld为104，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'deptId': '104'}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
+      }, {
+        "name" : "验证【用户管理】修改用户，deptld为105，其他数据正常，修改成功",
+        "uid" : "2acaab484155ec56",
+        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1712029706236,
+          "stop" : 1712029706316,
+          "duration" : 80
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户管理'", "'高'", "'userManagement_110'", "'验证【用户管理】修改用户，deptld为105，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'deptId': '105'}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
+      }, {
+        "name" : "验证【用户管理】修改用户，deptld为106，其他数据正常，修改成功",
+        "uid" : "41e8d95afb261a66",
+        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1712029706333,
+          "stop" : 1712029706413,
+          "duration" : 80
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户管理'", "'高'", "'userManagement_111'", "'验证【用户管理】修改用户，deptld为106，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'deptId': '106'}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
+      }, {
+        "name" : "验证【用户管理】修改用户，deptld为107，其他数据正常，修改成功",
+        "uid" : "193c571b275ad49f",
+        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1712029706431,
+          "stop" : 1712029706512,
+          "duration" : 81
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户管理'", "'高'", "'userManagement_112'", "'验证【用户管理】修改用户，deptld为107，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'deptId': '107'}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
+      }, {
+        "name" : "验证【用户管理】修改用户，deptld为108，其他数据正常，修改成功",
+        "uid" : "c05cdc96fcbf604",
+        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1712029706545,
+          "stop" : 1712029706625,
+          "duration" : 80
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户管理'", "'高'", "'userManagement_113'", "'验证【用户管理】修改用户，deptld为108，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'deptId': '108'}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
+      }, {
+        "name" : "验证【用户管理】修改用户，deptld为109，其他数据正常，修改成功",
+        "uid" : "80daa857e0a9e71e",
+        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1712029706642,
+          "stop" : 1712029706723,
+          "duration" : 81
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户管理'", "'高'", "'userManagement_114'", "'验证【用户管理】修改用户，deptld为109，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'deptId': '109'}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
+      }, {
+        "name" : "验证【用户管理】修改用户，deptld为99，其他数据正常，修改成功",
+        "uid" : "dda8760e4825e6c4",
+        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1712029706740,
+          "stop" : 1712029706822,
+          "duration" : 82
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户管理'", "'高'", "'userManagement_115'", "'验证【用户管理】修改用户，deptld为99，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'deptId': '99'}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
+      }, {
+        "name" : "验证【用户管理】修改用户，deptld为110，其他数据正常，修改成功",
+        "uid" : "329a8829cbf0fb6e",
+        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1712029706841,
+          "stop" : 1712029706925,
+          "duration" : 84
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户管理'", "'高'", "'userManagement_116'", "'验证【用户管理】修改用户，deptld为110，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'deptId': '110'}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
+      }, {
+        "name" : "验证【用户管理】修改用户，email符合邮箱规则，其他数据正常，修改成功",
+        "uid" : "fa602535fe21d82c",
+        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1712029706943,
+          "stop" : 1712029707025,
+          "duration" : 82
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户管理'", "'高'", "'userManagement_117'", "'验证【用户管理】修改用户，email符合邮箱规则，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'email': 'a@b.c'}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
+      }, {
+        "name" : "验证【用户管理】修改用户，email为空，其他数据正常，修改成功",
+        "uid" : "9d672bb36a75583c",
+        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1712029707056,
+          "stop" : 1712029707137,
+          "duration" : 81
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户管理'", "'高'", "'userManagement_118'", "'验证【用户管理】修改用户，email为空，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'email': ''}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
+      }, {
+        "name" : "验证【用户管理】修改用户，email有@无点，其他数据正常，修改失败",
+        "uid" : "f759baae7fdb7acc",
+        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1712029707254,
+          "stop" : 1712029707334,
+          "duration" : 80
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户管理'", "'中'", "'userManagement_120'", "'验证【用户管理】修改用户，email有@无点，其他数据正常，修改失败'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'email': 'a@bc'}", "{'msg': '邮箱格式不正确', 'code': 500}", "'PUT'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
+      }, {
+        "name" : "验证【用户管理】修改用户，email特殊字符，其他数据正常，修改失败",
+        "uid" : "b524512fc02b45b",
+        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1712029707888,
+          "stop" : 1712029707969,
+          "duration" : 81
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户管理'", "'中'", "'userManagement_127'", "'验证【用户管理】修改用户，email特殊字符，其他数据正常，修改失败'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'email': 'a#$%^&*@b.c'}", "{'msg': '邮箱格式不正确', 'code': 500}", "'PUT'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
+      }, {
+        "name" : "验证【用户管理】修改用户，email汉字，其他数据正常，修改失败",
+        "uid" : "5de37dfd1dbf6415",
+        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1712029707987,
+          "stop" : 1712029708067,
+          "duration" : 80
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户管理'", "'中'", "'userManagement_128'", "'验证【用户管理】修改用户，email汉字，其他数据正常，修改失败'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'email': '中a@b.c'}", "{'msg': '邮箱格式不正确', 'code': 500}", "'PUT'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
+      }, {
+        "name" : "验证【用户管理】修改用户，email长度3，其他数据正常，修改成功",
+        "uid" : "a7a231d7a29586c",
+        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1712029708173,
+          "stop" : 1712029708255,
+          "duration" : 82
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户管理'", "'高'", "'userManagement_130'", "'验证【用户管理】修改用户，email长度3，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'email': 'a@a'}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
+      }, {
+        "name" : "验证【用户管理】修改用户，email长度为50个字符，其他数据正常，修改成功",
+        "uid" : "8af3e2ad22f2c928",
+        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1712029708275,
+          "stop" : 1712029708358,
+          "duration" : 83
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户管理'", "'高'", "'userManagement_131'", "'验证【用户管理】修改用户，email长度为50个字符，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'email': '1234567890123456789012345678901234567890123@qq.com'}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
+      }, {
+        "name" : "验证【用户管理】修改用户，password为空，其他数据正常，修改失败",
+        "uid" : "96a71a658819c26",
+        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1712029708478,
+          "stop" : 1712029708559,
+          "duration" : 81
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户管理'", "'中'", "'userManagement_133'", "'验证【用户管理】修改用户，password为空，其他数据正常，修改失败'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'password': ''}", "{'msg': '操作失败', 'code': 500}", "'PUT'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
+      }, {
+        "name" : "验证【用户管理】修改用户，password为16位字符，其他数据正常，修改成功",
+        "uid" : "1be11c66b4d834a1",
+        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1712029708579,
+          "stop" : 1712029708660,
+          "duration" : 81
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户管理'", "'中'", "'userManagement_134'", "'验证【用户管理】修改用户，password为16位字符，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'password': '1234123412341234'}", "{'msg': '操作失败', 'code': 500}", "'PUT'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
+      }, {
+        "name" : "验证【用户管理】修改用户，password为17位字符，其他数据正常，修改失败",
+        "uid" : "8844e7956e1f3eb6",
+        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1712029708681,
+          "stop" : 1712029708766,
+          "duration" : 85
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户管理'", "'中'", "'userManagement_135'", "'验证【用户管理】修改用户，password为17位字符，其他数据正常，修改失败'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'password': '12341234123412341'}", "{'msg': '操作失败', 'code': 500}", "'PUT'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
+      }, {
+        "name" : "验证【用户管理】修改用户，password为6位字符，其他数据正常，修改成功",
+        "uid" : "8048ba63e266e424",
+        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1712029708783,
+          "stop" : 1712029708864,
+          "duration" : 81
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户管理'", "'高'", "'userManagement_136'", "'验证【用户管理】修改用户，password为6位字符，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'password': '123456'}", "{'msg': '操作失败', 'code': 500}", "'PUT'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
+      }, {
+        "name" : "验证【用户管理】修改用户，password为5位字符，其他数据正常，修改成功",
+        "uid" : "ff0f94cccc8a690c",
+        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1712029708881,
+          "stop" : 1712029708961,
+          "duration" : 80
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户管理'", "'中'", "'userManagement_137'", "'验证【用户管理】修改用户，password为5位字符，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'password': '12345'}", "{'msg': '操作失败', 'code': 500}", "'PUT'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
+      }, {
+        "name" : "验证【用户管理】修改用户，password含有特殊字符，其他数据正常，修改失败",
+        "uid" : "c3bc8ac3eb1b848b",
+        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1712029708979,
+          "stop" : 1712029709059,
+          "duration" : 80
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户管理'", "'中'", "'userManagement_138'", "'验证【用户管理】修改用户，password含有特殊字符，其他数据正常，修改失败'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'password': '~@#$^&*()_+{}|'}", "{'msg': '操作失败', 'code': 500}", "'PUT'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
+      }, {
+        "name" : "验证【用户管理】修改用户，phonenumber以13开头的11位纯数字，其他数据正常，修改成功",
+        "uid" : "872f0611df068a15",
+        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1712029709075,
+          "stop" : 1712029709156,
+          "duration" : 81
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户管理'", "'高'", "'userManagement_139'", "'验证【用户管理】修改用户，phonenumber以13开头的11位纯数字，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'phonenumber': '13502502921'}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
+      }, {
+        "name" : "验证【用户管理】修改用户，phonenumber以14开头的11位纯数字，其他数据正常，修改成功",
+        "uid" : "d21ec2a04a062d39",
+        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1712029709172,
+          "stop" : 1712029709252,
+          "duration" : 80
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户管理'", "'高'", "'userManagement_140'", "'验证【用户管理】修改用户，phonenumber以14开头的11位纯数字，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'phonenumber': '14502502921'}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
+      }, {
+        "name" : "验证【用户管理】修改用户，phonenumber以15开头的11位纯数字，其他数据正常，修改成功",
+        "uid" : "24dc0043c20b16a5",
+        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1712029709269,
+          "stop" : 1712029709349,
+          "duration" : 80
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户管理'", "'高'", "'userManagement_141'", "'验证【用户管理】修改用户，phonenumber以15开头的11位纯数字，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'phonenumber': '15502502921'}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
+      }, {
+        "name" : "验证【用户管理】修改用户，phonenumber以17开头的11位纯数字，其他数据正常，修改成功",
+        "uid" : "4f7a7d51ad8c4f84",
+        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1712029709367,
+          "stop" : 1712029709457,
+          "duration" : 90
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户管理'", "'高'", "'userManagement_142'", "'验证【用户管理】修改用户，phonenumber以17开头的11位纯数字，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'phonenumber': '17502502921'}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
+      }, {
+        "name" : "验证【用户管理】修改用户，phonenumber以18开头的11位纯数字，其他数据正常，修改成功",
+        "uid" : "23df3cead4422138",
+        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1712029709486,
+          "stop" : 1712029709566,
+          "duration" : 80
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户管理'", "'高'", "'userManagement_143'", "'验证【用户管理】修改用户，phonenumber以18开头的11位纯数字，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'phonenumber': '18502502921'}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
+      }, {
+        "name" : "验证【用户管理】修改用户，phonenumber不为纯数字，其他数据正常，修改失败",
+        "uid" : "5b43c05ddb45b1d1",
+        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1712029709675,
+          "stop" : 1712029709755,
+          "duration" : 80
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户管理'", "'中'", "'userManagement_145'", "'验证【用户管理】修改用户，phonenumber不为纯数字，其他数据正常，修改失败'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'phonenumber': '1850r502921'}", "{'msg': \"修改用户'test'失败，手机号码已存在\", 'code': 500}", "'PUT'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
+      }, {
+        "name" : "验证【用户管理】修改用户，phonenumber包含空格，其他数据正常，修改失败",
+        "uid" : "257c76af3ad10640",
+        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1712029709772,
+          "stop" : 1712029709852,
+          "duration" : 80
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户管理'", "'中'", "'userManagement_146'", "'验证【用户管理】修改用户，phonenumber包含空格，其他数据正常，修改失败'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'phonenumber': '185025 2921'}", "{'msg': \"修改用户'test'失败，手机号码已存在\", 'code': 500}", "'PUT'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
+      }, {
+        "name" : "验证【用户管理】修改用户，phonenumber不以13\\14\\15\\17\\18开头，其他数据正常，修改失败",
+        "uid" : "6a922ca80e79771b",
+        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1712029709870,
+          "stop" : 1712029709951,
+          "duration" : 81
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户管理'", "'中'", "'userManagement_147'", "'验证【用户管理】修改用户，phonenumber不以13\\14\\15\\17\\18开头，其他数据正常，修改失败'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'phonenumber': '21502502921'}", "{'msg': \"修改用户'test'失败，手机号码已存在\", 'code': 500}", "'PUT'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
+      }, {
+        "name" : "验证【用户管理】修改用户，postlds为空，其他数据正常，修改成功",
+        "uid" : "492b4201428e4d0e",
+        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1712029709969,
+          "stop" : 1712029710048,
           "duration" : 79
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'高'", "'userManagement_042'", "'验证【用户管理】添加用户，password为6位字符，其他数据正常，添加成功'", "'系统管理'", "{'userName': 'userManagement_042', 'nickName': 'userManagement_042', 'password': '123456', 'status': '0', 'postIds': [], 'roleIds': []}", "{'msg': '操作失败', 'code': 500}", "'POST'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'DELETE FROM sys_user WHERE user_name = 'userManagement_042';'", "'DELETE'", "None" ]
+        "parameters" : [ "'用户管理'", "'高'", "'userManagement_148'", "'验证【用户管理】修改用户，postlds为空，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'postIds': []}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
       }, {
-        "name" : "验证【用户管理】添加用户，password为5位字符，其他数据正常，添加成功",
-        "uid" : "fa210ad91854fcf6",
+        "name" : "验证【用户管理】修改用户，postlds为1，其他数据正常，修改成功",
+        "uid" : "54d86925277be12e",
         "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
         "status" : "failed",
         "time" : {
-          "start" : 1711276135812,
-          "stop" : 1711276135892,
+          "start" : 1712029710067,
+          "stop" : 1712029710147,
           "duration" : 80
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'中'", "'userManagement_043'", "'验证【用户管理】添加用户，password为5位字符，其他数据正常，添加成功'", "'系统管理'", "{'userName': 'userManagement_043', 'nickName': 'userManagement_043', 'password': '12345', 'status': '0', 'postIds': [], 'roleIds': []}", "{'msg': '操作失败', 'code': 500}", "'POST'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'DELETE FROM sys_user WHERE user_name = 'userManagement_043';'", "'DELETE'", "None" ]
+        "parameters" : [ "'用户管理'", "'高'", "'userManagement_149'", "'验证【用户管理】修改用户，postlds为1，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'postIds': [1]}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
       }, {
-        "name" : "验证【用户管理】添加用户，password含有特殊字符，其他数据正常，添加失败",
-        "uid" : "ab59cffe4733acea",
+        "name" : "验证【用户管理】修改用户，postlds为2，其他数据正常，修改成功",
+        "uid" : "f05d127799209a",
         "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
         "status" : "failed",
         "time" : {
-          "start" : 1711276135911,
-          "stop" : 1711276135989,
-          "duration" : 78
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'中'", "'userManagement_044'", "'验证【用户管理】添加用户，password含有特殊字符，其他数据正常，添加失败'", "'系统管理'", "{'userName': 'userManagement_044', 'nickName': 'userManagement_044', 'password': '~@#$^&*()_+{}|', 'status': '0', 'postIds': [], 'roleIds': []}", "{'msg': '操作失败', 'code': 500}", "'POST'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'DELETE FROM sys_user WHERE user_name = 'userManagement_044';'", "'DELETE'", "None" ]
-      }, {
-        "name" : "验证【用户管理】添加用户，phonenumber以17开头的11位纯数字，其他数据正常，添加成功",
-        "uid" : "58e075240e648da1",
-        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
-        "status" : "failed",
-        "time" : {
-          "start" : 1711276136268,
-          "stop" : 1711276136277,
-          "duration" : 9
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'高'", "'userManagement_048'", "'验证【用户管理】添加用户，phonenumber以17开头的11位纯数字，其他数据正常，添加成功'", "'系统管理'", "{'userName': 'userManagement_048', 'nickName': 'userManagement_048', 'password': '123456', 'status': '0', 'postIds': [], 'roleIds': [], 'phonenumber': '17502502921'}", "{'msg': '操作成功', 'code': 200}", "'POST'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'DELETE FROM sys_user WHERE user_name = 'userManagement_048';'", "'DELETE'", "None" ]
-      }, {
-        "name" : "验证【用户管理】添加用户，phonenumber不为纯数字，其他数据正常，添加失败",
-        "uid" : "741e9801a7880de4",
-        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
-        "status" : "failed",
-        "time" : {
-          "start" : 1711276136403,
-          "stop" : 1711276136483,
+          "start" : 1712029710165,
+          "stop" : 1712029710245,
           "duration" : 80
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'中'", "'userManagement_051'", "'验证【用户管理】添加用户，phonenumber不为纯数字，其他数据正常，添加失败'", "'系统管理'", "{'userName': 'userManagement_051', 'nickName': 'userManagement_051', 'password': '123456', 'status': '0', 'postIds': [], 'roleIds': [], 'phonenumber': '1850r502921'}", "{'msg': '操作失败', 'code': 500}", "'POST'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'DELETE FROM sys_user WHERE user_name = 'userManagement_051';'", "'DELETE'", "None" ]
+        "parameters" : [ "'用户管理'", "'高'", "'userManagement_150'", "'验证【用户管理】修改用户，postlds为2，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'postIds': [2]}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
       }, {
-        "name" : "验证【用户管理】添加用户，phonenumber包含空格，其他数据正常，添加失败",
-        "uid" : "cec35c8d08c74080",
+        "name" : "验证【用户管理】修改用户，postlds为3，其他数据正常，修改成功",
+        "uid" : "1d17e9f424c2dcde",
         "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
         "status" : "failed",
         "time" : {
-          "start" : 1711276136502,
-          "stop" : 1711276136581,
-          "duration" : 79
+          "start" : 1712029710263,
+          "stop" : 1712029710344,
+          "duration" : 81
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'中'", "'userManagement_052'", "'验证【用户管理】添加用户，phonenumber包含空格，其他数据正常，添加失败'", "'系统管理'", "{'userName': 'userManagement_052', 'nickName': 'userManagement_052', 'password': '123456', 'status': '0', 'postIds': [], 'roleIds': [], 'phonenumber': '185025 2921'}", "{'msg': '操作失败', 'code': 500}", "'POST'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'DELETE FROM sys_user WHERE user_name = 'userManagement_052';'", "'DELETE'", "None" ]
+        "parameters" : [ "'用户管理'", "'高'", "'userManagement_151'", "'验证【用户管理】修改用户，postlds为3，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'postIds': [3]}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
       }, {
-        "name" : "验证【用户管理】添加用户，phonenumber不以13\\14\\15\\17\\18开头，其他数据正常，添加失败",
-        "uid" : "1fb34b8a5e70aa1",
+        "name" : "验证【用户管理】修改用户，postlds为4，其他数据正常，修改成功",
+        "uid" : "7d4e21686c6ab39a",
         "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
         "status" : "failed",
         "time" : {
-          "start" : 1711276136599,
-          "stop" : 1711276136677,
-          "duration" : 78
+          "start" : 1712029710363,
+          "stop" : 1712029710445,
+          "duration" : 82
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'中'", "'userManagement_053'", "'验证【用户管理】添加用户，phonenumber不以13\\14\\15\\17\\18开头，其他数据正常，添加失败'", "'系统管理'", "{'userName': 'userManagement_053', 'nickName': 'userManagement_053', 'password': '123456', 'status': '0', 'postIds': [], 'roleIds': [], 'phonenumber': '21502502921'}", "{'msg': '操作失败', 'code': 500}", "'POST'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'DELETE FROM sys_user WHERE user_name = 'userManagement_053';'", "'DELETE'", "None" ]
+        "parameters" : [ "'用户管理'", "'高'", "'userManagement_152'", "'验证【用户管理】修改用户，postlds为4，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'postIds': [4]}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
       }, {
-        "name" : "验证【用户管理】添加用户，postlds不为1234且不为空，其他数据正常，添加失败",
-        "uid" : "16de89f004837b1f",
+        "name" : "验证【用户管理】修改用户，postlds不为1234且不为空，其他数据正常，修改失败",
+        "uid" : "561e836bf6662c22",
         "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
         "status" : "failed",
         "time" : {
-          "start" : 1711276137133,
-          "stop" : 1711276137210,
-          "duration" : 77
+          "start" : 1712029710468,
+          "stop" : 1712029710549,
+          "duration" : 81
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'中'", "'userManagement_059'", "'验证【用户管理】添加用户，postlds不为1234且不为空，其他数据正常，添加失败'", "'系统管理'", "{'userName': 'userManagement_059', 'nickName': 'userManagement_059', 'password': '123456', 'status': '0', 'postIds': [5], 'roleIds': []}", "{'msg': '操作失败', 'code': 500}", "'POST'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'DELETE FROM sys_user WHERE user_name = 'userManagement_059';'", "'DELETE'", "None" ]
+        "parameters" : [ "'用户管理'", "'中'", "'userManagement_153'", "'验证【用户管理】修改用户，postlds不为1234且不为空，其他数据正常，修改失败'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'postIds': [5]}", "{'msg': '操作失败', 'code': 500}", "'PUT'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
       }, {
-        "name" : "验证【用户管理】添加用户，rolelds为1，其他数据正常，添加失败",
-        "uid" : "b24fa55d5b6e20d0",
+        "name" : "验证【用户管理】修改用户，remark为空，其他数据正常，修改成功",
+        "uid" : "60dcdce4182cfa88",
         "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
         "status" : "failed",
         "time" : {
-          "start" : 1711276137487,
-          "stop" : 1711276137573,
+          "start" : 1712029710567,
+          "stop" : 1712029710647,
+          "duration" : 80
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户管理'", "'中'", "'userManagement_154'", "'验证【用户管理】修改用户，remark为空，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'remark': ''}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
+      }, {
+        "name" : "验证【用户管理】修改用户，remark含有特殊字符，其他数据正常，修改成功",
+        "uid" : "108944feed770050",
+        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1712029710676,
+          "stop" : 1712029710756,
+          "duration" : 80
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户管理'", "'中'", "'userManagement_155'", "'验证【用户管理】修改用户，remark含有特殊字符，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'remark': '~@#$^&*()_+{}|'}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
+      }, {
+        "name" : "验证【用户管理】修改用户，remark有敏感词，其他数据正常，修改成功",
+        "uid" : "63f5f2666ca438ff",
+        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1712029710781,
+          "stop" : 1712029710862,
+          "duration" : 81
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户管理'", "'高'", "'userManagement_156'", "'验证【用户管理】修改用户，remark有敏感词，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'remark': '毛泽东'}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
+      }, {
+        "name" : "验证【用户管理】修改用户，rolelds为1，其他数据正常，修改失败",
+        "uid" : "223ef7869b61fa0a",
+        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1712029710885,
+          "stop" : 1712029710971,
           "duration" : 86
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'中'", "'userManagement_063'", "'验证【用户管理】添加用户，rolelds为1，其他数据正常，添加失败'", "'系统管理'", "{'userName': 'userManagement_063', 'nickName': 'userManagement_063', 'password': '123456', 'status': '0', 'postIds': [], 'roleIds': [1]}", "{'msg': '操作失败', 'code': 500}", "'POST'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'DELETE FROM sys_user WHERE user_name = 'userManagement_063';'", "'DELETE'", "None" ]
+        "parameters" : [ "'用户管理'", "'中'", "'userManagement_157'", "'验证【用户管理】修改用户，rolelds为1，其他数据正常，修改失败'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'roleIds': [1]}", "{'msg': '操作失败', 'code': 500}", "'PUT'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
       }, {
-        "name" : "验证【用户管理】添加用户，rolelds为3，其他数据正常，添加失败",
-        "uid" : "aad8ef37f5523b57",
+        "name" : "验证【用户管理】修改用户，rolelds为2，其他数据正常，修改成功",
+        "uid" : "53412ab1b5aa4a97",
         "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
         "status" : "failed",
         "time" : {
-          "start" : 1711276137678,
-          "stop" : 1711276137755,
-          "duration" : 77
+          "start" : 1712029711004,
+          "stop" : 1712029711085,
+          "duration" : 81
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'中'", "'userManagement_065'", "'验证【用户管理】添加用户，rolelds为3，其他数据正常，添加失败'", "'系统管理'", "{'userName': 'userManagement_065', 'nickName': 'userManagement_065', 'password': '123456', 'status': '0', 'postIds': [], 'roleIds': [3]}", "{'msg': '操作失败', 'code': 500}", "'POST'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'DELETE FROM sys_user WHERE user_name = 'userManagement_065';'", "'DELETE'", "None" ]
+        "parameters" : [ "'用户管理'", "'高'", "'userManagement_158'", "'验证【用户管理】修改用户，rolelds为2，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'roleIds': [2]}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
       }, {
-        "name" : "验证【用户管理】添加用户，postlds为0，其他数据正常，添加失败",
-        "uid" : "c07aa775fcf1f7f4",
+        "name" : "验证【用户管理】修改用户，rolelds为3，其他数据正常，修改失败",
+        "uid" : "15421ca48f015ee0",
         "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
         "status" : "failed",
         "time" : {
-          "start" : 1711276138295,
-          "stop" : 1711276138372,
-          "duration" : 77
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'中'", "'userManagement_072'", "'验证【用户管理】添加用户，postlds为0，其他数据正常，添加失败'", "'系统管理'", "{'userName': 'userManagement_072', 'nickName': 'userManagement_072', 'password': '123456', 'status': '0', 'postIds': [0], 'roleIds': []}", "{'msg': '操作失败', 'code': 500}", "'POST'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'DELETE FROM sys_user WHERE user_name = 'userManagement_072';'", "'DELETE'", "None" ]
-      }, {
-        "name" : "验证【用户管理】添加用户，postlds为5，其他数据正常，添加失败",
-        "uid" : "94b85d831a08713d",
-        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
-        "status" : "failed",
-        "time" : {
-          "start" : 1711276138389,
-          "stop" : 1711276138465,
-          "duration" : 76
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'中'", "'userManagement_073'", "'验证【用户管理】添加用户，postlds为5，其他数据正常，添加失败'", "'系统管理'", "{'userName': 'userManagement_073', 'nickName': 'userManagement_073', 'password': '123456', 'status': '0', 'postIds': [5], 'roleIds': []}", "{'msg': '操作失败', 'code': 500}", "'POST'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'DELETE FROM sys_user WHERE user_name = 'userManagement_073';'", "'DELETE'", "None" ]
-      }, {
-        "name" : "验证【用户管理】添加用户，sex不为012且不为空，其他数据正常，添加失败",
-        "uid" : "f22145440135198f",
-        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
-        "status" : "failed",
-        "time" : {
-          "start" : 1711276138906,
-          "stop" : 1711276138982,
-          "duration" : 76
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'中'", "'userManagement_079'", "'验证【用户管理】添加用户，sex不为012且不为空，其他数据正常，添加失败'", "'系统管理'", "{'userName': 'userManagement_079', 'nickName': 'userManagement_079', 'password': '123456', 'status': '0', 'postIds': [], 'roleIds': [], 'sex': '-1'}", "{'msg': '操作失败', 'code': 500}", "'POST'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'DELETE FROM sys_user WHERE user_name = 'userManagement_079';'", "'DELETE'", "None" ]
-      }, {
-        "name" : "验证【用户管理】添加用户，status为3，其他数据正常，添加失败",
-        "uid" : "e4f047e90eea290d",
-        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
-        "status" : "failed",
-        "time" : {
-          "start" : 1711276139258,
-          "stop" : 1711276139336,
-          "duration" : 78
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'中'", "'userManagement_083'", "'验证【用户管理】添加用户，status为3，其他数据正常，添加失败'", "'系统管理'", "{'userName': 'userManagement_083', 'nickName': 'userManagement_083', 'password': '123456', 'status': '3', 'postIds': [], 'roleIds': []}", "{'msg': '操作失败', 'code': 500}", "'POST'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'DELETE FROM sys_user WHERE user_name = 'userManagement_083';'", "'DELETE'", "None" ]
-      }, {
-        "name" : "验证【用户管理】添加用户，nickName为空，其他数据正常，添加失败",
-        "uid" : "e80593374030490c",
-        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
-        "status" : "failed",
-        "time" : {
-          "start" : 1711276139355,
-          "stop" : 1711276139432,
-          "duration" : 77
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'中'", "'userManagement_084'", "'验证【用户管理】添加用户，nickName为空，其他数据正常，添加失败'", "'系统管理'", "{'userName': 'userManagement_084', 'nickName': '', 'password': '123456', 'status': '0', 'postIds': [], 'roleIds': []}", "{'msg': '操作失败', 'code': 500}", "'POST'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'DELETE FROM sys_user WHERE user_name = 'userManagement_084';'", "'DELETE'", "None" ]
-      }, {
-        "name" : "验证【用户管理】添加用户，nickName为1个字符，其他数据正常，添加失败",
-        "uid" : "67d185de3415541d",
-        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
-        "status" : "failed",
-        "time" : {
-          "start" : 1711276139450,
-          "stop" : 1711276139532,
+          "start" : 1712029711110,
+          "stop" : 1712029711192,
           "duration" : 82
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'中'", "'userManagement_085'", "'验证【用户管理】添加用户，nickName为1个字符，其他数据正常，添加失败'", "'系统管理'", "{'userName': 'userManagement_085', 'nickName': 'u', 'password': '123456', 'status': '0', 'postIds': [], 'roleIds': []}", "{'msg': '操作失败', 'code': 500}", "'POST'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'DELETE FROM sys_user WHERE user_name = 'userManagement_085';'", "'DELETE'", "None" ]
-      }, {
-        "name" : "验证【用户管理】修改用户，userName长度为30个字符，其他数据正常，修改成功",
-        "uid" : "778e5b23a323f7c8",
-        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
-        "status" : "failed",
-        "time" : {
-          "start" : 1711276140219,
-          "stop" : 1711276140232,
-          "duration" : 13
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'中'", "'userManagement_097'", "'验证【用户管理】修改用户，userName长度为30个字符，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'testtesttesttesttesttesttestte', 'nickName': 'test'}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE nick_name = 'test';'", "'SELECT'", "'user_id'" ]
-      }, {
-        "name" : "验证【用户管理】修改用户，userName长度为1个字符，其他数据正常，修改失败",
-        "uid" : "8a86c44abbc30a20",
-        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
-        "status" : "failed",
-        "time" : {
-          "start" : 1711276140272,
-          "stop" : 1711276140286,
-          "duration" : 14
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'中'", "'userManagement_099'", "'验证【用户管理】修改用户，userName长度为1个字符，其他数据正常，修改失败'", "'系统管理'", "{'userId': 4, 'userName': 't', 'nickName': 'test'}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE nick_name = 'test';'", "'SELECT'", "'user_id'" ]
-      }, {
-        "name" : "验证【用户管理】修改用户，userName重复，其他数据正常，修改失败",
-        "uid" : "e5f91c57b4f5d0b5",
-        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
-        "status" : "failed",
-        "time" : {
-          "start" : 1711276140306,
-          "stop" : 1711276140313,
-          "duration" : 7
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'中'", "'userManagement_100'", "'验证【用户管理】修改用户，userName重复，其他数据正常，修改失败'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test'}", "{'msg': \"新增用户'ry'失败，登录账号已存在\", 'code': 500}", "'PUT'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE nick_name = 'test';'", "'SELECT'", "'user_id'" ]
-      }, {
-        "name" : "验证【用户管理】修改用户，userName重复，但是字母大小写不一致，其他数据正常，修改失败",
-        "uid" : "49be2d309a4926e1",
-        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
-        "status" : "failed",
-        "time" : {
-          "start" : 1711276140332,
-          "stop" : 1711276140339,
-          "duration" : 7
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'中'", "'userManagement_101'", "'验证【用户管理】修改用户，userName重复，但是字母大小写不一致，其他数据正常，修改失败'", "'系统管理'", "{'userId': 4, 'userName': 'TEST', 'nickName': 'test'}", "{'msg': \"新增用户'RY'失败，登录账号已存在\", 'code': 500}", "'PUT'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE nick_name = 'test';'", "'SELECT'", "'user_id'" ]
-      }, {
-        "name" : "验证【用户管理】修改用户，userName含有特殊字符，其他数据正常，修改成功",
-        "uid" : "c3bab9544ff4cdf1",
-        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
-        "status" : "failed",
-        "time" : {
-          "start" : 1711276140358,
-          "stop" : 1711276140365,
-          "duration" : 7
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'中'", "'userManagement_102'", "'验证【用户管理】修改用户，userName含有特殊字符，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': '~@#$^&*()_+{}|', 'nickName': 'test'}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE nick_name = 'test';'", "'SELECT'", "'user_id'" ]
-      }, {
-        "name" : "验证【用户管理】修改用户，userName有敏感词，其他数据正常，修改成功",
-        "uid" : "f2927e38c2572801",
-        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
-        "status" : "failed",
-        "time" : {
-          "start" : 1711276140384,
-          "stop" : 1711276140391,
-          "duration" : 7
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'高'", "'userManagement_103'", "'验证【用户管理】修改用户，userName有敏感词，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': '毛泽东', 'nickName': 'test'}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE nick_name = 'test';'", "'SELECT'", "'user_id'" ]
-      }, {
-        "name" : "验证【用户管理】修改用户，deptld为空，其他数据正常，修改成功",
-        "uid" : "7458303fd5e57653",
-        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
-        "status" : "failed",
-        "time" : {
-          "start" : 1711276140411,
-          "stop" : 1711276140418,
-          "duration" : 7
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'高'", "'userManagement_104'", "'验证【用户管理】修改用户，deptld为空，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'deptId': ''}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE nick_name = 'test';'", "'SELECT'", "'user_id'" ]
-      }, {
-        "name" : "验证【用户管理】修改用户，deptld为100，其他数据正常，修改成功",
-        "uid" : "3f7b1c0358af6152",
-        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
-        "status" : "failed",
-        "time" : {
-          "start" : 1711276140440,
-          "stop" : 1711276140448,
-          "duration" : 8
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'高'", "'userManagement_105'", "'验证【用户管理】修改用户，deptld为100，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'deptId': '100'}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
-      }, {
-        "name" : "验证【用户管理】修改用户，deptld为101，其他数据正常，修改成功",
-        "uid" : "a56a638e51abd6a3",
-        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
-        "status" : "failed",
-        "time" : {
-          "start" : 1711276140468,
-          "stop" : 1711276140475,
-          "duration" : 7
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'高'", "'userManagement_106'", "'验证【用户管理】修改用户，deptld为101，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'deptId': '101'}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
-      }, {
-        "name" : "验证【用户管理】修改用户，deptld为102，其他数据正常，修改成功",
-        "uid" : "a8c83ae877611468",
-        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
-        "status" : "failed",
-        "time" : {
-          "start" : 1711276140495,
-          "stop" : 1711276140503,
-          "duration" : 8
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'高'", "'userManagement_107'", "'验证【用户管理】修改用户，deptld为102，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'deptId': '102'}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
-      }, {
-        "name" : "验证【用户管理】修改用户，deptld为103，其他数据正常，修改成功",
-        "uid" : "7e6dd646b98c2bda",
-        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
-        "status" : "failed",
-        "time" : {
-          "start" : 1711276140523,
-          "stop" : 1711276140531,
-          "duration" : 8
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'高'", "'userManagement_108'", "'验证【用户管理】修改用户，deptld为103，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'deptId': '103'}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
-      }, {
-        "name" : "验证【用户管理】修改用户，deptld为104，其他数据正常，修改成功",
-        "uid" : "8f1b3d7e17dda405",
-        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
-        "status" : "failed",
-        "time" : {
-          "start" : 1711276140553,
-          "stop" : 1711276140561,
-          "duration" : 8
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'高'", "'userManagement_109'", "'验证【用户管理】修改用户，deptld为104，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'deptId': '104'}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
-      }, {
-        "name" : "验证【用户管理】修改用户，deptld为105，其他数据正常，修改成功",
-        "uid" : "d6c510024dd588be",
-        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
-        "status" : "failed",
-        "time" : {
-          "start" : 1711276140582,
-          "stop" : 1711276140590,
-          "duration" : 8
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'高'", "'userManagement_110'", "'验证【用户管理】修改用户，deptld为105，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'deptId': '105'}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
-      }, {
-        "name" : "验证【用户管理】修改用户，deptld为106，其他数据正常，修改成功",
-        "uid" : "253de7ea0b115232",
-        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
-        "status" : "failed",
-        "time" : {
-          "start" : 1711276140623,
-          "stop" : 1711276140632,
-          "duration" : 9
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'高'", "'userManagement_111'", "'验证【用户管理】修改用户，deptld为106，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'deptId': '106'}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
-      }, {
-        "name" : "验证【用户管理】修改用户，deptld为107，其他数据正常，修改成功",
-        "uid" : "c2636ff8a40a1806",
-        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
-        "status" : "failed",
-        "time" : {
-          "start" : 1711276140671,
-          "stop" : 1711276140679,
-          "duration" : 8
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'高'", "'userManagement_112'", "'验证【用户管理】修改用户，deptld为107，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'deptId': '107'}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
-      }, {
-        "name" : "验证【用户管理】修改用户，deptld为108，其他数据正常，修改成功",
-        "uid" : "ae52be98403a3197",
-        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
-        "status" : "failed",
-        "time" : {
-          "start" : 1711276140701,
-          "stop" : 1711276140710,
-          "duration" : 9
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'高'", "'userManagement_113'", "'验证【用户管理】修改用户，deptld为108，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'deptId': '108'}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
-      }, {
-        "name" : "验证【用户管理】修改用户，deptld为109，其他数据正常，修改成功",
-        "uid" : "748530072514e805",
-        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
-        "status" : "failed",
-        "time" : {
-          "start" : 1711276140733,
-          "stop" : 1711276140741,
-          "duration" : 8
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'高'", "'userManagement_114'", "'验证【用户管理】修改用户，deptld为109，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'deptId': '109'}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
-      }, {
-        "name" : "验证【用户管理】修改用户，deptld为99，其他数据正常，修改成功",
-        "uid" : "d5c5a0698d9c6120",
-        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
-        "status" : "failed",
-        "time" : {
-          "start" : 1711276140763,
-          "stop" : 1711276140771,
-          "duration" : 8
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'高'", "'userManagement_115'", "'验证【用户管理】修改用户，deptld为99，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'deptId': '99'}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
-      }, {
-        "name" : "验证【用户管理】修改用户，deptld为110，其他数据正常，修改成功",
-        "uid" : "60887231da766374",
-        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
-        "status" : "failed",
-        "time" : {
-          "start" : 1711276140793,
-          "stop" : 1711276140801,
-          "duration" : 8
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'高'", "'userManagement_116'", "'验证【用户管理】修改用户，deptld为110，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'deptId': '110'}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
-      }, {
-        "name" : "验证【用户管理】修改用户，email符合邮箱规则，其他数据正常，修改成功",
-        "uid" : "ccf07bbbfafbeed8",
-        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
-        "status" : "failed",
-        "time" : {
-          "start" : 1711276140822,
-          "stop" : 1711276140830,
-          "duration" : 8
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'高'", "'userManagement_117'", "'验证【用户管理】修改用户，email符合邮箱规则，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'email': 'a@b.c'}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
-      }, {
-        "name" : "验证【用户管理】修改用户，email为空，其他数据正常，修改成功",
-        "uid" : "1c060655e00a5673",
-        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
-        "status" : "failed",
-        "time" : {
-          "start" : 1711276140850,
-          "stop" : 1711276140859,
-          "duration" : 9
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'高'", "'userManagement_118'", "'验证【用户管理】修改用户，email为空，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'email': ''}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
-      }, {
-        "name" : "验证【用户管理】修改用户，email有@无点，其他数据正常，修改失败",
-        "uid" : "8faa47180194f247",
-        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
-        "status" : "failed",
-        "time" : {
-          "start" : 1711276140899,
-          "stop" : 1711276140907,
-          "duration" : 8
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'中'", "'userManagement_120'", "'验证【用户管理】修改用户，email有@无点，其他数据正常，修改失败'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'email': 'a@bc'}", "{'msg': '邮箱格式不正确', 'code': 500}", "'PUT'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
-      }, {
-        "name" : "验证【用户管理】修改用户，email特殊字符，其他数据正常，修改失败",
-        "uid" : "d5101b2bdb8e6d85",
-        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
-        "status" : "failed",
-        "time" : {
-          "start" : 1711276141035,
-          "stop" : 1711276141043,
-          "duration" : 8
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'中'", "'userManagement_127'", "'验证【用户管理】修改用户，email特殊字符，其他数据正常，修改失败'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'email': 'a#$%^&*@b.c'}", "{'msg': '邮箱格式不正确', 'code': 500}", "'PUT'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
-      }, {
-        "name" : "验证【用户管理】修改用户，email汉字，其他数据正常，修改失败",
-        "uid" : "1f0f41ab439e1f6f",
-        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
-        "status" : "failed",
-        "time" : {
-          "start" : 1711276141063,
-          "stop" : 1711276141070,
-          "duration" : 7
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'中'", "'userManagement_128'", "'验证【用户管理】修改用户，email汉字，其他数据正常，修改失败'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'email': '中a@b.c'}", "{'msg': '邮箱格式不正确', 'code': 500}", "'PUT'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
-      }, {
-        "name" : "验证【用户管理】修改用户，email长度3，其他数据正常，修改成功",
-        "uid" : "91e6a65da522cb86",
-        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
-        "status" : "failed",
-        "time" : {
-          "start" : 1711276141110,
-          "stop" : 1711276141119,
-          "duration" : 9
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'高'", "'userManagement_130'", "'验证【用户管理】修改用户，email长度3，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'email': 'a@a'}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
-      }, {
-        "name" : "验证【用户管理】修改用户，email长度为50个字符，其他数据正常，修改成功",
-        "uid" : "9687f0445d24ab5",
-        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
-        "status" : "failed",
-        "time" : {
-          "start" : 1711276141140,
-          "stop" : 1711276141148,
-          "duration" : 8
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'高'", "'userManagement_131'", "'验证【用户管理】修改用户，email长度为50个字符，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'email': '1234567890123456789012345678901234567890123@qq.com'}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
-      }, {
-        "name" : "验证【用户管理】修改用户，password为空，其他数据正常，修改失败",
-        "uid" : "bb80005ee159e3bd",
-        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
-        "status" : "failed",
-        "time" : {
-          "start" : 1711276141192,
-          "stop" : 1711276141200,
-          "duration" : 8
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'中'", "'userManagement_133'", "'验证【用户管理】修改用户，password为空，其他数据正常，修改失败'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'password': ''}", "{'msg': '操作失败', 'code': 500}", "'PUT'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
-      }, {
-        "name" : "验证【用户管理】修改用户，password为16位字符，其他数据正常，修改成功",
-        "uid" : "b8d5c4150ca8325d",
-        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
-        "status" : "failed",
-        "time" : {
-          "start" : 1711276141223,
-          "stop" : 1711276141232,
-          "duration" : 9
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'中'", "'userManagement_134'", "'验证【用户管理】修改用户，password为16位字符，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'password': '1234123412341234'}", "{'msg': '操作失败', 'code': 500}", "'PUT'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
-      }, {
-        "name" : "验证【用户管理】修改用户，password为17位字符，其他数据正常，修改失败",
-        "uid" : "139bdead3a9aa077",
-        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
-        "status" : "failed",
-        "time" : {
-          "start" : 1711276141252,
-          "stop" : 1711276141260,
-          "duration" : 8
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'中'", "'userManagement_135'", "'验证【用户管理】修改用户，password为17位字符，其他数据正常，修改失败'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'password': '12341234123412341'}", "{'msg': '操作失败', 'code': 500}", "'PUT'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
-      }, {
-        "name" : "验证【用户管理】修改用户，password为6位字符，其他数据正常，修改成功",
-        "uid" : "2baf3acc393d33c2",
-        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
-        "status" : "failed",
-        "time" : {
-          "start" : 1711276141281,
-          "stop" : 1711276141289,
-          "duration" : 8
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'高'", "'userManagement_136'", "'验证【用户管理】修改用户，password为6位字符，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'password': '123456'}", "{'msg': '操作失败', 'code': 500}", "'PUT'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
-      }, {
-        "name" : "验证【用户管理】修改用户，password为5位字符，其他数据正常，修改成功",
-        "uid" : "87aef4968dfe6ee",
-        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
-        "status" : "failed",
-        "time" : {
-          "start" : 1711276141309,
-          "stop" : 1711276141317,
-          "duration" : 8
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'中'", "'userManagement_137'", "'验证【用户管理】修改用户，password为5位字符，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'password': '12345'}", "{'msg': '操作失败', 'code': 500}", "'PUT'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
-      }, {
-        "name" : "验证【用户管理】修改用户，password含有特殊字符，其他数据正常，修改失败",
-        "uid" : "106c6990e7bdf2e",
-        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
-        "status" : "failed",
-        "time" : {
-          "start" : 1711276141339,
-          "stop" : 1711276141347,
-          "duration" : 8
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'中'", "'userManagement_138'", "'验证【用户管理】修改用户，password含有特殊字符，其他数据正常，修改失败'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'password': '~@#$^&*()_+{}|'}", "{'msg': '操作失败', 'code': 500}", "'PUT'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
-      }, {
-        "name" : "验证【用户管理】修改用户，phonenumber以13开头的11位纯数字，其他数据正常，修改成功",
-        "uid" : "f66cad3ac907d02f",
-        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
-        "status" : "failed",
-        "time" : {
-          "start" : 1711276141367,
-          "stop" : 1711276141376,
-          "duration" : 9
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'高'", "'userManagement_139'", "'验证【用户管理】修改用户，phonenumber以13开头的11位纯数字，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'phonenumber': '13502502921'}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
-      }, {
-        "name" : "验证【用户管理】修改用户，phonenumber以14开头的11位纯数字，其他数据正常，修改成功",
-        "uid" : "82e77bd88b1c1bbe",
-        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
-        "status" : "failed",
-        "time" : {
-          "start" : 1711276141399,
-          "stop" : 1711276141406,
-          "duration" : 7
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'高'", "'userManagement_140'", "'验证【用户管理】修改用户，phonenumber以14开头的11位纯数字，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'phonenumber': '14502502921'}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
-      }, {
-        "name" : "验证【用户管理】修改用户，phonenumber以15开头的11位纯数字，其他数据正常，修改成功",
-        "uid" : "c68f75a5418db633",
-        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
-        "status" : "failed",
-        "time" : {
-          "start" : 1711276141428,
-          "stop" : 1711276141436,
-          "duration" : 8
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'高'", "'userManagement_141'", "'验证【用户管理】修改用户，phonenumber以15开头的11位纯数字，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'phonenumber': '15502502921'}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
-      }, {
-        "name" : "验证【用户管理】修改用户，phonenumber以17开头的11位纯数字，其他数据正常，修改成功",
-        "uid" : "25a32a275f41a9e5",
-        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
-        "status" : "failed",
-        "time" : {
-          "start" : 1711276141458,
-          "stop" : 1711276141466,
-          "duration" : 8
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'高'", "'userManagement_142'", "'验证【用户管理】修改用户，phonenumber以17开头的11位纯数字，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'phonenumber': '17502502921'}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
-      }, {
-        "name" : "验证【用户管理】修改用户，phonenumber以18开头的11位纯数字，其他数据正常，修改成功",
-        "uid" : "b6dcbe5825eb902d",
-        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
-        "status" : "failed",
-        "time" : {
-          "start" : 1711276141489,
-          "stop" : 1711276141496,
-          "duration" : 7
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'高'", "'userManagement_143'", "'验证【用户管理】修改用户，phonenumber以18开头的11位纯数字，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'phonenumber': '18502502921'}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
-      }, {
-        "name" : "验证【用户管理】修改用户，phonenumber不为纯数字，其他数据正常，修改失败",
-        "uid" : "487ad6f971e47602",
-        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
-        "status" : "failed",
-        "time" : {
-          "start" : 1711276141536,
-          "stop" : 1711276141544,
-          "duration" : 8
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'中'", "'userManagement_145'", "'验证【用户管理】修改用户，phonenumber不为纯数字，其他数据正常，修改失败'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'phonenumber': '1850r502921'}", "{'msg': \"修改用户'test'失败，手机号码已存在\", 'code': 500}", "'PUT'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
-      }, {
-        "name" : "验证【用户管理】修改用户，phonenumber包含空格，其他数据正常，修改失败",
-        "uid" : "4fedb11e6217d2d8",
-        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
-        "status" : "failed",
-        "time" : {
-          "start" : 1711276141566,
-          "stop" : 1711276141575,
-          "duration" : 9
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'中'", "'userManagement_146'", "'验证【用户管理】修改用户，phonenumber包含空格，其他数据正常，修改失败'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'phonenumber': '185025 2921'}", "{'msg': \"修改用户'test'失败，手机号码已存在\", 'code': 500}", "'PUT'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
-      }, {
-        "name" : "验证【用户管理】修改用户，phonenumber不以13\\14\\15\\17\\18开头，其他数据正常，修改失败",
-        "uid" : "b825767c5a2480ba",
-        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
-        "status" : "failed",
-        "time" : {
-          "start" : 1711276141599,
-          "stop" : 1711276141608,
-          "duration" : 9
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'中'", "'userManagement_147'", "'验证【用户管理】修改用户，phonenumber不以13\\14\\15\\17\\18开头，其他数据正常，修改失败'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'phonenumber': '21502502921'}", "{'msg': \"修改用户'test'失败，手机号码已存在\", 'code': 500}", "'PUT'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
-      }, {
-        "name" : "验证【用户管理】修改用户，postlds为空，其他数据正常，修改成功",
-        "uid" : "a4ddcbf9f5d0c4bc",
-        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
-        "status" : "failed",
-        "time" : {
-          "start" : 1711276141630,
-          "stop" : 1711276141638,
-          "duration" : 8
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'高'", "'userManagement_148'", "'验证【用户管理】修改用户，postlds为空，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'postIds': []}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
-      }, {
-        "name" : "验证【用户管理】修改用户，postlds为1，其他数据正常，修改成功",
-        "uid" : "232633073a178489",
-        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
-        "status" : "failed",
-        "time" : {
-          "start" : 1711276141659,
-          "stop" : 1711276141667,
-          "duration" : 8
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'高'", "'userManagement_149'", "'验证【用户管理】修改用户，postlds为1，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'postIds': [1]}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
-      }, {
-        "name" : "验证【用户管理】修改用户，postlds为2，其他数据正常，修改成功",
-        "uid" : "2baed67447bae591",
-        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
-        "status" : "failed",
-        "time" : {
-          "start" : 1711276141689,
-          "stop" : 1711276141696,
-          "duration" : 7
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'高'", "'userManagement_150'", "'验证【用户管理】修改用户，postlds为2，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'postIds': [2]}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
-      }, {
-        "name" : "验证【用户管理】修改用户，postlds为3，其他数据正常，修改成功",
-        "uid" : "f8a7a0554b029058",
-        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
-        "status" : "failed",
-        "time" : {
-          "start" : 1711276141717,
-          "stop" : 1711276141724,
-          "duration" : 7
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'高'", "'userManagement_151'", "'验证【用户管理】修改用户，postlds为3，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'postIds': [3]}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
-      }, {
-        "name" : "验证【用户管理】修改用户，postlds为4，其他数据正常，修改成功",
-        "uid" : "b062ad53ff548235",
-        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
-        "status" : "failed",
-        "time" : {
-          "start" : 1711276141746,
-          "stop" : 1711276141754,
-          "duration" : 8
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'高'", "'userManagement_152'", "'验证【用户管理】修改用户，postlds为4，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'postIds': [4]}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
-      }, {
-        "name" : "验证【用户管理】修改用户，postlds不为1234且不为空，其他数据正常，修改失败",
-        "uid" : "97539353bc4b9387",
-        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
-        "status" : "failed",
-        "time" : {
-          "start" : 1711276141774,
-          "stop" : 1711276141782,
-          "duration" : 8
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'中'", "'userManagement_153'", "'验证【用户管理】修改用户，postlds不为1234且不为空，其他数据正常，修改失败'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'postIds': [5]}", "{'msg': '操作失败', 'code': 500}", "'PUT'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
-      }, {
-        "name" : "验证【用户管理】修改用户，remark为空，其他数据正常，修改成功",
-        "uid" : "a6e77ede57f8eccd",
-        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
-        "status" : "failed",
-        "time" : {
-          "start" : 1711276141805,
-          "stop" : 1711276141813,
-          "duration" : 8
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'中'", "'userManagement_154'", "'验证【用户管理】修改用户，remark为空，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'remark': ''}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
-      }, {
-        "name" : "验证【用户管理】修改用户，remark含有特殊字符，其他数据正常，修改成功",
-        "uid" : "759e45750088da13",
-        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
-        "status" : "failed",
-        "time" : {
-          "start" : 1711276141835,
-          "stop" : 1711276141843,
-          "duration" : 8
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'中'", "'userManagement_155'", "'验证【用户管理】修改用户，remark含有特殊字符，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'remark': '~@#$^&*()_+{}|'}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
-      }, {
-        "name" : "验证【用户管理】修改用户，remark有敏感词，其他数据正常，修改成功",
-        "uid" : "38464e822004bb84",
-        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
-        "status" : "failed",
-        "time" : {
-          "start" : 1711276141865,
-          "stop" : 1711276141873,
-          "duration" : 8
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'高'", "'userManagement_156'", "'验证【用户管理】修改用户，remark有敏感词，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'remark': '毛泽东'}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
-      }, {
-        "name" : "验证【用户管理】修改用户，rolelds为1，其他数据正常，修改失败",
-        "uid" : "e2a9a86d16399937",
-        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
-        "status" : "failed",
-        "time" : {
-          "start" : 1711276141900,
-          "stop" : 1711276141907,
-          "duration" : 7
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'中'", "'userManagement_157'", "'验证【用户管理】修改用户，rolelds为1，其他数据正常，修改失败'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'roleIds': [1]}", "{'msg': '操作失败', 'code': 500}", "'PUT'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
-      }, {
-        "name" : "验证【用户管理】修改用户，rolelds为2，其他数据正常，修改成功",
-        "uid" : "e80925f682037214",
-        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
-        "status" : "failed",
-        "time" : {
-          "start" : 1711276141928,
-          "stop" : 1711276141935,
-          "duration" : 7
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'高'", "'userManagement_158'", "'验证【用户管理】修改用户，rolelds为2，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'roleIds': [2]}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
-      }, {
-        "name" : "验证【用户管理】修改用户，rolelds为3，其他数据正常，修改失败",
-        "uid" : "8a23276d376e3f06",
-        "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
-        "status" : "failed",
-        "time" : {
-          "start" : 1711276141956,
-          "stop" : 1711276141964,
-          "duration" : 8
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'中'", "'userManagement_159'", "'验证【用户管理】修改用户，rolelds为3，其他数据正常，修改失败'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'roleIds': [3]}", "{'msg': '操作失败', 'code': 500}", "'PUT'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
+        "parameters" : [ "'用户管理'", "'中'", "'userManagement_159'", "'验证【用户管理】修改用户，rolelds为3，其他数据正常，修改失败'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'roleIds': [3]}", "{'msg': '操作失败', 'code': 500}", "'PUT'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
       }, {
         "name" : "验证【用户管理】修改用户，rolelds为空，其他数据正常，修改成功",
-        "uid" : "e000cd75332acb21",
+        "uid" : "184f33c30f02284b",
         "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
         "status" : "failed",
         "time" : {
-          "start" : 1711276141985,
-          "stop" : 1711276141993,
-          "duration" : 8
+          "start" : 1712029711218,
+          "stop" : 1712029711298,
+          "duration" : 80
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'高'", "'userManagement_160'", "'验证【用户管理】修改用户，rolelds为空，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'roleIds': []}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
+        "parameters" : [ "'用户管理'", "'高'", "'userManagement_160'", "'验证【用户管理】修改用户，rolelds为空，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'roleIds': []}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
       }, {
         "name" : "验证【用户管理】修改用户，postlds为1，其他数据正常，修改成功",
-        "uid" : "8f14a58afd89a24d",
+        "uid" : "d4cd386c04ebca5e",
         "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
         "status" : "failed",
         "time" : {
-          "start" : 1711276142015,
-          "stop" : 1711276142022,
-          "duration" : 7
+          "start" : 1712029711317,
+          "stop" : 1712029711397,
+          "duration" : 80
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'高'", "'userManagement_161'", "'验证【用户管理】修改用户，postlds为1，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'postIds': [1]}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
+        "parameters" : [ "'用户管理'", "'高'", "'userManagement_161'", "'验证【用户管理】修改用户，postlds为1，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'postIds': [1]}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
       }, {
         "name" : "验证【用户管理】修改用户，postlds为2，其他数据正常，修改成功",
-        "uid" : "3d42c3dc666d685d",
+        "uid" : "dce25f8215fa713b",
         "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
         "status" : "failed",
         "time" : {
-          "start" : 1711276142044,
-          "stop" : 1711276142051,
-          "duration" : 7
+          "start" : 1712029711416,
+          "stop" : 1712029711496,
+          "duration" : 80
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'高'", "'userManagement_162'", "'验证【用户管理】修改用户，postlds为2，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'postIds': [2]}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
+        "parameters" : [ "'用户管理'", "'高'", "'userManagement_162'", "'验证【用户管理】修改用户，postlds为2，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'postIds': [2]}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
       }, {
         "name" : "验证【用户管理】修改用户，postlds为3，其他数据正常，修改成功",
-        "uid" : "8098e1d441ba2858",
+        "uid" : "29253384401e2f52",
         "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
         "status" : "failed",
         "time" : {
-          "start" : 1711276142070,
-          "stop" : 1711276142079,
-          "duration" : 9
+          "start" : 1712029711514,
+          "stop" : 1712029711594,
+          "duration" : 80
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'高'", "'userManagement_163'", "'验证【用户管理】修改用户，postlds为3，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'postIds': [3]}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
+        "parameters" : [ "'用户管理'", "'高'", "'userManagement_163'", "'验证【用户管理】修改用户，postlds为3，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'postIds': [3]}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
       }, {
         "name" : "验证【用户管理】修改用户，postlds为4，其他数据正常，修改成功",
-        "uid" : "66ee866d9bd4c754",
+        "uid" : "74c1a010cb19d6c9",
         "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
         "status" : "failed",
         "time" : {
-          "start" : 1711276142101,
-          "stop" : 1711276142109,
-          "duration" : 8
+          "start" : 1712029711613,
+          "stop" : 1712029711694,
+          "duration" : 81
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'高'", "'userManagement_164'", "'验证【用户管理】修改用户，postlds为4，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'postIds': [4]}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
+        "parameters" : [ "'用户管理'", "'高'", "'userManagement_164'", "'验证【用户管理】修改用户，postlds为4，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'postIds': [4]}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
       }, {
         "name" : "验证【用户管理】修改用户，postlds为[1, 2, 3, 4]，其他数据正常，修改成功",
-        "uid" : "eec425d42b115f51",
+        "uid" : "fd0986a38e530cf6",
         "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
         "status" : "failed",
         "time" : {
-          "start" : 1711276142129,
-          "stop" : 1711276142136,
-          "duration" : 7
+          "start" : 1712029711713,
+          "stop" : 1712029711793,
+          "duration" : 80
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'高'", "'userManagement_165'", "'验证【用户管理】修改用户，postlds为[1, 2, 3, 4]，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'postIds': [1, 2, 3, 4]}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
+        "parameters" : [ "'用户管理'", "'高'", "'userManagement_165'", "'验证【用户管理】修改用户，postlds为[1, 2, 3, 4]，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'postIds': [1, 2, 3, 4]}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
       }, {
         "name" : "验证【用户管理】修改用户，postlds为0，其他数据正常，修改失败",
-        "uid" : "dfc1db56495951ee",
+        "uid" : "4852d139d864dc1",
         "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
         "status" : "failed",
         "time" : {
-          "start" : 1711276142156,
-          "stop" : 1711276142164,
-          "duration" : 8
+          "start" : 1712029711813,
+          "stop" : 1712029711893,
+          "duration" : 80
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'中'", "'userManagement_166'", "'验证【用户管理】修改用户，postlds为0，其他数据正常，修改失败'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'postIds': [0]}", "{'msg': '操作失败', 'code': 500}", "'PUT'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
+        "parameters" : [ "'用户管理'", "'中'", "'userManagement_166'", "'验证【用户管理】修改用户，postlds为0，其他数据正常，修改失败'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'postIds': [0]}", "{'msg': '操作失败', 'code': 500}", "'PUT'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
       }, {
         "name" : "验证【用户管理】修改用户，postlds为5，其他数据正常，修改失败",
-        "uid" : "e9bf9904262bed28",
+        "uid" : "a44c1c1ba2f58b25",
         "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
         "status" : "failed",
         "time" : {
-          "start" : 1711276142184,
-          "stop" : 1711276142192,
-          "duration" : 8
+          "start" : 1712029711914,
+          "stop" : 1712029711994,
+          "duration" : 80
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'中'", "'userManagement_167'", "'验证【用户管理】修改用户，postlds为5，其他数据正常，修改失败'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'postIds': [5]}", "{'msg': '操作失败', 'code': 500}", "'PUT'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
+        "parameters" : [ "'用户管理'", "'中'", "'userManagement_167'", "'验证【用户管理】修改用户，postlds为5，其他数据正常，修改失败'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'postIds': [5]}", "{'msg': '操作失败', 'code': 500}", "'PUT'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
       }, {
         "name" : "验证【用户管理】修改用户，postlds为空，其他数据正常，修改成功",
-        "uid" : "d72abcbbb3cf58d6",
+        "uid" : "4d3fa6c13061955",
         "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
         "status" : "failed",
         "time" : {
-          "start" : 1711276142211,
-          "stop" : 1711276142219,
-          "duration" : 8
+          "start" : 1712029712015,
+          "stop" : 1712029712094,
+          "duration" : 79
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'高'", "'userManagement_168'", "'验证【用户管理】修改用户，postlds为空，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'postIds': []}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
+        "parameters" : [ "'用户管理'", "'高'", "'userManagement_168'", "'验证【用户管理】修改用户，postlds为空，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'postIds': []}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
       }, {
         "name" : "验证【用户管理】修改用户，sex为0，其他数据正常，修改成功",
-        "uid" : "fbc6700c0dcee708",
+        "uid" : "2ce8bfdb9cffda16",
         "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
         "status" : "failed",
         "time" : {
-          "start" : 1711276142239,
-          "stop" : 1711276142247,
-          "duration" : 8
+          "start" : 1712029712116,
+          "stop" : 1712029712195,
+          "duration" : 79
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'高'", "'userManagement_169'", "'验证【用户管理】修改用户，sex为0，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'sex': '0'}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
+        "parameters" : [ "'用户管理'", "'高'", "'userManagement_169'", "'验证【用户管理】修改用户，sex为0，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'sex': '0'}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
       }, {
         "name" : "验证【用户管理】修改用户，sex为1，其他数据正常，修改成功",
-        "uid" : "79e8d76af36ef1f",
+        "uid" : "b0f698c23b73407f",
         "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
         "status" : "failed",
         "time" : {
-          "start" : 1711276142266,
-          "stop" : 1711276142273,
-          "duration" : 7
+          "start" : 1712029712216,
+          "stop" : 1712029712295,
+          "duration" : 79
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'高'", "'userManagement_170'", "'验证【用户管理】修改用户，sex为1，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'sex': '1'}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
+        "parameters" : [ "'用户管理'", "'高'", "'userManagement_170'", "'验证【用户管理】修改用户，sex为1，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'sex': '1'}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
       }, {
         "name" : "验证【用户管理】修改用户，sex为2，其他数据正常，修改成功",
-        "uid" : "99984be0b42f8581",
+        "uid" : "1310938180c7e7aa",
         "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
         "status" : "failed",
         "time" : {
-          "start" : 1711276142293,
-          "stop" : 1711276142300,
-          "duration" : 7
+          "start" : 1712029712315,
+          "stop" : 1712029712395,
+          "duration" : 80
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'高'", "'userManagement_171'", "'验证【用户管理】修改用户，sex为2，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'sex': '2'}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
+        "parameters" : [ "'用户管理'", "'高'", "'userManagement_171'", "'验证【用户管理】修改用户，sex为2，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'sex': '2'}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
       }, {
         "name" : "验证【用户管理】修改用户，sex为空，其他数据正常，修改成功",
-        "uid" : "e97313dd6d439311",
+        "uid" : "cfa478551e6d6b23",
         "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
         "status" : "failed",
         "time" : {
-          "start" : 1711276142320,
-          "stop" : 1711276142328,
-          "duration" : 8
+          "start" : 1712029712412,
+          "stop" : 1712029712492,
+          "duration" : 80
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'高'", "'userManagement_172'", "'验证【用户管理】修改用户，sex为空，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'sex': ''}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
+        "parameters" : [ "'用户管理'", "'高'", "'userManagement_172'", "'验证【用户管理】修改用户，sex为空，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'sex': ''}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
       }, {
         "name" : "验证【用户管理】修改用户，sex不为012且不为空，其他数据正常，修改失败",
-        "uid" : "ca7120d7a01736e5",
+        "uid" : "a059a1a39c85dd65",
         "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
         "status" : "failed",
         "time" : {
-          "start" : 1711276142348,
-          "stop" : 1711276142355,
-          "duration" : 7
+          "start" : 1712029712515,
+          "stop" : 1712029712594,
+          "duration" : 79
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'中'", "'userManagement_173'", "'验证【用户管理】修改用户，sex不为012且不为空，其他数据正常，修改失败'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'sex': '-1'}", "{'msg': '用户账号不能为空', 'code': 500}", "'PUT'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
+        "parameters" : [ "'用户管理'", "'中'", "'userManagement_173'", "'验证【用户管理】修改用户，sex不为012且不为空，其他数据正常，修改失败'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'sex': '-1'}", "{'msg': '用户账号不能为空', 'code': 500}", "'PUT'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
       }, {
         "name" : "验证【用户管理】修改用户，status为0，其他数据正常，修改成功",
-        "uid" : "7ebb53b8ab742d67",
+        "uid" : "9137f764511bcf2c",
         "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
         "status" : "failed",
         "time" : {
-          "start" : 1711276142375,
-          "stop" : 1711276142383,
-          "duration" : 8
+          "start" : 1712029712612,
+          "stop" : 1712029712692,
+          "duration" : 80
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'高'", "'userManagement_174'", "'验证【用户管理】修改用户，status为0，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'status': '0'}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
+        "parameters" : [ "'用户管理'", "'高'", "'userManagement_174'", "'验证【用户管理】修改用户，status为0，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'status': '0'}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
       }, {
         "name" : "验证【用户管理】修改用户，status为1，其他数据正常，修改成功",
-        "uid" : "326585b9333780e2",
+        "uid" : "1ee130f301dee69d",
         "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
         "status" : "failed",
         "time" : {
-          "start" : 1711276142403,
-          "stop" : 1711276142411,
-          "duration" : 8
+          "start" : 1712029712710,
+          "stop" : 1712029712790,
+          "duration" : 80
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'高'", "'userManagement_175'", "'验证【用户管理】修改用户，status为1，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'status': '1'}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
+        "parameters" : [ "'用户管理'", "'高'", "'userManagement_175'", "'验证【用户管理】修改用户，status为1，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'status': '1'}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
       }, {
         "name" : "验证【用户管理】修改用户，status为2，其他数据正常，修改成功",
-        "uid" : "205173fbb2a41b93",
+        "uid" : "cb415a546da2e8df",
         "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
         "status" : "failed",
         "time" : {
-          "start" : 1711276142432,
-          "stop" : 1711276142438,
-          "duration" : 6
+          "start" : 1712029712808,
+          "stop" : 1712029712887,
+          "duration" : 79
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'高'", "'userManagement_176'", "'验证【用户管理】修改用户，status为2，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'status': '2'}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
+        "parameters" : [ "'用户管理'", "'高'", "'userManagement_176'", "'验证【用户管理】修改用户，status为2，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'status': '2'}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
       }, {
         "name" : "验证【用户管理】修改用户，status为3，其他数据正常，修改失败",
-        "uid" : "7bbc6b94266536d5",
+        "uid" : "b52e96815c0dc47e",
         "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
         "status" : "failed",
         "time" : {
-          "start" : 1711276142458,
-          "stop" : 1711276142466,
-          "duration" : 8
+          "start" : 1712029712905,
+          "stop" : 1712029712985,
+          "duration" : 80
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'中'", "'userManagement_177'", "'验证【用户管理】修改用户，status为3，其他数据正常，修改失败'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'status': '3'}", "{'msg': '操作失败', 'code': 500}", "'PUT'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
+        "parameters" : [ "'用户管理'", "'中'", "'userManagement_177'", "'验证【用户管理】修改用户，status为3，其他数据正常，修改失败'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'test', 'status': '3'}", "{'msg': '操作失败', 'code': 500}", "'PUT'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
       }, {
         "name" : "验证【用户管理】修改用户，nickName为空，其他数据正常，修改失败",
-        "uid" : "3ce4fe734443f899",
+        "uid" : "3fb95d43fd7c08a4",
         "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
         "status" : "failed",
         "time" : {
-          "start" : 1711276142486,
-          "stop" : 1711276142494,
-          "duration" : 8
+          "start" : 1712029713003,
+          "stop" : 1712029713082,
+          "duration" : 79
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'中'", "'userManagement_178'", "'验证【用户管理】修改用户，nickName为空，其他数据正常，修改失败'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': ''}", "{'msg': '操作失败', 'code': 500}", "'PUT'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
+        "parameters" : [ "'用户管理'", "'中'", "'userManagement_178'", "'验证【用户管理】修改用户，nickName为空，其他数据正常，修改失败'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': ''}", "{'msg': '操作失败', 'code': 500}", "'PUT'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
       }, {
         "name" : "验证【用户管理】修改用户，nickName为1个字符，其他数据正常，修改失败",
-        "uid" : "b970c8d7efb7ae62",
+        "uid" : "245749feb307c81d",
         "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
         "status" : "failed",
         "time" : {
-          "start" : 1711276142514,
-          "stop" : 1711276142521,
-          "duration" : 7
+          "start" : 1712029713100,
+          "stop" : 1712029713181,
+          "duration" : 81
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'中'", "'userManagement_179'", "'验证【用户管理】修改用户，nickName为1个字符，其他数据正常，修改失败'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'u'}", "{'msg': '操作失败', 'code': 500}", "'PUT'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
+        "parameters" : [ "'用户管理'", "'中'", "'userManagement_179'", "'验证【用户管理】修改用户，nickName为1个字符，其他数据正常，修改失败'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'u'}", "{'msg': '操作失败', 'code': 500}", "'PUT'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
       }, {
         "name" : "验证【用户管理】修改用户，nickName为2个字符，其他数据正常，修改成功",
-        "uid" : "93c1737ca6c23736",
+        "uid" : "421a519789ec0b69",
         "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
         "status" : "failed",
         "time" : {
-          "start" : 1711276142541,
-          "stop" : 1711276142548,
-          "duration" : 7
+          "start" : 1712029713199,
+          "stop" : 1712029713279,
+          "duration" : 80
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'高'", "'userManagement_180'", "'验证【用户管理】修改用户，nickName为2个字符，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'us'}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
+        "parameters" : [ "'用户管理'", "'高'", "'userManagement_180'", "'验证【用户管理】修改用户，nickName为2个字符，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'us'}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
       }, {
         "name" : "验证【用户管理】修改用户，nickName过29个字符，其他数据正常，修改成功",
-        "uid" : "631d77a3bbb251de",
+        "uid" : "eb8bedb3248ad0dc",
         "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
         "status" : "failed",
         "time" : {
-          "start" : 1711276142568,
-          "stop" : 1711276142575,
-          "duration" : 7
+          "start" : 1712029713297,
+          "stop" : 1712029713376,
+          "duration" : 79
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'高'", "'userManagement_181'", "'验证【用户管理】修改用户，nickName过29个字符，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'userManagement_181userManagem'}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
+        "parameters" : [ "'用户管理'", "'高'", "'userManagement_181'", "'验证【用户管理】修改用户，nickName过29个字符，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'userManagement_181userManagem'}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
       }, {
         "name" : "验证【用户管理】修改用户，nickName过30个字符，其他数据正常，修改成功",
-        "uid" : "5182784f05528a3",
+        "uid" : "b1ff51102f2ab667",
         "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
         "status" : "failed",
         "time" : {
-          "start" : 1711276142595,
-          "stop" : 1711276142602,
-          "duration" : 7
+          "start" : 1712029713394,
+          "stop" : 1712029713474,
+          "duration" : 80
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'高'", "'userManagement_182'", "'验证【用户管理】修改用户，nickName过30个字符，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'userManagement_182userManageme'}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
+        "parameters" : [ "'用户管理'", "'高'", "'userManagement_182'", "'验证【用户管理】修改用户，nickName过30个字符，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'userManagement_182userManageme'}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
       }, {
         "name" : "验证【用户管理】修改用户，nickName重复，其他数据正常，修改成功",
-        "uid" : "642422e731d033c5",
+        "uid" : "ec67afee4afec18b",
         "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
         "status" : "failed",
         "time" : {
-          "start" : 1711276142639,
-          "stop" : 1711276142647,
-          "duration" : 8
+          "start" : 1712029713581,
+          "stop" : 1712029713661,
+          "duration" : 80
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'高'", "'userManagement_184'", "'验证【用户管理】修改用户，nickName重复，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': '若依'}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
+        "parameters" : [ "'用户管理'", "'高'", "'userManagement_184'", "'验证【用户管理】修改用户，nickName重复，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': '若依'}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
       }, {
         "name" : "验证【用户管理】修改用户，nickName重复，但是字母大小写不一致，其他数据正常，修改成功",
-        "uid" : "38a9c68699758f0c",
+        "uid" : "2d5b8b0295bf6d66",
         "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
         "status" : "failed",
         "time" : {
-          "start" : 1711276142668,
-          "stop" : 1711276142676,
-          "duration" : 8
+          "start" : 1712029713680,
+          "stop" : 1712029713764,
+          "duration" : 84
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'中'", "'userManagement_185'", "'验证【用户管理】修改用户，nickName重复，但是字母大小写不一致，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'RY'}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
+        "parameters" : [ "'用户管理'", "'中'", "'userManagement_185'", "'验证【用户管理】修改用户，nickName重复，但是字母大小写不一致，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': 'RY'}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
       }, {
         "name" : "验证【用户管理】修改用户，nickName含有特殊字符，其他数据正常，修改成功",
-        "uid" : "91a14b1f92bd75b",
+        "uid" : "9264b71423091f9e",
         "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
         "status" : "failed",
         "time" : {
-          "start" : 1711276142699,
-          "stop" : 1711276142707,
-          "duration" : 8
+          "start" : 1712029713784,
+          "stop" : 1712029713864,
+          "duration" : 80
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'中'", "'userManagement_186'", "'验证【用户管理】修改用户，nickName含有特殊字符，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': '~@#$^&*()_+{}|'}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
+        "parameters" : [ "'用户管理'", "'中'", "'userManagement_186'", "'验证【用户管理】修改用户，nickName含有特殊字符，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': '~@#$^&*()_+{}|'}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
       }, {
         "name" : "验证【用户管理】修改用户，nickName有敏感词，其他数据正常，修改成功",
-        "uid" : "c268cbed59edf1b7",
+        "uid" : "8c2ed44a56f2fb97",
         "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
         "status" : "failed",
         "time" : {
-          "start" : 1711276142728,
-          "stop" : 1711276142736,
-          "duration" : 8
+          "start" : 1712029713884,
+          "stop" : 1712029713963,
+          "duration" : 79
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'高'", "'userManagement_187'", "'验证【用户管理】修改用户，nickName有敏感词，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': '毛泽东'}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
+        "parameters" : [ "'用户管理'", "'高'", "'userManagement_187'", "'验证【用户管理】修改用户，nickName有敏感词，其他数据正常，修改成功'", "'系统管理'", "{'userId': 4, 'userName': 'test', 'nickName': '毛泽东'}", "{'msg': '操作成功', 'code': 200}", "'PUT'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/user'", "'SELECT user_id FROM sys_user WHERE user_name = 'test';'", "'SELECT'", "'user_id'" ]
       }, {
         "name" : "验证【角色管理】添加角色，角色名称roleName过短，其他数据正常，添加失败",
-        "uid" : "87712cfa2c01b036",
+        "uid" : "a841cc2ff3d68e2b",
         "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
         "status" : "failed",
         "time" : {
-          "start" : 1711276144374,
-          "stop" : 1711276144388,
-          "duration" : 14
+          "start" : 1712029720461,
+          "stop" : 1712029720587,
+          "duration" : 126
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'角色管理'", "'中'", "'roleManagement_004'", "'验证【角色管理】添加角色，角色名称roleName过短，其他数据正常，添加失败'", "'系统管理'", "{'roleName': 'r', 'roleKey': 'roleManagement_004', 'roleSort': 3, 'status': '1', 'menuIds': [], 'deptIds': [], 'menuCheckStrictly': True, 'deptCheckStrictly': True, 'remark': 'remark'}", "{'msg': '操作失败', 'code': 500}", "'POST'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/role'", "'DELETE FROM sys_role WHERE role_name = 'r';'", "'DELETE'", "None" ]
+        "parameters" : [ "'角色管理'", "'中'", "'roleManagement_004'", "'验证【角色管理】添加角色，角色名称roleName过短，其他数据正常，添加失败'", "'系统管理'", "{'roleName': 'r', 'roleKey': 'roleManagement_004', 'roleSort': 3, 'status': '1', 'menuIds': [], 'deptIds': [], 'menuCheckStrictly': True, 'deptCheckStrictly': True, 'remark': 'remark'}", "{'msg': '操作失败', 'code': 500}", "'POST'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/role'", "'DELETE FROM sys_role WHERE role_name = 'r';'", "'DELETE'", "None" ]
       }, {
         "name" : "验证【角色管理】添加角色，角色名称roleName重复，其他数据正常，添加失败",
-        "uid" : "8cd17b00425f02bd",
+        "uid" : "c8828772e9939714",
         "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
         "status" : "failed",
         "time" : {
-          "start" : 1711276144410,
-          "stop" : 1711276144422,
-          "duration" : 12
+          "start" : 1712029720608,
+          "stop" : 1712029720731,
+          "duration" : 123
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'角色管理'", "'中'", "'roleManagement_005'", "'验证【角色管理】添加角色，角色名称roleName重复，其他数据正常，添加失败'", "'系统管理'", "{'roleName': 'roleManagement_005', 'roleKey': 'roleManagement_005', 'roleSort': 3, 'status': '1', 'menuIds': [], 'deptIds': [], 'menuCheckStrictly': True, 'deptCheckStrictly': True, 'remark': 'remark'}", "{'msg': '操作失败', 'code': 500}", "'POST'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/role'", "'DELETE FROM sys_role WHERE role_name = 'roleManagement_005';'", "'DELETE'", "None" ]
+        "parameters" : [ "'角色管理'", "'中'", "'roleManagement_005'", "'验证【角色管理】添加角色，角色名称roleName重复，其他数据正常，添加失败'", "'系统管理'", "{'roleName': 'roleManagement_005', 'roleKey': 'roleManagement_005', 'roleSort': 3, 'status': '1', 'menuIds': [], 'deptIds': [], 'menuCheckStrictly': True, 'deptCheckStrictly': True, 'remark': 'remark'}", "{'msg': '操作失败', 'code': 500}", "'POST'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/role'", "'DELETE FROM sys_role WHERE role_name = 'roleManagement_005';'", "'DELETE'", "None" ]
       }, {
         "name" : "验证【角色管理】添加角色，角色名称roleName重复，但是字母大小写不一致，其他数据正常，添加失败",
-        "uid" : "23694a116631bbfe",
+        "uid" : "2eaca331b179aab5",
         "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
         "status" : "failed",
         "time" : {
-          "start" : 1711276144442,
-          "stop" : 1711276144455,
-          "duration" : 13
+          "start" : 1712029720752,
+          "stop" : 1712029720874,
+          "duration" : 122
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'角色管理'", "'中'", "'roleManagement_006'", "'验证【角色管理】添加角色，角色名称roleName重复，但是字母大小写不一致，其他数据正常，添加失败'", "'系统管理'", "{'roleName': 'ROLEManagement_005', 'roleKey': 'roleManagement_006', 'roleSort': 3, 'status': '1', 'menuIds': [], 'deptIds': [], 'menuCheckStrictly': True, 'deptCheckStrictly': True, 'remark': 'remark'}", "{'msg': '操作失败', 'code': 500}", "'POST'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/role'", "'DELETE FROM sys_role WHERE role_name = 'ROLEManagement_005';'", "'DELETE'", "None" ]
+        "parameters" : [ "'角色管理'", "'中'", "'roleManagement_006'", "'验证【角色管理】添加角色，角色名称roleName重复，但是字母大小写不一致，其他数据正常，添加失败'", "'系统管理'", "{'roleName': 'ROLEManagement_005', 'roleKey': 'roleManagement_006', 'roleSort': 3, 'status': '1', 'menuIds': [], 'deptIds': [], 'menuCheckStrictly': True, 'deptCheckStrictly': True, 'remark': 'remark'}", "{'msg': '操作失败', 'code': 500}", "'POST'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/role'", "'DELETE FROM sys_role WHERE role_name = 'ROLEManagement_005';'", "'DELETE'", "None" ]
       }, {
         "name" : "验证【角色管理】添加角色，角色名称roleName含有特殊字符，其他数据正常，添加失败",
-        "uid" : "ce7ff3d5d47e4d23",
+        "uid" : "5d1db08be9473ede",
         "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
         "status" : "failed",
         "time" : {
-          "start" : 1711276144476,
-          "stop" : 1711276144489,
-          "duration" : 13
+          "start" : 1712029720896,
+          "stop" : 1712029721016,
+          "duration" : 120
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'角色管理'", "'中'", "'roleManagement_007'", "'验证【角色管理】添加角色，角色名称roleName含有特殊字符，其他数据正常，添加失败'", "'系统管理'", "{'roleName': '~@#$^&*()_+{}|', 'roleKey': 'roleManagement_007', 'roleSort': 3, 'status': '1', 'menuIds': [], 'deptIds': [], 'menuCheckStrictly': True, 'deptCheckStrictly': True, 'remark': 'remark'}", "{'msg': '操作失败', 'code': 500}", "'POST'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/role'", "'DELETE FROM sys_role WHERE role_name = '~@#$^&*()_+{}|';'", "'DELETE'", "None" ]
+        "parameters" : [ "'角色管理'", "'中'", "'roleManagement_007'", "'验证【角色管理】添加角色，角色名称roleName含有特殊字符，其他数据正常，添加失败'", "'系统管理'", "{'roleName': '~@#$^&*()_+{}|', 'roleKey': 'roleManagement_007', 'roleSort': 3, 'status': '1', 'menuIds': [], 'deptIds': [], 'menuCheckStrictly': True, 'deptCheckStrictly': True, 'remark': 'remark'}", "{'msg': '操作失败', 'code': 500}", "'POST'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/role'", "'DELETE FROM sys_role WHERE role_name = '~@#$^&*()_+{}|';'", "'DELETE'", "None" ]
       }, {
         "name" : "验证【角色管理】添加角色，角色顺序roleSort为0，其他数据正常，添加失败",
-        "uid" : "4c1b7e98448dfde5",
+        "uid" : "6d2aca988029be43",
         "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
         "status" : "failed",
         "time" : {
-          "start" : 1711276144608,
-          "stop" : 1711276144621,
-          "duration" : 13
+          "start" : 1712029721670,
+          "stop" : 1712029721790,
+          "duration" : 120
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'角色管理'", "'中'", "'roleManagement_013'", "'验证【角色管理】添加角色，角色顺序roleSort为0，其他数据正常，添加失败'", "'系统管理'", "{'roleName': 'roleManagement_013', 'roleKey': 'roleManagement_013', 'roleSort': 0, 'status': '1', 'menuIds': [], 'deptIds': [], 'menuCheckStrictly': True, 'deptCheckStrictly': True, 'remark': 'remark'}", "{'msg': '操作失败', 'code': 500}", "'POST'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/role'", "'DELETE FROM sys_role WHERE role_name = 'roleManagement_013';'", "'DELETE'", "None" ]
+        "parameters" : [ "'角色管理'", "'中'", "'roleManagement_013'", "'验证【角色管理】添加角色，角色顺序roleSort为0，其他数据正常，添加失败'", "'系统管理'", "{'roleName': 'roleManagement_013', 'roleKey': 'roleManagement_013', 'roleSort': 0, 'status': '1', 'menuIds': [], 'deptIds': [], 'menuCheckStrictly': True, 'deptCheckStrictly': True, 'remark': 'remark'}", "{'msg': '操作失败', 'code': 500}", "'POST'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/role'", "'DELETE FROM sys_role WHERE role_name = 'roleManagement_013';'", "'DELETE'", "None" ]
       }, {
         "name" : "验证【角色管理】添加角色，角色顺序roleSort为1001，其他数据正常，添加失败",
-        "uid" : "d84a651bf5423ddf",
+        "uid" : "57725e53bc5a7b93",
         "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
         "status" : "failed",
         "time" : {
-          "start" : 1711276144732,
-          "stop" : 1711276144745,
-          "duration" : 13
+          "start" : 1712029722324,
+          "stop" : 1712029722442,
+          "duration" : 118
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'角色管理'", "'中'", "'roleManagement_018'", "'验证【角色管理】添加角色，角色顺序roleSort为1001，其他数据正常，添加失败'", "'系统管理'", "{'roleName': 'roleManagement_018', 'roleKey': 'roleManagement_018', 'roleSort': 1001, 'status': '1', 'menuIds': [], 'deptIds': [], 'menuCheckStrictly': True, 'deptCheckStrictly': True, 'remark': 'remark'}", "{'msg': '操作失败', 'code': 500}", "'POST'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/role'", "'DELETE FROM sys_role WHERE role_name = 'roleManagement_018';'", "'DELETE'", "None" ]
+        "parameters" : [ "'角色管理'", "'中'", "'roleManagement_018'", "'验证【角色管理】添加角色，角色顺序roleSort为1001，其他数据正常，添加失败'", "'系统管理'", "{'roleName': 'roleManagement_018', 'roleKey': 'roleManagement_018', 'roleSort': 1001, 'status': '1', 'menuIds': [], 'deptIds': [], 'menuCheckStrictly': True, 'deptCheckStrictly': True, 'remark': 'remark'}", "{'msg': '操作失败', 'code': 500}", "'POST'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/role'", "'DELETE FROM sys_role WHERE role_name = 'roleManagement_018';'", "'DELETE'", "None" ]
       }, {
         "name" : "验证【角色管理】添加角色，状态status为空，其他数据正常，添加失败",
-        "uid" : "a597e2843bcbe5c1",
+        "uid" : "40dcb708768b4c51",
         "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
         "status" : "failed",
         "time" : {
-          "start" : 1711276144772,
-          "stop" : 1711276144785,
-          "duration" : 13
+          "start" : 1712029722461,
+          "stop" : 1712029722582,
+          "duration" : 121
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'角色管理'", "'中'", "'roleManagement_019'", "'验证【角色管理】添加角色，状态status为空，其他数据正常，添加失败'", "'系统管理'", "{'roleName': 'roleManagement_019', 'roleKey': 'roleManagement_019', 'roleSort': 3, 'status': '', 'menuIds': [], 'deptIds': [], 'menuCheckStrictly': True, 'deptCheckStrictly': True, 'remark': 'remark'}", "{'msg': '操作失败', 'code': 500}", "'POST'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/role'", "'DELETE FROM sys_role WHERE role_name = 'roleManagement_019';'", "'DELETE'", "None" ]
+        "parameters" : [ "'角色管理'", "'中'", "'roleManagement_019'", "'验证【角色管理】添加角色，状态status为空，其他数据正常，添加失败'", "'系统管理'", "{'roleName': 'roleManagement_019', 'roleKey': 'roleManagement_019', 'roleSort': 3, 'status': '', 'menuIds': [], 'deptIds': [], 'menuCheckStrictly': True, 'deptCheckStrictly': True, 'remark': 'remark'}", "{'msg': '操作失败', 'code': 500}", "'POST'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/role'", "'DELETE FROM sys_role WHERE role_name = 'roleManagement_019';'", "'DELETE'", "None" ]
       }, {
         "name" : "验证【角色管理】添加角色，状态status为2，其他数据正常，添加失败",
-        "uid" : "6f4147ef10ad1f5",
+        "uid" : "aa65eabf8096b5b7",
         "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
         "status" : "failed",
         "time" : {
-          "start" : 1711276144853,
-          "stop" : 1711276144866,
-          "duration" : 13
+          "start" : 1712029722861,
+          "stop" : 1712029722987,
+          "duration" : 126
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'角色管理'", "'中'", "'roleManagement_022'", "'验证【角色管理】添加角色，状态status为2，其他数据正常，添加失败'", "'系统管理'", "{'roleName': 'roleManagement_022', 'roleKey': 'roleManagement_022', 'roleSort': 3, 'status': '2', 'menuIds': [], 'deptIds': [], 'menuCheckStrictly': True, 'deptCheckStrictly': True, 'remark': 'remark'}", "{'msg': '操作失败', 'code': 500}", "'POST'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/role'", "'DELETE FROM sys_role WHERE role_name = 'roleManagement_022';'", "'DELETE'", "None" ]
+        "parameters" : [ "'角色管理'", "'中'", "'roleManagement_022'", "'验证【角色管理】添加角色，状态status为2，其他数据正常，添加失败'", "'系统管理'", "{'roleName': 'roleManagement_022', 'roleKey': 'roleManagement_022', 'roleSort': 3, 'status': '2', 'menuIds': [], 'deptIds': [], 'menuCheckStrictly': True, 'deptCheckStrictly': True, 'remark': 'remark'}", "{'msg': '操作失败', 'code': 500}", "'POST'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/role'", "'DELETE FROM sys_role WHERE role_name = 'roleManagement_022';'", "'DELETE'", "None" ]
       }, {
         "name" : "验证【角色管理】添加角色，remark为空，其他数据正常，添加失败",
-        "uid" : "3325ad07a9842a37",
+        "uid" : "1fb9fb7fa98ee60b",
         "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
         "status" : "failed",
         "time" : {
-          "start" : 1711276144933,
-          "stop" : 1711276144946,
-          "duration" : 13
+          "start" : 1712029723293,
+          "stop" : 1712029723414,
+          "duration" : 121
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'角色管理'", "'中'", "'roleManagement_025'", "'验证【角色管理】添加角色，remark为空，其他数据正常，添加失败'", "'系统管理'", "{'roleName': 'roleManagement_025', 'roleKey': 'roleManagement_025', 'roleSort': 3, 'status': '2', 'menuIds': [], 'deptIds': [], 'menuCheckStrictly': True, 'deptCheckStrictly': True, 'remark': ''}", "{'msg': '操作失败', 'code': 500}", "'POST'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/role'", "'DELETE FROM sys_role WHERE role_name = 'roleManagement_025';'", "'DELETE'", "None" ]
+        "parameters" : [ "'角色管理'", "'中'", "'roleManagement_025'", "'验证【角色管理】添加角色，remark为空，其他数据正常，添加失败'", "'系统管理'", "{'roleName': 'roleManagement_025', 'roleKey': 'roleManagement_025', 'roleSort': 3, 'status': '2', 'menuIds': [], 'deptIds': [], 'menuCheckStrictly': True, 'deptCheckStrictly': True, 'remark': ''}", "{'msg': '操作失败', 'code': 500}", "'POST'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/role'", "'DELETE FROM sys_role WHERE role_name = 'roleManagement_025';'", "'DELETE'", "None" ]
       }, {
         "name" : "验证【角色管理】添加角色，remark含有特殊字符，其他数据正常，添加失败",
-        "uid" : "d11313dfe2076f32",
+        "uid" : "d3932735ab07b56",
         "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
         "status" : "failed",
         "time" : {
-          "start" : 1711276144966,
-          "stop" : 1711276144978,
-          "duration" : 12
+          "start" : 1712029723433,
+          "stop" : 1712029723562,
+          "duration" : 129
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'角色管理'", "'中'", "'roleManagement_026'", "'验证【角色管理】添加角色，remark含有特殊字符，其他数据正常，添加失败'", "'系统管理'", "{'roleName': 'roleManagement_026', 'roleKey': 'roleManagement_026', 'roleSort': 3, 'status': '2', 'menuIds': [], 'deptIds': [], 'menuCheckStrictly': True, 'deptCheckStrictly': True, 'remark': '~@#$^&*()_+{}|'}", "{'msg': '操作失败', 'code': 500}", "'POST'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/role'", "'DELETE FROM sys_role WHERE role_name = 'roleManagement_026';'", "'DELETE'", "None" ]
+        "parameters" : [ "'角色管理'", "'中'", "'roleManagement_026'", "'验证【角色管理】添加角色，remark含有特殊字符，其他数据正常，添加失败'", "'系统管理'", "{'roleName': 'roleManagement_026', 'roleKey': 'roleManagement_026', 'roleSort': 3, 'status': '2', 'menuIds': [], 'deptIds': [], 'menuCheckStrictly': True, 'deptCheckStrictly': True, 'remark': '~@#$^&*()_+{}|'}", "{'msg': '操作失败', 'code': 500}", "'POST'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/role'", "'DELETE FROM sys_role WHERE role_name = 'roleManagement_026';'", "'DELETE'", "None" ]
       }, {
         "name" : "验证【菜单管理】添加菜单，菜单名称menuName重复，但是字母大小写不一致，其他数据正常，添加失败",
-        "uid" : "b05e3323e8f79739",
+        "uid" : "f96458d4437ee723",
         "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
         "status" : "failed",
         "time" : {
-          "start" : 1711276145118,
-          "stop" : 1711276145127,
-          "duration" : 9
+          "start" : 1712029724373,
+          "stop" : 1712029724492,
+          "duration" : 119
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'菜单管理'", "'中'", "'menuManagement_006'", "'验证【菜单管理】添加菜单，菜单名称menuName重复，但是字母大小写不一致，其他数据正常，添加失败'", "'系统管理'", "{'parentId': 0, 'menuName': 'MENUMANAGEMENT_001', 'icon': '', 'menuType': 'M', 'orderNum': 1, 'isFrame': '1', 'isCache': '0', 'visible': '0', 'status': '0', 'path': 'menuManagement_001.com'}", "{'msg': \"新增菜单'MENUMANAGEMENT_001'失败，菜单名称已存在\", 'code': 500}", "'POST'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/menu'", "'DELETE FROM sys_menu WHERE menu_name = 'MENUMANAGEMENT_001';'", "'DELETE'", "None" ]
+        "parameters" : [ "'菜单管理'", "'中'", "'menuManagement_006'", "'验证【菜单管理】添加菜单，菜单名称menuName重复，但是字母大小写不一致，其他数据正常，添加失败'", "'系统管理'", "{'parentId': 0, 'menuName': 'MENUMANAGEMENT_001', 'icon': '', 'menuType': 'M', 'orderNum': 1, 'isFrame': '1', 'isCache': '0', 'visible': '0', 'status': '0', 'path': 'menuManagement_001.com'}", "{'msg': \"新增菜单'MENUMANAGEMENT_001'失败，菜单名称已存在\", 'code': 500}", "'POST'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/menu'", "'DELETE FROM sys_menu WHERE menu_name = 'MENUMANAGEMENT_001';'", "'DELETE'", "None" ]
       }, {
         "name" : "验证【菜单管理】添加菜单，菜单名称menuName含有特殊字符，其他数据正常，添加失败",
-        "uid" : "684121aed208950d",
+        "uid" : "99cf32f1b00fb7bd",
         "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
         "status" : "failed",
         "time" : {
-          "start" : 1711276145146,
-          "stop" : 1711276145156,
-          "duration" : 10
+          "start" : 1712029724510,
+          "stop" : 1712029724629,
+          "duration" : 119
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'菜单管理'", "'中'", "'menuManagement_007'", "'验证【菜单管理】添加菜单，菜单名称menuName含有特殊字符，其他数据正常，添加失败'", "'系统管理'", "{'parentId': 0, 'menuName': '毛泽东', 'icon': '', 'menuType': 'M', 'orderNum': 1, 'isFrame': '1', 'isCache': '0', 'visible': '0', 'status': '0', 'path': 'menuManagement_001.com'}", "{'msg': '操作失败', 'code': 500}", "'POST'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/menu'", "'DELETE FROM sys_menu WHERE menu_name = '毛泽东';'", "'DELETE'", "None" ]
+        "parameters" : [ "'菜单管理'", "'中'", "'menuManagement_007'", "'验证【菜单管理】添加菜单，菜单名称menuName含有特殊字符，其他数据正常，添加失败'", "'系统管理'", "{'parentId': 0, 'menuName': '毛泽东', 'icon': '', 'menuType': 'M', 'orderNum': 1, 'isFrame': '1', 'isCache': '0', 'visible': '0', 'status': '0', 'path': 'menuManagement_001.com'}", "{'msg': '操作失败', 'code': 500}", "'POST'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/menu'", "'DELETE FROM sys_menu WHERE menu_name = '毛泽东';'", "'DELETE'", "None" ]
       }, {
         "name" : "验证【菜单管理】添加菜单，显示排序orderNum为空，其他数据正常，添加失败",
-        "uid" : "8a02838599e3031e",
+        "uid" : "73de72c54385edd4",
         "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
         "status" : "failed",
         "time" : {
-          "start" : 1711276145198,
-          "stop" : 1711276145204,
-          "duration" : 6
+          "start" : 1712029724777,
+          "stop" : 1712029724895,
+          "duration" : 118
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'菜单管理'", "'中'", "'menuManagement_009'", "'验证【菜单管理】添加菜单，显示排序orderNum为空，其他数据正常，添加失败'", "'系统管理'", "{'parentId': 0, 'menuName': 'menuManagement_009', 'icon': '', 'menuType': 'M', 'orderNum': '', 'isFrame': '1', 'isCache': '0', 'visible': '0', 'status': '0', 'path': 'menuManagement_001.com'}", "{'msg': '操作失败', 'code': 500}", "'POST'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/menu'", "'DELETE FROM sys_menu WHERE menu_name = 'menuManagement_009';'", "'DELETE'", "None" ]
+        "parameters" : [ "'菜单管理'", "'中'", "'menuManagement_009'", "'验证【菜单管理】添加菜单，显示排序orderNum为空，其他数据正常，添加失败'", "'系统管理'", "{'parentId': 0, 'menuName': 'menuManagement_009', 'icon': '', 'menuType': 'M', 'orderNum': '', 'isFrame': '1', 'isCache': '0', 'visible': '0', 'status': '0', 'path': 'menuManagement_001.com'}", "{'msg': '操作失败', 'code': 500}", "'POST'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/menu'", "'DELETE FROM sys_menu WHERE menu_name = 'menuManagement_009';'", "'DELETE'", "None" ]
       }, {
         "name" : "验证【菜单管理】添加菜单，显示排序orderNum为5，其他数据正常，添加失败",
-        "uid" : "b0ad51e8b6209096",
+        "uid" : "a59da9ea3ec5b356",
         "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
         "status" : "failed",
         "time" : {
-          "start" : 1711276145317,
-          "stop" : 1711276145326,
-          "duration" : 9
+          "start" : 1712029725433,
+          "stop" : 1712029725554,
+          "duration" : 121
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'菜单管理'", "'中'", "'menuManagement_014'", "'验证【菜单管理】添加菜单，显示排序orderNum为5，其他数据正常，添加失败'", "'系统管理'", "{'parentId': 0, 'menuName': 'menuManagement_014', 'icon': '', 'menuType': 'M', 'orderNum': 5, 'isFrame': '1', 'isCache': '0', 'visible': '0', 'status': '0', 'path': 'menuManagement_001.com'}", "{'msg': '操作失败', 'code': 500}", "'POST'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/menu'", "'DELETE FROM sys_menu WHERE menu_name = 'menuManagement_014';'", "'DELETE'", "None" ]
+        "parameters" : [ "'菜单管理'", "'中'", "'menuManagement_014'", "'验证【菜单管理】添加菜单，显示排序orderNum为5，其他数据正常，添加失败'", "'系统管理'", "{'parentId': 0, 'menuName': 'menuManagement_014', 'icon': '', 'menuType': 'M', 'orderNum': 5, 'isFrame': '1', 'isCache': '0', 'visible': '0', 'status': '0', 'path': 'menuManagement_001.com'}", "{'msg': '操作失败', 'code': 500}", "'POST'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/menu'", "'DELETE FROM sys_menu WHERE menu_name = 'menuManagement_014';'", "'DELETE'", "None" ]
       }, {
         "name" : "验证【菜单管理】添加菜单，路由地址path为没有www，其他数据正常，添加失败",
-        "uid" : "4b09a0625446acc9",
+        "uid" : "418f53db5eab2ba",
         "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
         "status" : "failed",
         "time" : {
-          "start" : 1711276145368,
-          "stop" : 1711276145378,
-          "duration" : 10
+          "start" : 1712029725706,
+          "stop" : 1712029725824,
+          "duration" : 118
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'菜单管理'", "'中'", "'menuManagement_016'", "'验证【菜单管理】添加菜单，路由地址path为没有www，其他数据正常，添加失败'", "'系统管理'", "{'parentId': 0, 'menuName': 'menuManagement_016', 'icon': '', 'menuType': 'M', 'orderNum': 5, 'isFrame': '1', 'isCache': '0', 'visible': '0', 'status': '0', 'path': 'menuManagement_016.com'}", "{'msg': '操作失败', 'code': 500}", "'POST'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/menu'", "'DELETE FROM sys_menu WHERE menu_name = 'menuManagement_016';'", "'DELETE'", "None" ]
+        "parameters" : [ "'菜单管理'", "'中'", "'menuManagement_016'", "'验证【菜单管理】添加菜单，路由地址path为没有www，其他数据正常，添加失败'", "'系统管理'", "{'parentId': 0, 'menuName': 'menuManagement_016', 'icon': '', 'menuType': 'M', 'orderNum': 5, 'isFrame': '1', 'isCache': '0', 'visible': '0', 'status': '0', 'path': 'menuManagement_016.com'}", "{'msg': '操作失败', 'code': 500}", "'POST'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/menu'", "'DELETE FROM sys_menu WHERE menu_name = 'menuManagement_016';'", "'DELETE'", "None" ]
       }, {
         "name" : "验证【菜单管理】添加菜单，路由地址path过短，其他数据正常，添加失败",
-        "uid" : "7d4dc09625c9c455",
+        "uid" : "566a18069d3a1d09",
         "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
         "status" : "failed",
         "time" : {
-          "start" : 1711276145484,
-          "stop" : 1711276145494,
-          "duration" : 10
+          "start" : 1712029726381,
+          "stop" : 1712029726501,
+          "duration" : 120
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'菜单管理'", "'中'", "'menuManagement_021'", "'验证【菜单管理】添加菜单，路由地址path过短，其他数据正常，添加失败'", "'系统管理'", "{'parentId': 0, 'menuName': 'menuManagement_021', 'icon': '', 'menuType': 'M', 'orderNum': 5, 'isFrame': '1', 'isCache': '0', 'visible': '0', 'status': '0', 'path': 'menuManagement_001menuManagement_001menuManagement_001menuManagement_001.com'}", "{'msg': '操作失败', 'code': 500}", "'POST'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/menu'", "'DELETE FROM sys_menu WHERE menu_name = 'menuManagement_021';'", "'DELETE'", "None" ]
+        "parameters" : [ "'菜单管理'", "'中'", "'menuManagement_021'", "'验证【菜单管理】添加菜单，路由地址path过短，其他数据正常，添加失败'", "'系统管理'", "{'parentId': 0, 'menuName': 'menuManagement_021', 'icon': '', 'menuType': 'M', 'orderNum': 5, 'isFrame': '1', 'isCache': '0', 'visible': '0', 'status': '0', 'path': 'menuManagement_001menuManagement_001menuManagement_001menuManagement_001.com'}", "{'msg': '操作失败', 'code': 500}", "'POST'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/menu'", "'DELETE FROM sys_menu WHERE menu_name = 'menuManagement_021';'", "'DELETE'", "None" ]
       }, {
         "name" : "验证【菜单管理】添加菜单，路由地址path过长，其他数据正常，添加失败",
-        "uid" : "cf4346b246f63d2f",
+        "uid" : "b0202a9a30966474",
         "parentUid" : "19135fd4a1c65086de1dc2a02ed9d4e0",
         "status" : "failed",
         "time" : {
-          "start" : 1711276145514,
-          "stop" : 1711276145524,
-          "duration" : 10
+          "start" : 1712029726521,
+          "stop" : 1712029726643,
+          "duration" : 122
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'菜单管理'", "'中'", "'menuManagement_022'", "'验证【菜单管理】添加菜单，路由地址path过长，其他数据正常，添加失败'", "'系统管理'", "{'parentId': 0, 'menuName': 'menuManagement_022', 'icon': '', 'menuType': 'M', 'orderNum': 5, 'isFrame': '1', 'isCache': '0', 'visible': '0', 'status': '0', 'path': 'm.com'}", "{'msg': '操作失败', 'code': 500}", "'POST'", "'application/json'", "'http://192.168.109.134:81/prod-api/system/menu'", "'DELETE FROM sys_menu WHERE menu_name = 'menuManagement_022';'", "'DELETE'", "None" ]
+        "parameters" : [ "'菜单管理'", "'中'", "'menuManagement_022'", "'验证【菜单管理】添加菜单，路由地址path过长，其他数据正常，添加失败'", "'系统管理'", "{'parentId': 0, 'menuName': 'menuManagement_022', 'icon': '', 'menuType': 'M', 'orderNum': 5, 'isFrame': '1', 'isCache': '0', 'visible': '0', 'status': '0', 'path': 'm.com'}", "{'msg': '操作失败', 'code': 500}", "'POST'", "'application/json'", "'http://47.113.217.131:88/prod-api/system/menu'", "'DELETE FROM sys_menu WHERE menu_name = 'menuManagement_022';'", "'DELETE'", "None" ]
       } ],
       "uid" : "19135fd4a1c65086de1dc2a02ed9d4e0"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
-  }, {
-    "name" : "Test defects",
-    "children" : [ {
-      "name" : "requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-      "children" : [ {
-        "name" : "验证【用户管理】下载模板，请求成功",
-        "uid" : "a3c8bfec54764aad",
-        "parentUid" : "0deff55915d4c9ebc746eac29285817c",
-        "status" : "broken",
-        "time" : {
-          "start" : 1711276144219,
-          "stop" : 1711276144247,
-          "duration" : 28
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'用户管理'", "'高'", "'userManagement_249'", "'验证【用户管理】下载模板，请求成功'", "'系统管理'", "None", "{'status_code': 200}", "'POST'", "'application/x-www-form-urlencoded'", "'http://192.168.109.134:81/prod-api/system/user/importTemplate'", "None", "None", "None" ]
-      } ],
-      "uid" : "0deff55915d4c9ebc746eac29285817c"
-    } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
-  } ]
+  } ],
+  "name" : "categories"
 }

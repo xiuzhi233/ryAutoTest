@@ -73,11 +73,7 @@ class RequestMethod:
 
 if __name__ == '__main__':
     req = RequestMethod()
-    kw = {
-        "pageNum": 1,
-        "pageSize": 10,
-        "userName": "xiuzhi233"
-    }
-    response = req.request_all(req_method="get", case_data=kw,
-                               req_url="http://192.168.109.134:81/prod-api/system/user/list")
-    print(response.url)
+    url = "http://47.113.217.131:88/prod-api/system/user/export"
+    response = req.request_all(req_method="post", req_mime="x-www-form-urlencoded",
+                               req_url="http://47.113.217.131:88/prod-api/system/user/importTemplate")
+    print(response.json())

@@ -37,5 +37,23 @@
       "add_user_018": ["add_user_018", "~@#$^&*()_+{}|"],
       "add_user_019": ["add_user_019", "毛泽东"]
     }
+  },
+  "角色管理": {
+    "添加角色": {
+      "add_role_001": ["add_role_001", "add_role_001", "1", "0", "manage", "remark"],
+      "add_role_002": ["", "add_role_002", "1", "0", "manage", "remark"],
+      "add_role_003": ["add_role_003add_role_003add_role_003add_role_003add_role_003", "add_role_003", "1", "0", "manage", "remark"],
+      "add_role_004": ["a", "add_role_004", "1", "0", "manage", "remark"],
+      "add_role_005": ["普通角色", "add_role_005", "1", "0", "manage", "remark"],
+      "add_role_006": ["add_role_006", "add_role_006", "1", "0", "manage", "remark"],
+      "add_role_007": ["add_role_007", "COMMON", "1", "0", "manage", "remark"],
+      "add_role_008": ["add_role_008", "add_role_008", "1", "1", "manage", "remark"],
+      "add_role_009": ["add_role_009", "add_role_009", "1", "0", "manage", "remark"],
+      "add_role_010": ["add_role_010", "add_role_010", "1", "0", "manage", "remark"],
+      "add_role_011": ["add_role_011", "add_role_011", "1", "0", "control", "remark"],
+      "add_role_012": ["add_role_012", "add_role_012", "1", "0", "tool", "remark"],
+      "add_role_013": ["add_role_013", "add_role_013", "1", "0", "tool", ""],
+      "add_role_014": ["add_role_014", "add_role_014", "1", "0", "manage", "remarkremarkremarkremarkremarkremarkremarkremarkremarkremark"]
+    }
   }
 }
